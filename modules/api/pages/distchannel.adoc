@@ -4,10 +4,10 @@
 
 == Available methods
 
-* <<apidoc-distchannel-listDefaultMaps-788684446,listDefaultMaps>>
-* <<apidoc-distchannel-listMapsForOrg-46719126,listMapsForOrg>>
-* <<apidoc-distchannel-listMapsForOrg-1034673425,listMapsForOrg>>
-* <<apidoc-distchannel-setMapForOrg-1484518113,setMapForOrg>>
+* <<apidoc-distchannel-listDefaultMaps-1535875885,listDefaultMaps>>
+* <<apidoc-distchannel-listMapsForOrg-2054926467,listMapsForOrg>>
+* <<apidoc-distchannel-listMapsForOrg-561566358,listMapsForOrg>>
+* <<apidoc-distchannel-setMapForOrg-1489504599,setMapForOrg>>
 
 == Description
 
@@ -18,7 +18,7 @@ Provides methods to access and modify distribution channel information
 distchannel
 
 
-[#apidoc-distchannel-listDefaultMaps-788684446]
+[#apidoc-distchannel-listDefaultMaps-1535875885]
 == Method: listDefaultMaps 
 
 Description:
@@ -30,24 +30,24 @@ Lists the default distribution channel maps
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
       * [.struct]#struct#  - distChannelMap
-          ** [.string]#string#  "os" - Operationg System
-          ** [.string]#string#  "release" - OS Relase
-          ** [.string]#string#  "arch_name" - Channel architecture
-          ** [.string]#string#  "channel_label" - Channel label
-          ** [.string]#string#  "org_specific" - 'Y' organization specific, 'N' default
-      
-    
+** [.string]#string#  "os" - Operationg System
+** [.string]#string#  "release" - OS Relase
+** [.string]#string#  "arch_name" - Channel architecture
+** [.string]#string#  "channel_label" - Channel label
+** [.string]#string#  "org_specific" - 'Y' organization specific, 'N' default
+ 
+ 
 
 
 
-[#apidoc-distchannel-listMapsForOrg-46719126]
+[#apidoc-distchannel-listMapsForOrg-2054926467]
 == Method: listMapsForOrg 
 
 Description:
@@ -59,24 +59,24 @@ Lists distribution channel maps valid for the user's organization
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
       * [.struct]#struct#  - distChannelMap
-          ** [.string]#string#  "os" - Operationg System
-          ** [.string]#string#  "release" - OS Relase
-          ** [.string]#string#  "arch_name" - Channel architecture
-          ** [.string]#string#  "channel_label" - Channel label
-          ** [.string]#string#  "org_specific" - 'Y' organization specific, 'N' default
-      
-    
+** [.string]#string#  "os" - Operationg System
+** [.string]#string#  "release" - OS Relase
+** [.string]#string#  "arch_name" - Channel architecture
+** [.string]#string#  "channel_label" - Channel label
+** [.string]#string#  "org_specific" - 'Y' organization specific, 'N' default
+ 
+ 
 
 
 
-[#apidoc-distchannel-listMapsForOrg-1034673425]
+[#apidoc-distchannel-listMapsForOrg-561566358]
 == Method: listMapsForOrg 
 
 Description:
@@ -89,7 +89,7 @@ Lists distribution channel maps valid for an organization,
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  orgId
  
@@ -98,17 +98,17 @@ Returns:
 
 * [.array]#array# :
       * [.struct]#struct#  - distChannelMap
-          ** [.string]#string#  "os" - Operationg System
-          ** [.string]#string#  "release" - OS Relase
-          ** [.string]#string#  "arch_name" - Channel architecture
-          ** [.string]#string#  "channel_label" - Channel label
-          ** [.string]#string#  "org_specific" - 'Y' organization specific, 'N' default
-      
-    
+** [.string]#string#  "os" - Operationg System
+** [.string]#string#  "release" - OS Relase
+** [.string]#string#  "arch_name" - Channel architecture
+** [.string]#string#  "channel_label" - Channel label
+** [.string]#string#  "org_specific" - 'Y' organization specific, 'N' default
+ 
+ 
 
 
 
-[#apidoc-distchannel-setMapForOrg-1484518113]
+[#apidoc-distchannel-setMapForOrg-1489504599]
 == Method: setMapForOrg 
 
 Description:
@@ -121,7 +121,7 @@ Sets, overrides (/removes if channelLabel empty)
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  os
  

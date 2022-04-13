@@ -4,12 +4,12 @@
 
 == Available methods
 
-* <<apidoc-admin-create-1553338212,create>>
-* <<apidoc-admin-create-791707596,create>>
-* <<apidoc-admin-delete-1058118485,delete>>
-* <<apidoc-admin-getDetails-334715128,getDetails>>
-* <<apidoc-admin-list-2138211677,list>>
-* <<apidoc-admin-setDetails-988557145,setDetails>>
+* <<apidoc-admin-create-236544568,create>>
+* <<apidoc-admin-create-1866841711,create>>
+* <<apidoc-admin-delete-1677203878,delete>>
+* <<apidoc-admin-getDetails-562851134,getDetails>>
+* <<apidoc-admin-list-1682037548,list>>
+* <<apidoc-admin-setDetails-1698185801,setDetails>>
 
 == Description
 
@@ -20,7 +20,7 @@ Provides methods to access and modify pay-as-you-go ssh connection data
 admin
 
 
-[#apidoc-admin-create-1553338212]
+[#apidoc-admin-create-236544568]
 == Method: create 
 
 Description:
@@ -57,7 +57,7 @@ Returns:
 
 
 
-[#apidoc-admin-create-791707596]
+[#apidoc-admin-create-1866841711]
 == Method: create 
 
 Description:
@@ -106,7 +106,7 @@ Returns:
 
 
 
-[#apidoc-admin-delete-1058118485]
+[#apidoc-admin-delete-1677203878]
 == Method: delete 
 
 Description:
@@ -130,7 +130,7 @@ Returns:
 
 
 
-[#apidoc-admin-getDetails-334715128]
+[#apidoc-admin-getDetails-562851134]
 == Method: getDetails 
 
 Description:
@@ -151,25 +151,25 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  -  sshData 
-              ** [.string]#string#  "description"
-              ** [.string]#string#  "hostname"
-              ** [.int]#int#  "port"
-              ** [.string]#string#  "username"
-              ** [.string]#string#  "password"
-              ** [.string]#string#  "key"
-              ** [.string]#string#  "key_password"
-              ** [.string]#string#  "bastion_hostname"
-              ** [.int]#int#  "bastion_port"
-              ** [.string]#string#  "bastion_username"
-              ** [.string]#string#  "bastion_password"
-              ** [.string]#string#  "bastion_key"
-              ** [.string]#string#  "bastion_key_password"
-        
+** [.string]#string#  "description"
+** [.string]#string#  "hostname"
+** [.int]#int#  "port"
+** [.string]#string#  "username"
+** [.string]#string#  "password"
+** [.string]#string#  "key"
+** [.string]#string#  "key_password"
+** [.string]#string#  "bastion_hostname"
+** [.int]#int#  "bastion_port"
+** [.string]#string#  "bastion_username"
+** [.string]#string#  "bastion_password"
+** [.string]#string#  "bastion_key"
+** [.string]#string#  "bastion_key_password"
+  
  
 
 
 
-[#apidoc-admin-list-2138211677]
+[#apidoc-admin-list-1682037548]
 == Method: list 
 
 Description:
@@ -188,25 +188,25 @@ Returns:
 
 * [.array]#array# :
      * [.struct]#struct#  -  sshData 
-              ** [.string]#string#  "description"
-              ** [.string]#string#  "hostname"
-              ** [.int]#int#  "port"
-              ** [.string]#string#  "username"
-              ** [.string]#string#  "password"
-              ** [.string]#string#  "key"
-              ** [.string]#string#  "key_password"
-              ** [.string]#string#  "bastion_hostname"
-              ** [.int]#int#  "bastion_port"
-              ** [.string]#string#  "bastion_username"
-              ** [.string]#string#  "bastion_password"
-              ** [.string]#string#  "bastion_key"
-              ** [.string]#string#  "bastion_key_password"
-       
-  
+** [.string]#string#  "description"
+** [.string]#string#  "hostname"
+** [.int]#int#  "port"
+** [.string]#string#  "username"
+** [.string]#string#  "password"
+** [.string]#string#  "key"
+** [.string]#string#  "key_password"
+** [.string]#string#  "bastion_hostname"
+** [.int]#int#  "bastion_port"
+** [.string]#string#  "bastion_username"
+** [.string]#string#  "bastion_password"
+** [.string]#string#  "bastion_key"
+** [.string]#string#  "bastion_key_password"
+ 
+ 
 
 
 
-[#apidoc-admin-setDetails-988557145]
+[#apidoc-admin-setDetails-1698185801]
 == Method: setDetails 
 
 Description:
@@ -224,19 +224,19 @@ Parameters:
  host doesn't exist.
  
 * [.struct]#struct#  - user details
-     ** [.string]#string#  "description"
-     ** [.int]#int#  "port"
-     ** [.string]#string#  "username"
-     ** [.string]#string#  "password"
-     ** [.string]#string#  "key"
-     ** [.string]#string#  "key_password"
-     ** [.string]#string#  "bastion_host"
-     ** [.int]#int#  "bastion_port"
-     ** [.string]#string#  "bastion_username"
-     ** [.string]#string#  "bastion_password"
-     ** [.string]#string#  "bastion_key"
-     ** [.string]#string#  "bastion_key_password"
-    
+** [.string]#string#  "description"
+** [.int]#int#  "port"
+** [.string]#string#  "username"
+** [.string]#string#  "password"
+** [.string]#string#  "key"
+** [.string]#string#  "key_password"
+** [.string]#string#  "bastion_host"
+** [.int]#int#  "bastion_port"
+** [.string]#string#  "bastion_username"
+** [.string]#string#  "bastion_password"
+** [.string]#string#  "bastion_key"
+** [.string]#string#  "bastion_key_password"
+ 
 
 Returns:
 

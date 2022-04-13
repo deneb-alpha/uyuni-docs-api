@@ -4,15 +4,15 @@
 
 == Available methods
 
-* <<apidoc-proxy-activateProxy-573424492,activateProxy>>
-* <<apidoc-proxy-containerConfig-1834041945,containerConfig>>
-* <<apidoc-proxy-containerConfig-2011281484,containerConfig>>
-* <<apidoc-proxy-createMonitoringScout-1788841007,createMonitoringScout>>
-* <<apidoc-proxy-deactivateProxy-979865152,deactivateProxy>>
-* <<apidoc-proxy-isProxy-107131289,isProxy>>
-* <<apidoc-proxy-listAvailableProxyChannels-876994034,listAvailableProxyChannels>>
-* <<apidoc-proxy-listProxies-666389658,listProxies>>
-* <<apidoc-proxy-listProxyClients-564908963,listProxyClients>>
+* <<apidoc-proxy-activateProxy-656650448,activateProxy>>
+* <<apidoc-proxy-containerConfig-1467853846,containerConfig>>
+* <<apidoc-proxy-containerConfig-418223232,containerConfig>>
+* <<apidoc-proxy-createMonitoringScout-22733595,createMonitoringScout>>
+* <<apidoc-proxy-deactivateProxy-1047698758,deactivateProxy>>
+* <<apidoc-proxy-isProxy-1116642274,isProxy>>
+* <<apidoc-proxy-listAvailableProxyChannels-1899482388,listAvailableProxyChannels>>
+* <<apidoc-proxy-listProxies-1204820315,listProxies>>
+* <<apidoc-proxy-listProxyClients-1843541066,listProxyClients>>
 
 == Description
 
@@ -24,7 +24,7 @@ Provides methods to activate/deactivate a proxy
 proxy
 
 
-[#apidoc-proxy-activateProxy-573424492]
+[#apidoc-proxy-activateProxy-656650448]
 == Method: activateProxy 
 
 Description:
@@ -50,7 +50,7 @@ Returns:
 
 
 
-[#apidoc-proxy-containerConfig-1834041945]
+[#apidoc-proxy-containerConfig-1467853846]
 == Method: containerConfig 
 
 Description:
@@ -62,9 +62,11 @@ Compute and download the configuration for proxy containers
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  proxyName
+ 
+* [.int]#int#  proxyPort
  
 * [.string]#string#  server
  
@@ -90,7 +92,7 @@ Returns:
 
 
 
-[#apidoc-proxy-containerConfig-2011281484]
+[#apidoc-proxy-containerConfig-418223232]
 == Method: containerConfig 
 
 Description:
@@ -102,9 +104,11 @@ Compute and download the configuration for proxy containers
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  proxyName
+ 
+* [.int]#int#  proxyPort
  
 * [.string]#string#  server
  
@@ -141,7 +145,7 @@ Returns:
 
 
 
-[#apidoc-proxy-createMonitoringScout-1788841007]
+[#apidoc-proxy-createMonitoringScout-22733595]
 == Method: createMonitoringScout 
 
 Description:
@@ -164,7 +168,7 @@ Returns:
 Available since API version: 10.7
 
 
-[#apidoc-proxy-deactivateProxy-979865152]
+[#apidoc-proxy-deactivateProxy-1047698758]
 == Method: deactivateProxy 
 
 Description:
@@ -187,7 +191,7 @@ Returns:
 
 
 
-[#apidoc-proxy-isProxy-107131289]
+[#apidoc-proxy-isProxy-1116642274]
 == Method: isProxy 
 
 Description:
@@ -210,7 +214,7 @@ Returns:
 
 
 
-[#apidoc-proxy-listAvailableProxyChannels-876994034]
+[#apidoc-proxy-listAvailableProxyChannels-1899482388]
 == Method: listAvailableProxyChannels 
 
 Description:
@@ -235,7 +239,7 @@ Returns:
 Available since API version: 10.5
 
 
-[#apidoc-proxy-listProxies-666389658]
+[#apidoc-proxy-listProxies-1204820315]
 == Method: listProxies 
 
 Description:
@@ -254,21 +258,21 @@ Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-     ** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
              to any assigned channel
-     ** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
-  
-  
+** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
+ 
+ 
 
 
 
-[#apidoc-proxy-listProxyClients-564908963]
+[#apidoc-proxy-listProxyClients-1843541066]
 == Method: listProxyClients 
 
 Description:
@@ -280,7 +284,7 @@ List the clients directly connected to a given Proxy.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  proxyId
  

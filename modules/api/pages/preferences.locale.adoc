@@ -4,10 +4,10 @@
 
 == Available methods
 
-* <<apidoc-preferences_locale-listLocales-1578892902,listLocales>>
-* <<apidoc-preferences_locale-listTimeZones-1307545610,listTimeZones>>
-* <<apidoc-preferences_locale-setLocale-438163691,setLocale>>
-* <<apidoc-preferences_locale-setTimeZone-1545634845,setTimeZone>>
+* <<apidoc-preferences_locale-listLocales-243130253,listLocales>>
+* <<apidoc-preferences_locale-listTimeZones-719355325,listTimeZones>>
+* <<apidoc-preferences_locale-setLocale-673307146,setLocale>>
+* <<apidoc-preferences_locale-setTimeZone-887606755,setTimeZone>>
 
 == Description
 
@@ -18,7 +18,7 @@ Provides methods to access and modify user locale information
 preferences.locale
 
 
-[#apidoc-preferences_locale-listLocales-1578892902]
+[#apidoc-preferences_locale-listLocales-243130253]
 == Method: listLocales 
 
 Description:
@@ -40,7 +40,7 @@ Returns:
 
 
 
-[#apidoc-preferences_locale-listTimeZones-1307545610]
+[#apidoc-preferences_locale-listTimeZones-719355325]
 == Method: listTimeZones 
 
 Description:
@@ -58,14 +58,14 @@ Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - timezone
-   ** [.int]#int#  "time_zone_id" - Unique identifier for timezone.
-   ** [.string]#string#  "olson_name" - Name as identified by the Olson database.
-  
-  
+** [.int]#int#  "time_zone_id" - Unique identifier for timezone.
+** [.string]#string#  "olson_name" - Name as identified by the Olson database.
+ 
+ 
 
 
 
-[#apidoc-preferences_locale-setLocale-438163691]
+[#apidoc-preferences_locale-setLocale-673307146]
 == Method: setLocale 
 
 Description:
@@ -91,7 +91,7 @@ Returns:
 
 
 
-[#apidoc-preferences_locale-setTimeZone-1545634845]
+[#apidoc-preferences_locale-setTimeZone-887606755]
 == Method: setTimeZone 
 
 Description:

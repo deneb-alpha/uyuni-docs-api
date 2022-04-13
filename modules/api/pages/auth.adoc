@@ -4,9 +4,9 @@
 
 == Available methods
 
-* <<apidoc-auth-login-848490487,login>>
-* <<apidoc-auth-login-43951584,login>>
-* <<apidoc-auth-logout-635097653,logout>>
+* <<apidoc-auth-login-715099463,login>>
+* <<apidoc-auth-login-1361671464,login>>
+* <<apidoc-auth-logout-1289850092,logout>>
 
 == Description
 
@@ -18,7 +18,7 @@ This namespace provides methods to authenticate with the system's
 auth
 
 
-[#apidoc-auth-login-848490487]
+[#apidoc-auth-login-715099463]
 == Method: login 
 
 Description:
@@ -43,7 +43,7 @@ Returns:
 
 
 
-[#apidoc-auth-login-43951584]
+[#apidoc-auth-login-1361671464]
 == Method: login 
 
 Description:
@@ -70,7 +70,7 @@ Returns:
 
 
 
-[#apidoc-auth-logout-635097653]
+[#apidoc-auth-logout-1289850092]
 == Method: logout 
 
 Description:

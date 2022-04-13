@@ -4,33 +4,33 @@
 
 == Available methods
 
-* <<apidoc-user-addAssignedSystemGroup-1521553533,addAssignedSystemGroup>>
-* <<apidoc-user-addAssignedSystemGroups-1729454521,addAssignedSystemGroups>>
-* <<apidoc-user-addDefaultSystemGroup-1806983232,addDefaultSystemGroup>>
-* <<apidoc-user-addDefaultSystemGroups-728867118,addDefaultSystemGroups>>
-* <<apidoc-user-addRole-737096679,addRole>>
-* <<apidoc-user-create-1367369816,create>>
-* <<apidoc-user-create-1454357198,create>>
-* <<apidoc-user-delete-68013047,delete>>
-* <<apidoc-user-disable-1401226549,disable>>
-* <<apidoc-user-enable-26568117,enable>>
-* <<apidoc-user-getCreateDefaultSystemGroup-61783476,getCreateDefaultSystemGroup>>
-* <<apidoc-user-getDetails-658399791,getDetails>>
-* <<apidoc-user-listAssignableRoles-1438120433,listAssignableRoles>>
-* <<apidoc-user-listAssignedSystemGroups-247888865,listAssignedSystemGroups>>
-* <<apidoc-user-listDefaultSystemGroups-681101069,listDefaultSystemGroups>>
-* <<apidoc-user-listRoles-635096154,listRoles>>
-* <<apidoc-user-listUsers-1042555191,listUsers>>
-* <<apidoc-user-removeAssignedSystemGroup-880740688,removeAssignedSystemGroup>>
-* <<apidoc-user-removeAssignedSystemGroups-1688211424,removeAssignedSystemGroups>>
-* <<apidoc-user-removeDefaultSystemGroup-1103456560,removeDefaultSystemGroup>>
-* <<apidoc-user-removeDefaultSystemGroups-1617300769,removeDefaultSystemGroups>>
-* <<apidoc-user-removeRole-1540460994,removeRole>>
-* <<apidoc-user-setCreateDefaultSystemGroup-1339490584,setCreateDefaultSystemGroup>>
-* <<apidoc-user-setDetails-940364390,setDetails>>
-* <<apidoc-user-setErrataNotifications-1365471425,setErrataNotifications>>
-* <<apidoc-user-setReadOnly-498582119,setReadOnly>>
-* <<apidoc-user-usePamAuthentication-717735555,usePamAuthentication>>
+* <<apidoc-user-addAssignedSystemGroup-1037612046,addAssignedSystemGroup>>
+* <<apidoc-user-addAssignedSystemGroups-1090642246,addAssignedSystemGroups>>
+* <<apidoc-user-addDefaultSystemGroup-1941379381,addDefaultSystemGroup>>
+* <<apidoc-user-addDefaultSystemGroups-2101686389,addDefaultSystemGroups>>
+* <<apidoc-user-addRole-647226268,addRole>>
+* <<apidoc-user-create-272876691,create>>
+* <<apidoc-user-create-724030931,create>>
+* <<apidoc-user-delete-303127592,delete>>
+* <<apidoc-user-disable-214170716,disable>>
+* <<apidoc-user-enable-44746251,enable>>
+* <<apidoc-user-getCreateDefaultSystemGroup-1896132887,getCreateDefaultSystemGroup>>
+* <<apidoc-user-getDetails-620415815,getDetails>>
+* <<apidoc-user-listAssignableRoles-95655406,listAssignableRoles>>
+* <<apidoc-user-listAssignedSystemGroups-916019076,listAssignedSystemGroups>>
+* <<apidoc-user-listDefaultSystemGroups-1653282104,listDefaultSystemGroups>>
+* <<apidoc-user-listRoles-96061258,listRoles>>
+* <<apidoc-user-listUsers-360328326,listUsers>>
+* <<apidoc-user-removeAssignedSystemGroup-121656075,removeAssignedSystemGroup>>
+* <<apidoc-user-removeAssignedSystemGroups-1490885900,removeAssignedSystemGroups>>
+* <<apidoc-user-removeDefaultSystemGroup-383717053,removeDefaultSystemGroup>>
+* <<apidoc-user-removeDefaultSystemGroups-700370827,removeDefaultSystemGroups>>
+* <<apidoc-user-removeRole-1270529736,removeRole>>
+* <<apidoc-user-setCreateDefaultSystemGroup-1952021559,setCreateDefaultSystemGroup>>
+* <<apidoc-user-setDetails-1612762434,setDetails>>
+* <<apidoc-user-setErrataNotifications-1109132666,setErrataNotifications>>
+* <<apidoc-user-setReadOnly-215600758,setReadOnly>>
+* <<apidoc-user-usePamAuthentication-389415616,usePamAuthentication>>
 
 == Description
 
@@ -42,7 +42,7 @@ User namespace contains methods to access common user functions
 user
 
 
-[#apidoc-user-addAssignedSystemGroup-1521553533]
+[#apidoc-user-addAssignedSystemGroup-1037612046]
 == Method: addAssignedSystemGroup 
 
 Description:
@@ -71,7 +71,7 @@ Returns:
 
 
 
-[#apidoc-user-addAssignedSystemGroups-1729454521]
+[#apidoc-user-addAssignedSystemGroups-1090642246]
 == Method: addAssignedSystemGroups 
 
 Description:
@@ -101,7 +101,7 @@ Returns:
 
 
 
-[#apidoc-user-addDefaultSystemGroup-1806983232]
+[#apidoc-user-addDefaultSystemGroup-1941379381]
 == Method: addDefaultSystemGroup 
 
 Description:
@@ -127,7 +127,7 @@ Returns:
 
 
 
-[#apidoc-user-addDefaultSystemGroups-728867118]
+[#apidoc-user-addDefaultSystemGroups-2101686389]
 == Method: addDefaultSystemGroups 
 
 Description:
@@ -154,7 +154,7 @@ Returns:
 
 
 
-[#apidoc-user-addRole-737096679]
+[#apidoc-user-addRole-647226268]
 == Method: addRole 
 
 Description:
@@ -182,7 +182,7 @@ Returns:
 
 
 
-[#apidoc-user-create-1367369816]
+[#apidoc-user-create-272876691]
 == Method: create 
 
 Description:
@@ -215,7 +215,7 @@ Returns:
 
 
 
-[#apidoc-user-create-1454357198]
+[#apidoc-user-create-724030931]
 == Method: create 
 
 Description:
@@ -251,7 +251,7 @@ Returns:
 
 
 
-[#apidoc-user-delete-68013047]
+[#apidoc-user-delete-303127592]
 == Method: delete 
 
 Description:
@@ -275,7 +275,7 @@ Returns:
 
 
 
-[#apidoc-user-disable-1401226549]
+[#apidoc-user-disable-214170716]
 == Method: disable 
 
 Description:
@@ -299,7 +299,7 @@ Returns:
 
 
 
-[#apidoc-user-enable-26568117]
+[#apidoc-user-enable-44746251]
 == Method: enable 
 
 Description:
@@ -323,7 +323,7 @@ Returns:
 
 
 
-[#apidoc-user-getCreateDefaultSystemGroup-61783476]
+[#apidoc-user-getCreateDefaultSystemGroup-1896132887]
 == Method: getCreateDefaultSystemGroup 
 
 Description:
@@ -352,7 +352,7 @@ Returns:
 
 
 
-[#apidoc-user-getDetails-658399791]
+[#apidoc-user-getDetails-620415815]
 == Method: getDetails 
 
 Description:
@@ -372,27 +372,27 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - user details
-     ** [.string]#string#  "first_names" - deprecated, use first_name
-     ** [.string]#string#  "first_name"
-     ** [.string]#string#  "last_name"
-     ** [.string]#string#  "email"
-     ** [.int]#int#  "org_id"
-     ** [.string]#string#  "org_name"
-     ** [.string]#string#  "prefix"
-     ** [.string]#string#  "last_login_date"
-     ** [.string]#string#  "created_date"
-     ** [.boolean]#boolean#  "enabled" - true if user is enabled,
+** [.string]#string#  "first_names" - deprecated, use first_name
+** [.string]#string#  "first_name"
+** [.string]#string#  "last_name"
+** [.string]#string#  "email"
+** [.int]#int#  "org_id"
+** [.string]#string#  "org_name"
+** [.string]#string#  "prefix"
+** [.string]#string#  "last_login_date"
+** [.string]#string#  "created_date"
+** [.boolean]#boolean#  "enabled" - true if user is enabled,
      false if the user is disabled
-     ** [.boolean]#boolean#  "use_pam" - true if user is configured to use
+** [.boolean]#boolean#  "use_pam" - true if user is configured to use
      PAM authentication
-     ** [.boolean]#boolean#  "read_only" - true if user is readonly
-     ** [.boolean]#boolean#  "errata_notification" - true if errata e-mail notification
+** [.boolean]#boolean#  "read_only" - true if user is readonly
+** [.boolean]#boolean#  "errata_notification" - true if errata e-mail notification
      is enabled for the user
-    
+ 
 
 
 
-[#apidoc-user-listAssignableRoles-1438120433]
+[#apidoc-user-listAssignableRoles-95655406]
 == Method: listAssignableRoles 
 
 Description:
@@ -415,7 +415,7 @@ Returns:
 
 
 
-[#apidoc-user-listAssignedSystemGroups-247888865]
+[#apidoc-user-listAssignedSystemGroups-916019076]
 == Method: listAssignedSystemGroups 
 
 Description:
@@ -435,17 +435,17 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-     ** [.struct]#struct#  - system group
-       *** [.int]#int#  "id"
-       *** [.string]#string#  "name"
-       *** [.string]#string#  "description"
-       *** [.int]#int#  "system_count"
-       *** [.int]#int#  "org_id" - Organization ID for this system group.
-         
+** [.struct]#struct#  - system group
+*** [.int]#int#  "id"
+*** [.string]#string#  "name"
+*** [.string]#string#  "description"
+*** [.int]#int#  "system_count"
+*** [.int]#int#  "org_id" - Organization ID for this system group.
+ 
 
 
 
-[#apidoc-user-listDefaultSystemGroups-681101069]
+[#apidoc-user-listDefaultSystemGroups-1653282104]
 == Method: listDefaultSystemGroups 
 
 Description:
@@ -465,17 +465,17 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-     ** [.struct]#struct#  - system group
-       *** [.int]#int#  "id"
-       *** [.string]#string#  "name"
-       *** [.string]#string#  "description"
-       *** [.int]#int#  "system_count"
-       *** [.int]#int#  "org_id" - Organization ID for this system group.
-         
+** [.struct]#struct#  - system group
+*** [.int]#int#  "id"
+*** [.string]#string#  "name"
+*** [.string]#string#  "description"
+*** [.int]#int#  "system_count"
+*** [.int]#int#  "org_id" - Organization ID for this system group.
+ 
 
 
 
-[#apidoc-user-listRoles-635096154]
+[#apidoc-user-listRoles-96061258]
 == Method: listRoles 
 
 Description:
@@ -500,7 +500,7 @@ Returns:
 
 
 
-[#apidoc-user-listUsers-1042555191]
+[#apidoc-user-listUsers-360328326]
 == Method: listUsers 
 
 Description:
@@ -519,17 +519,17 @@ Returns:
 
 * [.array]#array# :
      * [.struct]#struct#  - user
-              ** [.int]#int#  "id"
-              ** [.string]#string#  "login"
-              ** [.string]#string#  "login_uc" - upper case version of the login
-              ** [.boolean]#boolean#  "enabled" - true if user is enabled,
+** [.int]#int#  "id"
+** [.string]#string#  "login"
+** [.string]#string#  "login_uc" - upper case version of the login
+** [.boolean]#boolean#  "enabled" - true if user is enabled,
                          false if the user is disabled
-       
-  
+ 
+ 
 
 
 
-[#apidoc-user-removeAssignedSystemGroup-880740688]
+[#apidoc-user-removeAssignedSystemGroup-121656075]
 == Method: removeAssignedSystemGroup 
 
 Description:
@@ -558,7 +558,7 @@ Returns:
 
 
 
-[#apidoc-user-removeAssignedSystemGroups-1688211424]
+[#apidoc-user-removeAssignedSystemGroups-1490885900]
 == Method: removeAssignedSystemGroups 
 
 Description:
@@ -588,7 +588,7 @@ Returns:
 
 
 
-[#apidoc-user-removeDefaultSystemGroup-1103456560]
+[#apidoc-user-removeDefaultSystemGroup-383717053]
 == Method: removeDefaultSystemGroup 
 
 Description:
@@ -614,7 +614,7 @@ Returns:
 
 
 
-[#apidoc-user-removeDefaultSystemGroups-1617300769]
+[#apidoc-user-removeDefaultSystemGroups-700370827]
 == Method: removeDefaultSystemGroups 
 
 Description:
@@ -641,7 +641,7 @@ Returns:
 
 
 
-[#apidoc-user-removeRole-1540460994]
+[#apidoc-user-removeRole-1270529736]
 == Method: removeRole 
 
 Description:
@@ -669,7 +669,7 @@ Returns:
 
 
 
-[#apidoc-user-setCreateDefaultSystemGroup-1339490584]
+[#apidoc-user-setCreateDefaultSystemGroup-1952021559]
 == Method: setCreateDefaultSystemGroup 
 
 Description:
@@ -700,7 +700,7 @@ Returns:
 
 
 
-[#apidoc-user-setDetails-940364390]
+[#apidoc-user-setDetails-1612762434]
 == Method: setDetails 
 
 Description:
@@ -717,13 +717,13 @@ Parameters:
 * [.string]#string#  login - User's login name.
  
 * [.struct]#struct#  - user details
-     ** [.string]#string#  "first_names" - deprecated, use first_name
-     ** [.string]#string#  "first_name"
-     ** [.string]#string#  "last_name"
-     ** [.string]#string#  "email"
-     ** [.string]#string#  "prefix"
-     ** [.string]#string#  "password"
-    
+** [.string]#string#  "first_names" - deprecated, use first_name
+** [.string]#string#  "first_name"
+** [.string]#string#  "last_name"
+** [.string]#string#  "email"
+** [.string]#string#  "prefix"
+** [.string]#string#  "password"
+ 
 
 Returns:
 
@@ -732,7 +732,7 @@ Returns:
 
 
 
-[#apidoc-user-setErrataNotifications-1365471425]
+[#apidoc-user-setErrataNotifications-1109132666]
 == Method: setErrataNotifications 
 
 Description:
@@ -759,7 +759,7 @@ Returns:
 
 
 
-[#apidoc-user-setReadOnly-498582119]
+[#apidoc-user-setReadOnly-215600758]
 == Method: setReadOnly 
 
 Description:
@@ -787,7 +787,7 @@ Returns:
 
 
 
-[#apidoc-user-usePamAuthentication-717735555]
+[#apidoc-user-usePamAuthentication-389415616]
 == Method: usePamAuthentication 
 
 Description:
@@ -805,10 +805,10 @@ Parameters:
 * [.string]#string#  login - User's login name.
  
 * [.int]#int#  pam_value
-   
-     * 1 to enable PAM authentication
-     * 0 to disable.
-   
+
+* 1 to enable PAM authentication
+* 0 to disable.
+
  
 
 Returns:

@@ -4,14 +4,14 @@
 
 == Available methods
 
-* <<apidoc-kickstart_tree-create-1467394552,create>>
-* <<apidoc-kickstart_tree-delete-1735520170,delete>>
-* <<apidoc-kickstart_tree-deleteTreeAndProfiles-1148172078,deleteTreeAndProfiles>>
-* <<apidoc-kickstart_tree-getDetails-1588446023,getDetails>>
-* <<apidoc-kickstart_tree-list-682713491,list>>
-* <<apidoc-kickstart_tree-listInstallTypes-2028160153,listInstallTypes>>
-* <<apidoc-kickstart_tree-rename-1142006014,rename>>
-* <<apidoc-kickstart_tree-update-650835126,update>>
+* <<apidoc-kickstart_tree-create-866488267,create>>
+* <<apidoc-kickstart_tree-delete-917040074,delete>>
+* <<apidoc-kickstart_tree-deleteTreeAndProfiles-848193662,deleteTreeAndProfiles>>
+* <<apidoc-kickstart_tree-getDetails-1100517919,getDetails>>
+* <<apidoc-kickstart_tree-list-1142429510,list>>
+* <<apidoc-kickstart_tree-listInstallTypes-570038756,listInstallTypes>>
+* <<apidoc-kickstart_tree-rename-1552840327,rename>>
+* <<apidoc-kickstart_tree-update-1128952562,update>>
 
 == Description
 
@@ -22,7 +22,7 @@ Provides methods to access and modify the kickstart trees.
 kickstart.tree
 
 
-[#apidoc-kickstart_tree-create-1467394552]
+[#apidoc-kickstart_tree-create-866488267]
 == Method: create 
 
 Description:
@@ -34,7 +34,7 @@ Create a Kickstart Tree (Distribution) in #product().
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  treeLabel - The new kickstart tree label.
  
@@ -55,7 +55,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_tree-delete-1735520170]
+[#apidoc-kickstart_tree-delete-917040074]
 == Method: delete 
 
 Description:
@@ -67,7 +67,7 @@ Delete a Kickstart Tree (Distribution) from #product().
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  treeLabel - Label for the
  kickstart tree to delete.
@@ -80,7 +80,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_tree-deleteTreeAndProfiles-1148172078]
+[#apidoc-kickstart_tree-deleteTreeAndProfiles-848193662]
 == Method: deleteTreeAndProfiles 
 
 Description:
@@ -94,7 +94,7 @@ Delete a kickstarttree and any profiles associated with
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  treeLabel - Label for the
  kickstart tree to delete.
@@ -107,7 +107,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_tree-getDetails-1588446023]
+[#apidoc-kickstart_tree-getDetails-1100517919]
 == Method: getDetails 
 
 Description:
@@ -128,21 +128,21 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - kickstartable tree
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "abs_path"
-   ** [.int]#int#  "channel_id"
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "abs_path"
+** [.int]#int#  "channel_id"
    * [.struct]#struct#  - kickstart install type
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+ 
   
-   
  
 
 
 
-[#apidoc-kickstart_tree-list-682713491]
+[#apidoc-kickstart_tree-list-1142429510]
 == Method: list 
 
 Description:
@@ -164,15 +164,16 @@ Returns:
 
 * [.array]#array# :
  * [.struct]#struct#  - kickstartable tree
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "base_path"
-   ** [.int]#int#  "channel_id"
-    
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "base_path"
+** [.int]#int#  "channel_id"
+   
+ 
 
 
 
-[#apidoc-kickstart_tree-listInstallTypes-2028160153]
+[#apidoc-kickstart_tree-listInstallTypes-570038756]
 == Method: listInstallTypes 
 
 Description:
@@ -192,14 +193,15 @@ Returns:
 
 * [.array]#array# :
  * [.struct]#struct#  - kickstart install type
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-    
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+   
+ 
 
 
 
-[#apidoc-kickstart_tree-rename-1142006014]
+[#apidoc-kickstart_tree-rename-1552840327]
 == Method: rename 
 
 Description:
@@ -211,7 +213,7 @@ Rename a Kickstart Tree (Distribution) in #product().
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  originalLabel - Label for the
  kickstart tree to rename.
@@ -226,7 +228,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_tree-update-650835126]
+[#apidoc-kickstart_tree-update-1128952562]
 == Method: update 
 
 Description:
@@ -238,7 +240,7 @@ Edit a Kickstart Tree (Distribution) in #product().
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  treeLabel - Label for the kickstart tree.
  

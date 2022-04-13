@@ -4,10 +4,10 @@
 
 == Available methods
 
-* <<apidoc-channel_access-disableUserRestrictions-1132206727,disableUserRestrictions>>
-* <<apidoc-channel_access-enableUserRestrictions-287096026,enableUserRestrictions>>
-* <<apidoc-channel_access-getOrgSharing-1821268676,getOrgSharing>>
-* <<apidoc-channel_access-setOrgSharing-1532347350,setOrgSharing>>
+* <<apidoc-channel_access-disableUserRestrictions-1789767826,disableUserRestrictions>>
+* <<apidoc-channel_access-enableUserRestrictions-159581451,enableUserRestrictions>>
+* <<apidoc-channel_access-getOrgSharing-1286571868,getOrgSharing>>
+* <<apidoc-channel_access-setOrgSharing-525630200,setOrgSharing>>
 
 == Description
 
@@ -18,7 +18,7 @@ Provides methods to retrieve and alter channel access restrictions.
 channel.access
 
 
-[#apidoc-channel_access-disableUserRestrictions-1132206727]
+[#apidoc-channel_access-disableUserRestrictions-1789767826]
 == Method: disableUserRestrictions 
 
 Description:
@@ -31,7 +31,7 @@ Disable user restrictions for the given channel.  If disabled,
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  channelLabel - label of the channel
  
@@ -43,7 +43,7 @@ Returns:
 
 
 
-[#apidoc-channel_access-enableUserRestrictions-287096026]
+[#apidoc-channel_access-enableUserRestrictions-159581451]
 == Method: enableUserRestrictions 
 
 Description:
@@ -56,7 +56,7 @@ Enable user restrictions for the given channel. If enabled, only
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  channelLabel - label of the channel
  
@@ -68,7 +68,7 @@ Returns:
 
 
 
-[#apidoc-channel_access-getOrgSharing-1821268676]
+[#apidoc-channel_access-getOrgSharing-1286571868]
 == Method: getOrgSharing 
 
 Description:
@@ -80,7 +80,7 @@ Get organization sharing access control.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  channelLabel - label of the channel
  
@@ -92,7 +92,7 @@ Returns:
 
 
 
-[#apidoc-channel_access-setOrgSharing-1532347350]
+[#apidoc-channel_access-setOrgSharing-525630200]
 == Method: setOrgSharing 
 
 Description:
@@ -104,7 +104,7 @@ Set organization sharing access control.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  channelLabel - label of the channel
  

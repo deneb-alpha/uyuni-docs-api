@@ -4,204 +4,204 @@
 
 == Available methods
 
-* <<apidoc-system-addEntitlements-1171196949,addEntitlements>>
-* <<apidoc-system-addNote-1274584381,addNote>>
-* <<apidoc-system-bootstrap-531828317,bootstrap>>
-* <<apidoc-system-bootstrap-1015933451,bootstrap>>
-* <<apidoc-system-bootstrap-1289601078,bootstrap>>
-* <<apidoc-system-bootstrap-1893679609,bootstrap>>
-* <<apidoc-system-bootstrapWithPrivateSshKey-1453795463,bootstrapWithPrivateSshKey>>
-* <<apidoc-system-bootstrapWithPrivateSshKey-1268510462,bootstrapWithPrivateSshKey>>
-* <<apidoc-system-bootstrapWithPrivateSshKey-600910394,bootstrapWithPrivateSshKey>>
-* <<apidoc-system-bootstrapWithPrivateSshKey-1688710402,bootstrapWithPrivateSshKey>>
-* <<apidoc-system-changeProxy-2128619880,changeProxy>>
-* <<apidoc-system-comparePackageProfile-1576976929,comparePackageProfile>>
-* <<apidoc-system-comparePackages-1016689071,comparePackages>>
-* <<apidoc-system-createPackageProfile-677726975,createPackageProfile>>
-* <<apidoc-system-createSystemProfile-1413194465,createSystemProfile>>
-* <<apidoc-system-createSystemRecord-1302977132,createSystemRecord>>
-* <<apidoc-system-createSystemRecord-1711574174,createSystemRecord>>
-* <<apidoc-system-deleteCustomValues-1744645655,deleteCustomValues>>
-* <<apidoc-system-deleteGuestProfiles-621709074,deleteGuestProfiles>>
-* <<apidoc-system-deleteNote-1165725635,deleteNote>>
-* <<apidoc-system-deleteNotes-933346995,deleteNotes>>
-* <<apidoc-system-deletePackageProfile-309167705,deletePackageProfile>>
-* <<apidoc-system-deleteSystem-488624810,deleteSystem>>
-* <<apidoc-system-deleteSystem-1282990092,deleteSystem>>
-* <<apidoc-system-deleteSystem-582202832,deleteSystem>>
-* <<apidoc-system-deleteSystems-200063290,deleteSystems>>
-* <<apidoc-system-deleteSystems-257999182,deleteSystems>>
-* <<apidoc-system-deleteTagFromSnapshot-2014166743,deleteTagFromSnapshot>>
-* <<apidoc-system-downloadSystemId-336734710,downloadSystemId>>
-* <<apidoc-system-getConnectionPath-525119867,getConnectionPath>>
-* <<apidoc-system-getCpu-1725305496,getCpu>>
-* <<apidoc-system-getCustomValues-897846988,getCustomValues>>
-* <<apidoc-system-getDetails-881578083,getDetails>>
-* <<apidoc-system-getDevices-209516740,getDevices>>
-* <<apidoc-system-getDmi-78372190,getDmi>>
-* <<apidoc-system-getEntitlements-964954502,getEntitlements>>
-* <<apidoc-system-getEventDetails-407615603,getEventDetails>>
-* <<apidoc-system-getEventHistory-1108976844,getEventHistory>>
-* <<apidoc-system-getEventHistory-767266208,getEventHistory>>
-* <<apidoc-system-getEventHistory-825281081,getEventHistory>>
-* <<apidoc-system-getEventHistory-402346372,getEventHistory>>
-* <<apidoc-system-getId-1953465632,getId>>
-* <<apidoc-system-getInstalledProducts-1585879232,getInstalledProducts>>
-* <<apidoc-system-getKernelLivePatch-1576354454,getKernelLivePatch>>
-* <<apidoc-system-getMemory-2074077713,getMemory>>
-* <<apidoc-system-getMinionIdMap-1182586041,getMinionIdMap>>
-* <<apidoc-system-getName-1027221685,getName>>
-* <<apidoc-system-getNetwork-726690425,getNetwork>>
-* <<apidoc-system-getNetworkDevices-1137350304,getNetworkDevices>>
-* <<apidoc-system-getNetworkForSystems-1220114235,getNetworkForSystems>>
-* <<apidoc-system-getOsaPing-1194807205,getOsaPing>>
-* <<apidoc-system-getRegistrationDate-518137704,getRegistrationDate>>
-* <<apidoc-system-getRelevantErrata-1768742999,getRelevantErrata>>
-* <<apidoc-system-getRelevantErrataByType-1589288513,getRelevantErrataByType>>
-* <<apidoc-system-getRunningKernel-1395566699,getRunningKernel>>
-* <<apidoc-system-getScriptActionDetails-70231499,getScriptActionDetails>>
-* <<apidoc-system-getScriptResults-2023591894,getScriptResults>>
-* <<apidoc-system-getSubscribedBaseChannel-423797614,getSubscribedBaseChannel>>
-* <<apidoc-system-getSystemCurrencyMultipliers-492002168,getSystemCurrencyMultipliers>>
-* <<apidoc-system-getSystemCurrencyScores-902795743,getSystemCurrencyScores>>
-* <<apidoc-system-getUnscheduledErrata-327193443,getUnscheduledErrata>>
-* <<apidoc-system-getUuid-1436969919,getUuid>>
-* <<apidoc-system-getVariables-1900380536,getVariables>>
-* <<apidoc-system-isNvreInstalled-1432768646,isNvreInstalled>>
-* <<apidoc-system-isNvreInstalled-591318674,isNvreInstalled>>
-* <<apidoc-system-listActivationKeys-1944213376,listActivationKeys>>
-* <<apidoc-system-listActiveSystems-205343703,listActiveSystems>>
-* <<apidoc-system-listActiveSystemsDetails-1554565380,listActiveSystemsDetails>>
-* <<apidoc-system-listAdministrators-1559760379,listAdministrators>>
-* <<apidoc-system-listAllInstallablePackages-1717136460,listAllInstallablePackages>>
-* <<apidoc-system-listDuplicatesByHostname-476499202,listDuplicatesByHostname>>
-* <<apidoc-system-listDuplicatesByIp-1943764464,listDuplicatesByIp>>
-* <<apidoc-system-listDuplicatesByMac-1151632828,listDuplicatesByMac>>
-* <<apidoc-system-listEmptySystemProfiles-1815056075,listEmptySystemProfiles>>
-* <<apidoc-system-listExtraPackages-1461249916,listExtraPackages>>
-* <<apidoc-system-listFqdns-1689840534,listFqdns>>
-* <<apidoc-system-listGroups-1413679210,listGroups>>
-* <<apidoc-system-listInactiveSystems-610700123,listInactiveSystems>>
-* <<apidoc-system-listInactiveSystems-529351377,listInactiveSystems>>
-* <<apidoc-system-listInstalledPackages-965190120,listInstalledPackages>>
-* <<apidoc-system-listLatestAvailablePackage-1422124678,listLatestAvailablePackage>>
-* <<apidoc-system-listLatestInstallablePackages-22864481,listLatestInstallablePackages>>
-* <<apidoc-system-listLatestUpgradablePackages-1242888151,listLatestUpgradablePackages>>
-* <<apidoc-system-listMigrationTargets-681419196,listMigrationTargets>>
-* <<apidoc-system-listNewerInstalledPackages-595245714,listNewerInstalledPackages>>
-* <<apidoc-system-listNotes-1019746237,listNotes>>
-* <<apidoc-system-listOlderInstalledPackages-964736079,listOlderInstalledPackages>>
-* <<apidoc-system-listOutOfDateSystems-99208085,listOutOfDateSystems>>
-* <<apidoc-system-listPackageProfiles-1403088342,listPackageProfiles>>
-* <<apidoc-system-listPackageState-1772339008,listPackageState>>
-* <<apidoc-system-listPackages-1916505855,listPackages>>
-* <<apidoc-system-listPackagesFromChannel-2003467974,listPackagesFromChannel>>
-* <<apidoc-system-listPackagesLockStatus-550917991,listPackagesLockStatus>>
-* <<apidoc-system-listPhysicalSystems-493495005,listPhysicalSystems>>
-* <<apidoc-system-listSubscribableBaseChannels-1237086644,listSubscribableBaseChannels>>
-* <<apidoc-system-listSubscribableChildChannels-719635492,listSubscribableChildChannels>>
-* <<apidoc-system-listSubscribedChildChannels-950345842,listSubscribedChildChannels>>
-* <<apidoc-system-listSuggestedReboot-506903242,listSuggestedReboot>>
-* <<apidoc-system-listSystemEvents-298487665,listSystemEvents>>
-* <<apidoc-system-listSystemEvents-130574494,listSystemEvents>>
-* <<apidoc-system-listSystemEvents-1034296050,listSystemEvents>>
-* <<apidoc-system-listSystemEvents-2018683696,listSystemEvents>>
-* <<apidoc-system-listSystemGroupsForSystemsWithEntitlement-745740822,listSystemGroupsForSystemsWithEntitlement>>
-* <<apidoc-system-listSystems-133145446,listSystems>>
-* <<apidoc-system-listSystemsWithEntitlement-1198077836,listSystemsWithEntitlement>>
-* <<apidoc-system-listSystemsWithExtraPackages-830839136,listSystemsWithExtraPackages>>
-* <<apidoc-system-listSystemsWithPackage-581639050,listSystemsWithPackage>>
-* <<apidoc-system-listSystemsWithPackage-839348439,listSystemsWithPackage>>
-* <<apidoc-system-listUngroupedSystems-1388081103,listUngroupedSystems>>
-* <<apidoc-system-listUserSystems-1463856502,listUserSystems>>
-* <<apidoc-system-listUserSystems-1084772008,listUserSystems>>
-* <<apidoc-system-listVirtualGuests-564164959,listVirtualGuests>>
-* <<apidoc-system-listVirtualHosts-1734811057,listVirtualHosts>>
-* <<apidoc-system-obtainReactivationKey-1895167357,obtainReactivationKey>>
-* <<apidoc-system-obtainReactivationKey-806842585,obtainReactivationKey>>
-* <<apidoc-system-provisionSystem-96423419,provisionSystem>>
-* <<apidoc-system-provisionSystem-147043892,provisionSystem>>
-* <<apidoc-system-provisionVirtualGuest-1098338771,provisionVirtualGuest>>
-* <<apidoc-system-provisionVirtualGuest-1696962359,provisionVirtualGuest>>
-* <<apidoc-system-provisionVirtualGuest-505920393,provisionVirtualGuest>>
-* <<apidoc-system-refreshPillar-708058685,refreshPillar>>
-* <<apidoc-system-refreshPillar-172871390,refreshPillar>>
-* <<apidoc-system-removeEntitlements-791528455,removeEntitlements>>
-* <<apidoc-system-scheduleApplyErrata-1447901504,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyErrata-1487734150,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyErrata-1383055428,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyErrata-1164139233,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyErrata-2061233204,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyErrata-1256871900,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyErrata-1722532645,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyErrata-960510275,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyErrata-476043283,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyErrata-76757235,scheduleApplyErrata>>
-* <<apidoc-system-scheduleApplyHighstate-1180241360,scheduleApplyHighstate>>
-* <<apidoc-system-scheduleApplyHighstate-1819508699,scheduleApplyHighstate>>
-* <<apidoc-system-scheduleApplyStates-1722366757,scheduleApplyStates>>
-* <<apidoc-system-scheduleApplyStates-1061115215,scheduleApplyStates>>
-* <<apidoc-system-scheduleCertificateUpdate-895177676,scheduleCertificateUpdate>>
-* <<apidoc-system-scheduleCertificateUpdate-627597596,scheduleCertificateUpdate>>
-* <<apidoc-system-scheduleChangeChannels-647607894,scheduleChangeChannels>>
-* <<apidoc-system-scheduleChangeChannels-1567077043,scheduleChangeChannels>>
-* <<apidoc-system-scheduleDistUpgrade-2033490785,scheduleDistUpgrade>>
-* <<apidoc-system-scheduleDistUpgrade-1649942262,scheduleDistUpgrade>>
-* <<apidoc-system-scheduleGuestAction-1970815074,scheduleGuestAction>>
-* <<apidoc-system-scheduleGuestAction-1462809875,scheduleGuestAction>>
-* <<apidoc-system-scheduleHardwareRefresh-757310910,scheduleHardwareRefresh>>
-* <<apidoc-system-schedulePackageInstall-1877590088,schedulePackageInstall>>
-* <<apidoc-system-schedulePackageInstall-88950472,schedulePackageInstall>>
-* <<apidoc-system-schedulePackageInstall-500934560,schedulePackageInstall>>
-* <<apidoc-system-schedulePackageInstall-1546957042,schedulePackageInstall>>
-* <<apidoc-system-schedulePackageInstallByNevra-2113847484,schedulePackageInstallByNevra>>
-* <<apidoc-system-schedulePackageInstallByNevra-317366989,schedulePackageInstallByNevra>>
-* <<apidoc-system-schedulePackageInstallByNevra-1389162903,schedulePackageInstallByNevra>>
-* <<apidoc-system-schedulePackageInstallByNevra-721840156,schedulePackageInstallByNevra>>
-* <<apidoc-system-schedulePackageLockChange-1894076099,schedulePackageLockChange>>
-* <<apidoc-system-schedulePackageRefresh-1370106456,schedulePackageRefresh>>
-* <<apidoc-system-schedulePackageRemove-553039584,schedulePackageRemove>>
-* <<apidoc-system-schedulePackageRemove-1741522169,schedulePackageRemove>>
-* <<apidoc-system-schedulePackageRemove-1387827678,schedulePackageRemove>>
-* <<apidoc-system-schedulePackageRemove-1256604957,schedulePackageRemove>>
-* <<apidoc-system-schedulePackageRemoveByNevra-1597156119,schedulePackageRemoveByNevra>>
-* <<apidoc-system-schedulePackageRemoveByNevra-1414727236,schedulePackageRemoveByNevra>>
-* <<apidoc-system-schedulePackageRemoveByNevra-1114852209,schedulePackageRemoveByNevra>>
-* <<apidoc-system-schedulePackageRemoveByNevra-977612943,schedulePackageRemoveByNevra>>
-* <<apidoc-system-scheduleProductMigration-447706039,scheduleProductMigration>>
-* <<apidoc-system-scheduleProductMigration-1931283804,scheduleProductMigration>>
-* <<apidoc-system-scheduleProductMigration-1577337565,scheduleProductMigration>>
-* <<apidoc-system-scheduleProductMigration-417816833,scheduleProductMigration>>
-* <<apidoc-system-scheduleReboot-1438859728,scheduleReboot>>
-* <<apidoc-system-scheduleSPMigration-1310414130,scheduleSPMigration>>
-* <<apidoc-system-scheduleSPMigration-913045000,scheduleSPMigration>>
-* <<apidoc-system-scheduleSPMigration-1264377095,scheduleSPMigration>>
-* <<apidoc-system-scheduleSPMigration-243860881,scheduleSPMigration>>
-* <<apidoc-system-scheduleScriptRun-1919782816,scheduleScriptRun>>
-* <<apidoc-system-scheduleScriptRun-1448428389,scheduleScriptRun>>
-* <<apidoc-system-scheduleScriptRun-1718293060,scheduleScriptRun>>
-* <<apidoc-system-scheduleScriptRun-1712524347,scheduleScriptRun>>
-* <<apidoc-system-scheduleSyncPackagesWithSystem-2076760639,scheduleSyncPackagesWithSystem>>
-* <<apidoc-system-searchByName-812381379,searchByName>>
-* <<apidoc-system-sendOsaPing-735738459,sendOsaPing>>
-* <<apidoc-system-setBaseChannel-57866172,setBaseChannel>>
-* <<apidoc-system-setBaseChannel-149474995,setBaseChannel>>
-* <<apidoc-system-setChildChannels-535600435,setChildChannels>>
-* <<apidoc-system-setCustomValues-2043169223,setCustomValues>>
-* <<apidoc-system-setDetails-1030999416,setDetails>>
-* <<apidoc-system-setGroupMembership-2087233084,setGroupMembership>>
-* <<apidoc-system-setGuestCpus-1456947885,setGuestCpus>>
-* <<apidoc-system-setGuestMemory-784422651,setGuestMemory>>
-* <<apidoc-system-setLockStatus-181211485,setLockStatus>>
-* <<apidoc-system-setPrimaryFqdn-680034596,setPrimaryFqdn>>
-* <<apidoc-system-setPrimaryInterface-1030126425,setPrimaryInterface>>
-* <<apidoc-system-setProfileName-1705173326,setProfileName>>
-* <<apidoc-system-setVariables-1916559238,setVariables>>
-* <<apidoc-system-tagLatestSnapshot-2130883284,tagLatestSnapshot>>
-* <<apidoc-system-unentitle-211207319,unentitle>>
-* <<apidoc-system-updatePackageState-830929141,updatePackageState>>
-* <<apidoc-system-upgradeEntitlement-1089324622,upgradeEntitlement>>
-* <<apidoc-system-whoRegistered-780043512,whoRegistered>>
+* <<apidoc-system-addEntitlements-1894076099,addEntitlements>>
+* <<apidoc-system-addNote-1242888151,addNote>>
+* <<apidoc-system-bootstrap-735738459,bootstrap>>
+* <<apidoc-system-bootstrap-681419196,bootstrap>>
+* <<apidoc-system-bootstrap-913045000,bootstrap>>
+* <<apidoc-system-bootstrap-243860881,bootstrap>>
+* <<apidoc-system-bootstrapWithPrivateSshKey-1194807205,bootstrapWithPrivateSshKey>>
+* <<apidoc-system-bootstrapWithPrivateSshKey-1310414130,bootstrapWithPrivateSshKey>>
+* <<apidoc-system-bootstrapWithPrivateSshKey-1264377095,bootstrapWithPrivateSshKey>>
+* <<apidoc-system-bootstrapWithPrivateSshKey-447706039,bootstrapWithPrivateSshKey>>
+* <<apidoc-system-changeProxy-98818122,changeProxy>>
+* <<apidoc-system-comparePackageProfile-1448428389,comparePackageProfile>>
+* <<apidoc-system-comparePackages-505920393,comparePackages>>
+* <<apidoc-system-createPackageProfile-1919782816,createPackageProfile>>
+* <<apidoc-system-createSystemProfile-423797614,createSystemProfile>>
+* <<apidoc-system-createSystemRecord-2037929227,createSystemRecord>>
+* <<apidoc-system-createSystemRecord-1388081103,createSystemRecord>>
+* <<apidoc-system-deleteCustomValues-1769513770,deleteCustomValues>>
+* <<apidoc-system-deleteGuestProfiles-57866172,deleteGuestProfiles>>
+* <<apidoc-system-deleteNote-1717136460,deleteNote>>
+* <<apidoc-system-deleteNotes-22864481,deleteNotes>>
+* <<apidoc-system-deletePackageProfile-1370106456,deletePackageProfile>>
+* <<apidoc-system-deleteSystem-1567077043,deleteSystem>>
+* <<apidoc-system-deleteSystem-1237086644,deleteSystem>>
+* <<apidoc-system-deleteSystem-133145446,deleteSystem>>
+* <<apidoc-system-deleteSystems-149474995,deleteSystems>>
+* <<apidoc-system-deleteSystems-647607894,deleteSystems>>
+* <<apidoc-system-deleteTagFromSnapshot-1456947885,deleteTagFromSnapshot>>
+* <<apidoc-system-downloadSystemId-1763619721,downloadSystemId>>
+* <<apidoc-system-getConnectionPath-309167705,getConnectionPath>>
+* <<apidoc-system-getCpu-1953465632,getCpu>>
+* <<apidoc-system-getCustomValues-1706139228,getCustomValues>>
+* <<apidoc-system-getDetails-1414727236,getDetails>>
+* <<apidoc-system-getDevices-518137704,getDevices>>
+* <<apidoc-system-getDmi-1627979043,getDmi>>
+* <<apidoc-system-getEntitlements-1895167357,getEntitlements>>
+* <<apidoc-system-getEventDetails-1705173326,getEventDetails>>
+* <<apidoc-system-getEventHistory-1084772008,getEventHistory>>
+* <<apidoc-system-getEventHistory-2043169223,getEventHistory>>
+* <<apidoc-system-getEventHistory-897846988,getEventHistory>>
+* <<apidoc-system-getEventHistory-1744645655,getEventHistory>>
+* <<apidoc-system-getId-582202832,getId>>
+* <<apidoc-system-getInstalledProducts-895177676,getInstalledProducts>>
+* <<apidoc-system-getKernelLivePatch-627597596,getKernelLivePatch>>
+* <<apidoc-system-getMemory-1027221685,getMemory>>
+* <<apidoc-system-getMinionIdMap-506903242,getMinionIdMap>>
+* <<apidoc-system-getName-726690425,getName>>
+* <<apidoc-system-getNetwork-1815056075,getNetwork>>
+* <<apidoc-system-getNetworkDevices-640068149,getNetworkDevices>>
+* <<apidoc-system-getNetworkForSystems-205343703,getNetworkForSystems>>
+* <<apidoc-system-getOsaPing-1632141948,getOsaPing>>
+* <<apidoc-system-getRegistrationDate-1220114235,getRegistrationDate>>
+* <<apidoc-system-getRelevantErrata-1587485260,getRelevantErrata>>
+* <<apidoc-system-getRelevantErrataByType-1274584381,getRelevantErrataByType>>
+* <<apidoc-system-getRunningKernel-1463856502,getRunningKernel>>
+* <<apidoc-system-getScriptActionDetails-1877590088,getScriptActionDetails>>
+* <<apidoc-system-getScriptResults-70820563,getScriptResults>>
+* <<apidoc-system-getSubscribedBaseChannel-988315192,getSubscribedBaseChannel>>
+* <<apidoc-system-getSystemCurrencyMultipliers-1934714849,getSystemCurrencyMultipliers>>
+* <<apidoc-system-getSystemCurrencyScores-1734909057,getSystemCurrencyScores>>
+* <<apidoc-system-getUnscheduledErrata-1165725635,getUnscheduledErrata>>
+* <<apidoc-system-getUuid-564164959,getUuid>>
+* <<apidoc-system-getVariables-610700123,getVariables>>
+* <<apidoc-system-isNvreInstalled-583765599,isNvreInstalled>>
+* <<apidoc-system-isNvreInstalled-1165311010,isNvreInstalled>>
+* <<apidoc-system-listActivationKeys-1403088342,listActivationKeys>>
+* <<apidoc-system-listActiveSystems-1020198427,listActiveSystems>>
+* <<apidoc-system-listActiveSystemsDetails-1373696747,listActiveSystemsDetails>>
+* <<apidoc-system-listAdministrators-1413679210,listAdministrators>>
+* <<apidoc-system-listAllInstallablePackages-480291392,listAllInstallablePackages>>
+* <<apidoc-system-listDuplicatesByHostname-746876245,listDuplicatesByHostname>>
+* <<apidoc-system-listDuplicatesByIp-1852790850,listDuplicatesByIp>>
+* <<apidoc-system-listDuplicatesByMac-1622460244,listDuplicatesByMac>>
+* <<apidoc-system-listEmptySystemProfiles-1319941841,listEmptySystemProfiles>>
+* <<apidoc-system-listExtraPackages-1462809875,listExtraPackages>>
+* <<apidoc-system-listFqdns-76757235,listFqdns>>
+* <<apidoc-system-listGroups-1281445260,listGroups>>
+* <<apidoc-system-listInactiveSystems-1155846026,listInactiveSystems>>
+* <<apidoc-system-listInactiveSystems-1351814143,listInactiveSystems>>
+* <<apidoc-system-listInstalledPackages-1089324622,listInstalledPackages>>
+* <<apidoc-system-listLatestAvailablePackage-236966591,listLatestAvailablePackage>>
+* <<apidoc-system-listLatestInstallablePackages-1650943741,listLatestInstallablePackages>>
+* <<apidoc-system-listLatestUpgradablePackages-1933687459,listLatestUpgradablePackages>>
+* <<apidoc-system-listMigrationTargets-1302977132,listMigrationTargets>>
+* <<apidoc-system-listNewerInstalledPackages-2120431435,listNewerInstalledPackages>>
+* <<apidoc-system-listNotes-476043283,listNotes>>
+* <<apidoc-system-listOlderInstalledPackages-675475202,listOlderInstalledPackages>>
+* <<apidoc-system-listOutOfDateSystems-1718293060,listOutOfDateSystems>>
+* <<apidoc-system-listPackageProfiles-757310910,listPackageProfiles>>
+* <<apidoc-system-listPackageState-1039806308,listPackageState>>
+* <<apidoc-system-listPackages-806842585,listPackages>>
+* <<apidoc-system-listPackagesFromChannel-1016689071,listPackagesFromChannel>>
+* <<apidoc-system-listPackagesLockStatus-535600435,listPackagesLockStatus>>
+* <<apidoc-system-listPhysicalSystems-210158726,listPhysicalSystems>>
+* <<apidoc-system-listSubscribableBaseChannels-1461464792,listSubscribableBaseChannels>>
+* <<apidoc-system-listSubscribableChildChannels-832887631,listSubscribableChildChannels>>
+* <<apidoc-system-listSubscribedChildChannels-1137350304,listSubscribedChildChannels>>
+* <<apidoc-system-listSuggestedReboot-1943764464,listSuggestedReboot>>
+* <<apidoc-system-listSystemEvents-1422124678,listSystemEvents>>
+* <<apidoc-system-listSystemEvents-336734710,listSystemEvents>>
+* <<apidoc-system-listSystemEvents-1916505855,listSystemEvents>>
+* <<apidoc-system-listSystemEvents-965190120,listSystemEvents>>
+* <<apidoc-system-listSystemGroupsForSystemsWithEntitlement-1615348777,listSystemGroupsForSystemsWithEntitlement>>
+* <<apidoc-system-listSystems-1477474090,listSystems>>
+* <<apidoc-system-listSystemsWithEntitlement-2062904102,listSystemsWithEntitlement>>
+* <<apidoc-system-listSystemsWithExtraPackages-1970815074,listSystemsWithExtraPackages>>
+* <<apidoc-system-listSystemsWithPackage-1351307120,listSystemsWithPackage>>
+* <<apidoc-system-listSystemsWithPackage-854671988,listSystemsWithPackage>>
+* <<apidoc-system-listUngroupedSystems-70231499,listUngroupedSystems>>
+* <<apidoc-system-listUserSystems-719635492,listUserSystems>>
+* <<apidoc-system-listUserSystems-964736079,listUserSystems>>
+* <<apidoc-system-listVirtualGuests-181211485,listVirtualGuests>>
+* <<apidoc-system-listVirtualHosts-108849833,listVirtualHosts>>
+* <<apidoc-system-obtainReactivationKey-968448640,obtainReactivationKey>>
+* <<apidoc-system-obtainReactivationKey-1076664928,obtainReactivationKey>>
+* <<apidoc-system-provisionSystem-621709074,provisionSystem>>
+* <<apidoc-system-provisionSystem-200063290,provisionSystem>>
+* <<apidoc-system-provisionVirtualGuest-550917991,provisionVirtualGuest>>
+* <<apidoc-system-provisionVirtualGuest-257999182,provisionVirtualGuest>>
+* <<apidoc-system-provisionVirtualGuest-488624810,provisionVirtualGuest>>
+* <<apidoc-system-refreshPillar-1120229752,refreshPillar>>
+* <<apidoc-system-refreshPillar-1762544384,refreshPillar>>
+* <<apidoc-system-removeEntitlements-1019746237,removeEntitlements>>
+* <<apidoc-system-scheduleApplyErrata-933346995,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyErrata-298487665,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyErrata-508881152,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyErrata-130574494,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyErrata-1034296050,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyErrata-2018683696,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyErrata-1098338771,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyErrata-96423419,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyErrata-147043892,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyErrata-1696962359,scheduleApplyErrata>>
+* <<apidoc-system-scheduleApplyHighstate-1931283804,scheduleApplyHighstate>>
+* <<apidoc-system-scheduleApplyHighstate-1577337565,scheduleApplyHighstate>>
+* <<apidoc-system-scheduleApplyStates-417816833,scheduleApplyStates>>
+* <<apidoc-system-scheduleApplyStates-2033490785,scheduleApplyStates>>
+* <<apidoc-system-scheduleCertificateUpdate-671127968,scheduleCertificateUpdate>>
+* <<apidoc-system-scheduleCertificateUpdate-2060069278,scheduleCertificateUpdate>>
+* <<apidoc-system-scheduleChangeChannels-1198139417,scheduleChangeChannels>>
+* <<apidoc-system-scheduleChangeChannels-664449374,scheduleChangeChannels>>
+* <<apidoc-system-scheduleDistUpgrade-919456480,scheduleDistUpgrade>>
+* <<apidoc-system-scheduleDistUpgrade-1375340999,scheduleDistUpgrade>>
+* <<apidoc-system-scheduleGuestAction-211207319,scheduleGuestAction>>
+* <<apidoc-system-scheduleGuestAction-1848867745,scheduleGuestAction>>
+* <<apidoc-system-scheduleHardwareRefresh-78372190,scheduleHardwareRefresh>>
+* <<apidoc-system-schedulePackageInstall-1395566699,schedulePackageInstall>>
+* <<apidoc-system-schedulePackageInstall-1108976844,schedulePackageInstall>>
+* <<apidoc-system-schedulePackageInstall-767266208,schedulePackageInstall>>
+* <<apidoc-system-schedulePackageInstall-825281081,schedulePackageInstall>>
+* <<apidoc-system-schedulePackageInstallByNevra-402346372,schedulePackageInstallByNevra>>
+* <<apidoc-system-schedulePackageInstallByNevra-407615603,schedulePackageInstallByNevra>>
+* <<apidoc-system-schedulePackageInstallByNevra-1768742999,schedulePackageInstallByNevra>>
+* <<apidoc-system-schedulePackageInstallByNevra-1589288513,schedulePackageInstallByNevra>>
+* <<apidoc-system-schedulePackageLockChange-960510275,schedulePackageLockChange>>
+* <<apidoc-system-schedulePackageRefresh-1725305496,schedulePackageRefresh>>
+* <<apidoc-system-schedulePackageRemove-327193443,schedulePackageRemove>>
+* <<apidoc-system-schedulePackageRemove-1447901504,schedulePackageRemove>>
+* <<apidoc-system-schedulePackageRemove-1487734150,schedulePackageRemove>>
+* <<apidoc-system-schedulePackageRemove-1383055428,schedulePackageRemove>>
+* <<apidoc-system-schedulePackageRemoveByNevra-1164139233,schedulePackageRemoveByNevra>>
+* <<apidoc-system-schedulePackageRemoveByNevra-2061233204,schedulePackageRemoveByNevra>>
+* <<apidoc-system-schedulePackageRemoveByNevra-1256871900,schedulePackageRemoveByNevra>>
+* <<apidoc-system-schedulePackageRemoveByNevra-1722532645,schedulePackageRemoveByNevra>>
+* <<apidoc-system-scheduleProductMigration-807296291,scheduleProductMigration>>
+* <<apidoc-system-scheduleProductMigration-960220523,scheduleProductMigration>>
+* <<apidoc-system-scheduleProductMigration-1688786293,scheduleProductMigration>>
+* <<apidoc-system-scheduleProductMigration-1954051593,scheduleProductMigration>>
+* <<apidoc-system-scheduleReboot-1597156119,scheduleReboot>>
+* <<apidoc-system-scheduleSPMigration-1711574174,scheduleSPMigration>>
+* <<apidoc-system-scheduleSPMigration-1413194465,scheduleSPMigration>>
+* <<apidoc-system-scheduleSPMigration-1900380536,scheduleSPMigration>>
+* <<apidoc-system-scheduleSPMigration-1916559238,scheduleSPMigration>>
+* <<apidoc-system-scheduleScriptRun-2074077713,scheduleScriptRun>>
+* <<apidoc-system-scheduleScriptRun-209516740,scheduleScriptRun>>
+* <<apidoc-system-scheduleScriptRun-1458013496,scheduleScriptRun>>
+* <<apidoc-system-scheduleScriptRun-7544750,scheduleScriptRun>>
+* <<apidoc-system-scheduleSyncPackagesWithSystem-1712524347,scheduleSyncPackagesWithSystem>>
+* <<apidoc-system-searchByName-2087233084,searchByName>>
+* <<apidoc-system-sendOsaPing-469053200,sendOsaPing>>
+* <<apidoc-system-setBaseChannel-18758920,setBaseChannel>>
+* <<apidoc-system-setBaseChannel-633686225,setBaseChannel>>
+* <<apidoc-system-setChildChannels-249416123,setChildChannels>>
+* <<apidoc-system-setCustomValues-595245714,setCustomValues>>
+* <<apidoc-system-setDetails-1114852209,setDetails>>
+* <<apidoc-system-setGroupMembership-1554565380,setGroupMembership>>
+* <<apidoc-system-setGuestCpus-791528455,setGuestCpus>>
+* <<apidoc-system-setGuestMemory-1171196949,setGuestMemory>>
+* <<apidoc-system-setLockStatus-977612943,setLockStatus>>
+* <<apidoc-system-setPrimaryFqdn-525119867,setPrimaryFqdn>>
+* <<apidoc-system-setPrimaryInterface-1944213376,setPrimaryInterface>>
+* <<apidoc-system-setProfileName-1432768646,setProfileName>>
+* <<apidoc-system-setVariables-529351377,setVariables>>
+* <<apidoc-system-tagLatestSnapshot-784422651,tagLatestSnapshot>>
+* <<apidoc-system-unentitle-1689840534,unentitle>>
+* <<apidoc-system-updatePackageState-1649942262,updatePackageState>>
+* <<apidoc-system-upgradeEntitlement-2101604809,upgradeEntitlement>>
+* <<apidoc-system-whoRegistered-694943195,whoRegistered>>
 
 == Description
 
@@ -212,7 +212,7 @@ Provides methods to access and modify registered system.
 system
 
 
-[#apidoc-system-addEntitlements-1171196949]
+[#apidoc-system-addEntitlements-1894076099]
 == Method: addEntitlements 
 
 Description:
@@ -241,7 +241,7 @@ Returns:
 
 
 
-[#apidoc-system-addNote-1274584381]
+[#apidoc-system-addNote-1242888151]
 == Method: addNote 
 
 Description:
@@ -269,7 +269,7 @@ Returns:
 
 
 
-[#apidoc-system-bootstrap-531828317]
+[#apidoc-system-bootstrap-735738459]
 == Method: bootstrap 
 
 Description:
@@ -281,7 +281,7 @@ Bootstrap a system for management via either Salt or Salt SSH.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  host - Hostname or IP address of target
  
@@ -303,7 +303,7 @@ Returns:
 
 
 
-[#apidoc-system-bootstrap-1015933451]
+[#apidoc-system-bootstrap-681419196]
 == Method: bootstrap 
 
 Description:
@@ -315,7 +315,7 @@ Bootstrap a system for management via either Salt or Salt SSH.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  host - Hostname or IP address of target
  
@@ -339,7 +339,7 @@ Returns:
 
 
 
-[#apidoc-system-bootstrap-1289601078]
+[#apidoc-system-bootstrap-913045000]
 == Method: bootstrap 
 
 Description:
@@ -351,7 +351,7 @@ Bootstrap a system for management via either Salt or Salt SSH.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  host - Hostname or IP address of target
  
@@ -375,7 +375,7 @@ Returns:
 
 
 
-[#apidoc-system-bootstrap-1893679609]
+[#apidoc-system-bootstrap-243860881]
 == Method: bootstrap 
 
 Description:
@@ -387,7 +387,7 @@ Bootstrap a system for management via either Salt or Salt SSH.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  host - Hostname or IP address of target
  
@@ -413,7 +413,7 @@ Returns:
 
 
 
-[#apidoc-system-bootstrapWithPrivateSshKey-1453795463]
+[#apidoc-system-bootstrapWithPrivateSshKey-1194807205]
 == Method: bootstrapWithPrivateSshKey 
 
 Description:
@@ -426,7 +426,7 @@ Bootstrap a system for management via either Salt or Salt SSH.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  host - Hostname or IP address of target
  
@@ -450,7 +450,7 @@ Returns:
 
 
 
-[#apidoc-system-bootstrapWithPrivateSshKey-1268510462]
+[#apidoc-system-bootstrapWithPrivateSshKey-1310414130]
 == Method: bootstrapWithPrivateSshKey 
 
 Description:
@@ -463,7 +463,7 @@ Bootstrap a system for management via either Salt or Salt SSH.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  host - Hostname or IP address of target
  
@@ -489,7 +489,7 @@ Returns:
 
 
 
-[#apidoc-system-bootstrapWithPrivateSshKey-600910394]
+[#apidoc-system-bootstrapWithPrivateSshKey-1264377095]
 == Method: bootstrapWithPrivateSshKey 
 
 Description:
@@ -502,7 +502,7 @@ Bootstrap a system for management via either Salt or Salt SSH.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  host - Hostname or IP address of target
  
@@ -528,7 +528,7 @@ Returns:
 
 
 
-[#apidoc-system-bootstrapWithPrivateSshKey-1688710402]
+[#apidoc-system-bootstrapWithPrivateSshKey-447706039]
 == Method: bootstrapWithPrivateSshKey 
 
 Description:
@@ -541,7 +541,7 @@ Bootstrap a system for management via either Salt or Salt SSH.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  host - Hostname or IP address of target
  
@@ -569,7 +569,7 @@ Returns:
 
 
 
-[#apidoc-system-changeProxy-2128619880]
+[#apidoc-system-changeProxy-98818122]
 == Method: changeProxy 
 
 Description:
@@ -597,7 +597,7 @@ Returns:
 
 
 
-[#apidoc-system-comparePackageProfile-1576976929]
+[#apidoc-system-comparePackageProfile-1448428389]
 == Method: comparePackageProfile 
 
 Description:
@@ -622,28 +622,28 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - Package Metadata
-      ** [.int]#int#  "package_name_id"
-      ** [.string]#string#  "package_name"
-      ** [.string]#string#  "package_epoch"
-      ** [.string]#string#  "package_version"
-      ** [.string]#string#  "package_release"
-      ** [.string]#string#  "package_arch"
-      ** [.string]#string#  "this_system" - Version of package on this system.
-      ** [.string]#string#  "other_system" - Version of package on the other system.
-      ** [.int]#int#  "comparison"
-          
-              ** 0 - No difference.
-              ** 1 - Package on this system only.
-              ** 2 - Newer package version on this system.
-              ** 3 - Package on other system only.
-              ** 4 - Newer package version on other system.
-           
-    
-           
+** [.int]#int#  "package_name_id"
+** [.string]#string#  "package_name"
+** [.string]#string#  "package_epoch"
+** [.string]#string#  "package_version"
+** [.string]#string#  "package_release"
+** [.string]#string#  "package_arch"
+** [.string]#string#  "this_system" - Version of package on this system.
+** [.string]#string#  "other_system" - Version of package on the other system.
+** [.int]#int#  "comparison"
+
+** 0 - No difference.
+** 1 - Package on this system only.
+** 2 - Newer package version on this system.
+** 3 - Package on other system only.
+** 4 - Newer package version on other system.
+
+ 
+ 
 
 
 
-[#apidoc-system-comparePackages-1016689071]
+[#apidoc-system-comparePackages-505920393]
 == Method: comparePackages 
 
 Description:
@@ -666,28 +666,28 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - Package Metadata
-      ** [.int]#int#  "package_name_id"
-      ** [.string]#string#  "package_name"
-      ** [.string]#string#  "package_epoch"
-      ** [.string]#string#  "package_version"
-      ** [.string]#string#  "package_release"
-      ** [.string]#string#  "package_arch"
-      ** [.string]#string#  "this_system" - Version of package on this system.
-      ** [.string]#string#  "other_system" - Version of package on the other system.
-      ** [.int]#int#  "comparison"
-          
-              ** 0 - No difference.
-              ** 1 - Package on this system only.
-              ** 2 - Newer package version on this system.
-              ** 3 - Package on other system only.
-              ** 4 - Newer package version on other system.
-           
-    
-           
+** [.int]#int#  "package_name_id"
+** [.string]#string#  "package_name"
+** [.string]#string#  "package_epoch"
+** [.string]#string#  "package_version"
+** [.string]#string#  "package_release"
+** [.string]#string#  "package_arch"
+** [.string]#string#  "this_system" - Version of package on this system.
+** [.string]#string#  "other_system" - Version of package on the other system.
+** [.int]#int#  "comparison"
+
+** 0 - No difference.
+** 1 - Package on this system only.
+** 2 - Newer package version on this system.
+** 3 - Package on other system only.
+** 4 - Newer package version on other system.
+
+ 
+ 
 
 
 
-[#apidoc-system-createPackageProfile-677726975]
+[#apidoc-system-createPackageProfile-1919782816]
 == Method: createPackageProfile 
 
 Description:
@@ -716,7 +716,7 @@ Returns:
 
 
 
-[#apidoc-system-createSystemProfile-1413194465]
+[#apidoc-system-createSystemProfile-423797614]
 == Method: createSystemProfile 
 
 Description:
@@ -731,14 +731,14 @@ Creates a system record in database for a system that is not registered.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  systemName - System name
  
 * [.struct]#struct#  - data
-      ** [.string]#string#  "hwAddress" - The HW address of the network interface (MAC)
-      ** [.string]#string#  "hostname" - The hostname of the profile
-   
+** [.string]#string#  "hwAddress" - The HW address of the network interface (MAC)
+** [.string]#string#  "hostname" - The hostname of the profile
+ 
 
 Returns:
 
@@ -747,7 +747,7 @@ Returns:
 
 
 
-[#apidoc-system-createSystemRecord-1302977132]
+[#apidoc-system-createSystemRecord-2037929227]
 == Method: createSystemRecord 
 
 Description:
@@ -773,7 +773,7 @@ Returns:
 
 
 
-[#apidoc-system-createSystemRecord-1711574174]
+[#apidoc-system-createSystemRecord-1388081103]
 == Method: createSystemRecord 
 
 Description:
@@ -796,12 +796,12 @@ Parameters:
 * [.string]#string#  comment
  
 * [.array]#array# :
-          ** [.struct]#struct#  - network device
-              *** [.string]#string#  "name"
-              *** [.string]#string#  "mac"
-              *** [.string]#string#  "ip"
-              *** [.string]#string#  "dnsname"
-                 
+** [.struct]#struct#  - network device
+*** [.string]#string#  "name"
+*** [.string]#string#  "mac"
+*** [.string]#string#  "ip"
+*** [.string]#string#  "dnsname"
+ 
 
 Returns:
 
@@ -810,7 +810,7 @@ Returns:
 
 
 
-[#apidoc-system-deleteCustomValues-1744645655]
+[#apidoc-system-deleteCustomValues-1769513770]
 == Method: deleteCustomValues 
 
 Description:
@@ -840,7 +840,7 @@ Returns:
 
 
 
-[#apidoc-system-deleteGuestProfiles-621709074]
+[#apidoc-system-deleteGuestProfiles-57866172]
 == Method: deleteGuestProfiles 
 
 Description:
@@ -867,7 +867,7 @@ Returns:
 
 
 
-[#apidoc-system-deleteNote-1165725635]
+[#apidoc-system-deleteNote-1717136460]
 == Method: deleteNote 
 
 Description:
@@ -893,7 +893,7 @@ Returns:
 
 
 
-[#apidoc-system-deleteNotes-933346995]
+[#apidoc-system-deleteNotes-22864481]
 == Method: deleteNotes 
 
 Description:
@@ -917,7 +917,7 @@ Returns:
 
 
 
-[#apidoc-system-deletePackageProfile-309167705]
+[#apidoc-system-deletePackageProfile-1370106456]
 == Method: deletePackageProfile 
 
 Description:
@@ -941,7 +941,7 @@ Returns:
 
 
 
-[#apidoc-system-deleteSystem-488624810]
+[#apidoc-system-deleteSystem-1567077043]
 == Method: deleteSystem 
 
 Description:
@@ -964,7 +964,7 @@ Returns:
 Available since API version: 10.10
 
 
-[#apidoc-system-deleteSystem-1282990092]
+[#apidoc-system-deleteSystem-1237086644]
 == Method: deleteSystem 
 
 Description:
@@ -988,7 +988,7 @@ Returns:
 
 
 
-[#apidoc-system-deleteSystem-582202832]
+[#apidoc-system-deleteSystem-133145446]
 == Method: deleteSystem 
 
 Description:
@@ -1017,7 +1017,7 @@ Returns:
 
 
 
-[#apidoc-system-deleteSystems-200063290]
+[#apidoc-system-deleteSystems-149474995]
 == Method: deleteSystems 
 
 Description:
@@ -1042,7 +1042,7 @@ Returns:
 
 
 
-[#apidoc-system-deleteSystems-257999182]
+[#apidoc-system-deleteSystems-647607894]
 == Method: deleteSystems 
 
 Description:
@@ -1072,7 +1072,7 @@ Returns:
 
 
 
-[#apidoc-system-deleteTagFromSnapshot-2014166743]
+[#apidoc-system-deleteTagFromSnapshot-1456947885]
 == Method: deleteTagFromSnapshot 
 
 Description:
@@ -1098,7 +1098,7 @@ Returns:
 
 
 
-[#apidoc-system-downloadSystemId-336734710]
+[#apidoc-system-downloadSystemId-1763619721]
 == Method: downloadSystemId 
 
 Description:
@@ -1122,7 +1122,7 @@ Returns:
 
 
 
-[#apidoc-system-getConnectionPath-525119867]
+[#apidoc-system-getConnectionPath-309167705]
 == Method: getConnectionPath 
 
 Description:
@@ -1144,16 +1144,16 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - proxy connection path details
-         ** [.int]#int#  "position" - Position of proxy in chain. The proxy that the
+** [.int]#int#  "position" - Position of proxy in chain. The proxy that the
              system connects directly to is listed in position 1.
-         ** [.int]#int#  "id" - Proxy system id
-         ** [.string]#string#  "hostname" - Proxy host name
-   
-       
+** [.int]#int#  "id" - Proxy system id
+** [.string]#string#  "hostname" - Proxy host name
+ 
+ 
 
 
 
-[#apidoc-system-getCpu-1725305496]
+[#apidoc-system-getCpu-1953465632]
 == Method: getCpu 
 
 Description:
@@ -1173,22 +1173,22 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - CPU
-      ** [.string]#string#  "cache"
-      ** [.string]#string#  "family"
-      ** [.string]#string#  "mhz"
-      ** [.string]#string#  "flags"
-      ** [.string]#string#  "model"
-      ** [.string]#string#  "vendor"
-      ** [.string]#string#  "arch"
-      ** [.string]#string#  "stepping"
-      ** [.string]#string#  "count"
-      ** [.int]#int#  "socket_count (if available)"
-    
+** [.string]#string#  "cache"
+** [.string]#string#  "family"
+** [.string]#string#  "mhz"
+** [.string]#string#  "flags"
+** [.string]#string#  "model"
+** [.string]#string#  "vendor"
+** [.string]#string#  "arch"
+** [.string]#string#  "stepping"
+** [.string]#string#  "count"
+** [.int]#int#  "socket_count (if available)"
+  
  
 
 
 
-[#apidoc-system-getCustomValues-897846988]
+[#apidoc-system-getCustomValues-1706139228]
 == Method: getCustomValues 
 
 Description:
@@ -1208,12 +1208,12 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - custom value
-          ** [.string]#string#  "custom info label"
-       
+** [.string]#string#  "custom info label"
+ 
 
 
 
-[#apidoc-system-getDetails-881578083]
+[#apidoc-system-getDetails-1414727236]
 == Method: getDetails 
 
 Description:
@@ -1233,47 +1233,47 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - server details
-         ** [.int]#int#  "id" - System id
-         ** [.string]#string#  "profile_name"
-         ** [.string]#string#  "machine_id"
-         ** [.string]#string#  "minion_id"
-         ** [.string]#string#  "base_entitlement" - System's base entitlement label
+** [.int]#int#  "id" - System id
+** [.string]#string#  "profile_name"
+** [.string]#string#  "machine_id"
+** [.string]#string#  "minion_id"
+** [.string]#string#  "base_entitlement" - System's base entitlement label
 
-         ** [.array]#array#  "string"
+** [.array]#array#  "string"
 *** addon_entitlements - System's addon entitlements labels,
                        currently only 'virtualization_host'
-          ** [.boolean]#boolean#  "auto_update" - True if system has auto errata updates
+** [.boolean]#boolean#  "auto_update" - True if system has auto errata updates
                                           enabled.
-          ** [.string]#string#  "release" - The Operating System release (i.e. 4AS,
+** [.string]#string#  "release" - The Operating System release (i.e. 4AS,
                       5Server
-          ** [.string]#string#  "address1"
-          ** [.string]#string#  "address2"
-          ** [.string]#string#  "city"
-          ** [.string]#string#  "state"
-          ** [.string]#string#  "country"
-          ** [.string]#string#  "building"
-          ** [.string]#string#  "room"
-          ** [.string]#string#  "rack"
-          ** [.string]#string#  "description"
-          ** [.string]#string#  "hostname"
-          ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot"
-          ** [.string]#string#  "osa_status" - Either 'unknown', 'offline', or 'online'.
-          ** [.boolean]#boolean#  "lock_status" - True indicates that the system is locked.
+** [.string]#string#  "address1"
+** [.string]#string#  "address2"
+** [.string]#string#  "city"
+** [.string]#string#  "state"
+** [.string]#string#  "country"
+** [.string]#string#  "building"
+** [.string]#string#  "room"
+** [.string]#string#  "rack"
+** [.string]#string#  "description"
+** [.string]#string#  "hostname"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot"
+** [.string]#string#  "osa_status" - Either 'unknown', 'offline', or 'online'.
+** [.boolean]#boolean#  "lock_status" - True indicates that the system is locked.
            False indicates that the system is unlocked.
-          ** [.string]#string#  "virtualization" - Virtualization type -
+** [.string]#string#  "virtualization" - Virtualization type -
            for virtual guests only (optional)
-          ** [.string]#string#  "contact_method" - One of the following:
-            
-              ** default
-              ** ssh-push
-              ** ssh-push-tunnel
-            
-    
+** [.string]#string#  "contact_method" - One of the following:
+
+** default
+** ssh-push
+** ssh-push-tunnel
+
+  
  
 
 
 
-[#apidoc-system-getDevices-209516740]
+[#apidoc-system-getDevices-518137704]
 == Method: getDevices 
 
 Description:
@@ -1294,19 +1294,19 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - device
-      ** [.string]#string#  "device" - optional
-      ** [.string]#string#  "device_class" - Includes CDROM, FIREWIRE, HD, USB, VIDEO,
+** [.string]#string#  "device" - optional
+** [.string]#string#  "device_class" - Includes CDROM, FIREWIRE, HD, USB, VIDEO,
                   OTHER, etc.
-      ** [.string]#string#  "driver"
-      ** [.string]#string#  "description"
-      ** [.string]#string#  "bus"
-      ** [.string]#string#  "pcitype"
-    
-               
+** [.string]#string#  "driver"
+** [.string]#string#  "description"
+** [.string]#string#  "bus"
+** [.string]#string#  "pcitype"
+ 
+ 
 
 
 
-[#apidoc-system-getDmi-78372190]
+[#apidoc-system-getDmi-1627979043]
 == Method: getDmi 
 
 Description:
@@ -1326,20 +1326,20 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - DMI
-          ** [.string]#string#  "vendor"
-          ** [.string]#string#  "system"
-          ** [.string]#string#  "product"
-          ** [.string]#string#  "asset"
-          ** [.string]#string#  "board"
-          ** [.string]#string#  "bios_release" - (optional)
-          ** [.string]#string#  "bios_vendor" - (optional)
-          ** [.string]#string#  "bios_version" - (optional)
-        
+** [.string]#string#  "vendor"
+** [.string]#string#  "system"
+** [.string]#string#  "product"
+** [.string]#string#  "asset"
+** [.string]#string#  "board"
+** [.string]#string#  "bios_release" - (optional)
+** [.string]#string#  "bios_vendor" - (optional)
+** [.string]#string#  "bios_version" - (optional)
+  
  
 
 
 
-[#apidoc-system-getEntitlements-964954502]
+[#apidoc-system-getEntitlements-1895167357]
 == Method: getEntitlements 
 
 Description:
@@ -1364,7 +1364,7 @@ Returns:
 
 
 
-[#apidoc-system-getEventDetails-407615603]
+[#apidoc-system-getEventDetails-1705173326]
 == Method: getEventDetails 
 
 Description:
@@ -1388,38 +1388,38 @@ Returns:
 
 * [.array]#array# :
            * [.struct]#struct#  - System Event
-      ** [.int]#int#  "id" - Identifier of the event
-      ** [.string]#string#  "history_type" - Type of history event
-      ** [.string]#string#  "status" - Status of the event
-      ** [.string]#string#  "summary" - Summary of the event
+** [.int]#int#  "id" - Identifier of the event
+** [.string]#string#  "history_type" - Type of history event
+** [.string]#string#  "status" - Status of the event
+** [.string]#string#  "summary" - Summary of the event
 
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Date that the event was created
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "picked_up" - Date that the event was picked up
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that the event occurred
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Date that the event was created
+** [.dateTime.iso8601]#dateTime.iso8601#  "picked_up" - Date that the event was picked up
+** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that the event occurred
 
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "earliest_action" - Earliest date this action could occur.
-      ** [.string]#string#  "result_msg" - The result string of the action executed on the client machine. (optional)
-      ** [.int]#int#  "result_code" - The result code of the action executed on the client machine. (optional).
-          ** [.array]#array#  "additional_info" - This array contains additional
+** [.dateTime.iso8601]#dateTime.iso8601#  "earliest_action" - Earliest date this action could occur.
+** [.string]#string#  "result_msg" - The result string of the action executed on the client machine. (optional)
+** [.int]#int#  "result_code" - The result code of the action executed on the client machine. (optional).
+** [.array]#array#  "additional_info" - This array contains additional
               information for the event, if available.
-              ** [.struct]#struct#  - info
-                  *** [.string]#string#  "detail" - The detail provided depends on the
+** [.struct]#struct#  - info
+*** [.string]#string#  "detail" - The detail provided depends on the
                   specific event.  For example, for a package event, this will be the
                   package name, for an errata event, this will be the advisory name
                   and synopsis, for a config file event, this will be path and
                   optional revision information...etc.
-                  *** [.string]#string#  "result" - The result (if included) depends
+*** [.string]#string#  "result" - The result (if included) depends
                   on the specific event.  For example, for a package or errata event,
                   no result is included, for a config file event, the result might
                   include an error (if one occurred, such as the file was missing)
                   or in the case of a config file comparison it might include the
                   differences found.
-                           
-       
+ 
+ 
 
 
 
-[#apidoc-system-getEventHistory-1108976844]
+[#apidoc-system-getEventHistory-1084772008]
 == Method: getEventHistory (Deprecated)
 
 Description:
@@ -1448,16 +1448,16 @@ Returns:
 
 * [.array]#array# :
            * [.struct]#struct#  - History Event
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that
+** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that
           the event occurred (optional)
-      ** [.string]#string#  "summary" - Summary of the event
-      ** [.string]#string#  "details" - Details of the event
-   
-       
+** [.string]#string#  "summary" - Summary of the event
+** [.string]#string#  "details" - Details of the event
+ 
+ 
 
 
 
-[#apidoc-system-getEventHistory-767266208]
+[#apidoc-system-getEventHistory-2043169223]
 == Method: getEventHistory 
 
 Description:
@@ -1485,17 +1485,17 @@ Returns:
 
 * [.array]#array# :
            * [.struct]#struct#  - System Event
-      ** [.int]#int#  "id" - Identifier of the event
-      ** [.string]#string#  "history_type" - Type of history event
-      ** [.string]#string#  "status" - Status of the event
-      ** [.string]#string#  "summary" - Summary of the event
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that the event occurred
-   
-       
+** [.int]#int#  "id" - Identifier of the event
+** [.string]#string#  "history_type" - Type of history event
+** [.string]#string#  "status" - Status of the event
+** [.string]#string#  "summary" - Summary of the event
+** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that the event occurred
+ 
+ 
 
 
 
-[#apidoc-system-getEventHistory-825281081]
+[#apidoc-system-getEventHistory-897846988]
 == Method: getEventHistory 
 
 Description:
@@ -1521,17 +1521,17 @@ Returns:
 
 * [.array]#array# :
            * [.struct]#struct#  - System Event
-      ** [.int]#int#  "id" - Identifier of the event
-      ** [.string]#string#  "history_type" - Type of history event
-      ** [.string]#string#  "status" - Status of the event
-      ** [.string]#string#  "summary" - Summary of the event
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that the event occurred
-   
-       
+** [.int]#int#  "id" - Identifier of the event
+** [.string]#string#  "history_type" - Type of history event
+** [.string]#string#  "status" - Status of the event
+** [.string]#string#  "summary" - Summary of the event
+** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that the event occurred
+ 
+ 
 
 
 
-[#apidoc-system-getEventHistory-402346372]
+[#apidoc-system-getEventHistory-1744645655]
 == Method: getEventHistory 
 
 Description:
@@ -1555,17 +1555,17 @@ Returns:
 
 * [.array]#array# :
            * [.struct]#struct#  - System Event
-      ** [.int]#int#  "id" - Identifier of the event
-      ** [.string]#string#  "history_type" - Type of history event
-      ** [.string]#string#  "status" - Status of the event
-      ** [.string]#string#  "summary" - Summary of the event
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that the event occurred
-   
-       
+** [.int]#int#  "id" - Identifier of the event
+** [.string]#string#  "history_type" - Type of history event
+** [.string]#string#  "status" - Status of the event
+** [.string]#string#  "summary" - Summary of the event
+** [.dateTime.iso8601]#dateTime.iso8601#  "completed" - Date that the event occurred
+ 
+ 
 
 
 
-[#apidoc-system-getId-1953465632]
+[#apidoc-system-getId-582202832]
 == Method: getId 
 
 Description:
@@ -1586,21 +1586,21 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-     ** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
              to any assigned channel
-     ** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
-  
-           
+** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
+ 
+ 
 
 
 
-[#apidoc-system-getInstalledProducts-1585879232]
+[#apidoc-system-getInstalledProducts-895177676]
 == Method: getInstalledProducts 
 
 Description:
@@ -1621,18 +1621,18 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - installed product
-     ** [.string]#string#  "name"
-     ** [.boolean]#boolean#  "isBaseProduct"
-     ** [.string]#string#  "version" - returned only if applies
-     ** [.string]#string#  "arch" - returned only if applies
-     ** [.string]#string#  "release" - returned only if applies
-     ** [.string]#string#  "friendlyName" - returned only if available
-  
-       
+** [.string]#string#  "name"
+** [.boolean]#boolean#  "isBaseProduct"
+** [.string]#string#  "version" - returned only if applies
+** [.string]#string#  "arch" - returned only if applies
+** [.string]#string#  "release" - returned only if applies
+** [.string]#string#  "friendlyName" - returned only if available
+ 
+ 
 
 
 
-[#apidoc-system-getKernelLivePatch-1576354454]
+[#apidoc-system-getKernelLivePatch-627597596]
 == Method: getKernelLivePatch 
 
 Description:
@@ -1658,7 +1658,7 @@ Returns:
 
 
 
-[#apidoc-system-getMemory-2074077713]
+[#apidoc-system-getMemory-1027221685]
 == Method: getMemory 
 
 Description:
@@ -1678,13 +1678,13 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - memory
-      ** [.int]#int#  "ram" - The amount of physical memory in MB.
-      ** [.int]#int#  "swap" - The amount of swap space in MB.
-   
+** [.int]#int#  "ram" - The amount of physical memory in MB.
+** [.int]#int#  "swap" - The amount of swap space in MB.
+ 
 
 
 
-[#apidoc-system-getMinionIdMap-1182586041]
+[#apidoc-system-getMinionIdMap-506903242]
 == Method: getMinionIdMap 
 
 Description:
@@ -1697,7 +1697,7 @@ Return a map from Salt minion IDs to System IDs.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
@@ -1707,7 +1707,7 @@ Returns:
 
 
 
-[#apidoc-system-getName-1027221685]
+[#apidoc-system-getName-726690425]
 == Method: getName 
 
 Description:
@@ -1727,15 +1727,15 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - name info
-      ** [.int]#int#  "id" - Server id
-      ** [.string]#string#  "name" - Server name
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id" - Server id
+** [.string]#string#  "name" - Server name
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
               successfully checked in
-   
+ 
 
 
 
-[#apidoc-system-getNetwork-726690425]
+[#apidoc-system-getNetwork-1815056075]
 == Method: getNetwork 
 
 Description:
@@ -1755,14 +1755,14 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - network info
-              ** [.string]#string#  "ip" - IPv4 address of server
-              ** [.string]#string#  "ip6" - IPv6 address of server
-              ** [.string]#string#  "hostname" - Hostname of server
-           
+** [.string]#string#  "ip" - IPv4 address of server
+** [.string]#string#  "ip6" - IPv6 address of server
+** [.string]#string#  "hostname" - Hostname of server
+ 
 
 
 
-[#apidoc-system-getNetworkDevices-1137350304]
+[#apidoc-system-getNetworkDevices-640068149]
 == Method: getNetworkDevices 
 
 Description:
@@ -1783,31 +1783,31 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - network device
-          ** [.string]#string#  "ip" - IP address assigned to this network device
-          ** [.string]#string#  "interface" - Network interface assigned to device e.g.
+** [.string]#string#  "ip" - IP address assigned to this network device
+** [.string]#string#  "interface" - Network interface assigned to device e.g.
                               eth0
-          ** [.string]#string#  "netmask" - Network mask assigned to device
-          ** [.string]#string#  "hardware_address" - Hardware Address of device.
-          ** [.string]#string#  "module" - Network driver used for this device.
-          ** [.string]#string#  "broadcast" -  Broadcast address for device.
-          ** [.array]#array#  "ipv6" - List of IPv6 addresses
-            ** [.array]#array# :
-               *** [.struct]#struct#  - ipv6 address
-                 **** [.string]#string#  "address" - IPv6 address of this network device
-                 **** [.string]#string#  "netmask" - IPv6 netmask of this network device
-                 **** [.string]#string#  "scope" - IPv6 address scope
-                                     ** [.array]#array#  "ipv4" - List of IPv4 addresses
-            ** [.array]#array# :
-               *** [.struct]#struct#  - ipv4 address
-                 **** [.string]#string#  "address" - IPv4 address of this network device
-                 **** [.string]#string#  "netmask" - IPv4 netmask of this network device
-                 **** [.string]#string#  "broadcast" - IPv4 broadcast address of this network device
-                                  
-       
+** [.string]#string#  "netmask" - Network mask assigned to device
+** [.string]#string#  "hardware_address" - Hardware Address of device.
+** [.string]#string#  "module" - Network driver used for this device.
+** [.string]#string#  "broadcast" -  Broadcast address for device.
+** [.array]#array#  "ipv6" - List of IPv6 addresses
+** [.array]#array# :
+*** [.struct]#struct#  - ipv6 address
+**** [.string]#string#  "address" - IPv6 address of this network device
+**** [.string]#string#  "netmask" - IPv6 netmask of this network device
+**** [.string]#string#  "scope" - IPv6 address scope
+** [.array]#array#  "ipv4" - List of IPv4 addresses
+** [.array]#array# :
+*** [.struct]#struct#  - ipv4 address
+**** [.string]#string#  "address" - IPv4 address of this network device
+**** [.string]#string#  "netmask" - IPv4 netmask of this network device
+**** [.string]#string#  "broadcast" - IPv4 broadcast address of this network device
+ 
+ 
 
 
 
-[#apidoc-system-getNetworkForSystems-1220114235]
+[#apidoc-system-getNetworkForSystems-205343703]
 == Method: getNetworkForSystems 
 
 Description:
@@ -1828,17 +1828,17 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-     ** [.struct]#struct#  - network info
-       *** [.int]#int#  "system_id" - ID of the system
-       *** [.string]#string#  "ip" - IPv4 address of system
-       *** [.string]#string#  "ip6" - IPv6 address of system
-       *** [.string]#string#  "hostname" - Hostname of system
-       *** [.string]#string#  "primary_fqdn" - Primary FQDN of system
-         
+** [.struct]#struct#  - network info
+*** [.int]#int#  "system_id" - ID of the system
+*** [.string]#string#  "ip" - IPv4 address of system
+*** [.string]#string#  "ip6" - IPv6 address of system
+*** [.string]#string#  "hostname" - Hostname of system
+*** [.string]#string#  "primary_fqdn" - Primary FQDN of system
+ 
 
 
 
-[#apidoc-system-getOsaPing-1194807205]
+[#apidoc-system-getOsaPing-1632141948]
 == Method: getOsaPing 
 
 Description:
@@ -1858,16 +1858,16 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - osaPing
-          ** [.string]#string#  "state" - state of the system (unknown, online, offline)
-          ** [.dateTime.iso8601]#dateTime.iso8601#  "lastMessageTime" - time of the last received response
+** [.string]#string#  "state" - state of the system (unknown, online, offline)
+** [.dateTime.iso8601]#dateTime.iso8601#  "lastMessageTime" - time of the last received response
           (1970/01/01 00:00:00 if never received a response)
-          ** [.dateTime.iso8601]#dateTime.iso8601#  "lastPingTime" - time of the last sent ping
+** [.dateTime.iso8601]#dateTime.iso8601#  "lastPingTime" - time of the last sent ping
           (1970/01/01 00:00:00 if no ping is pending
-       
+ 
 
 
 
-[#apidoc-system-getRegistrationDate-518137704]
+[#apidoc-system-getRegistrationDate-1220114235]
 == Method: getRegistrationDate 
 
 Description:
@@ -1892,7 +1892,7 @@ Returns:
 
 
 
-[#apidoc-system-getRelevantErrata-1768742999]
+[#apidoc-system-getRelevantErrata-1587485260]
 == Method: getRelevantErrata 
 
 Description:
@@ -1913,20 +1913,20 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - errata
-          ** [.int]#int#  "id" - Errata ID.
-          ** [.string]#string#  "issue_date" - Date erratum was updated. (Deprecated)
-          ** [.string]#string#  "date" - Date erratum was created. (Deprecated)
-          ** [.string]#string#  "update_date" - Date erratum was updated. (Deprecated)
-          ** [.string]#string#  "advisory_synopsis" - Summary of the erratum.
-          ** [.string]#string#  "advisory_type" - Type label such as Security, Bug Fix
-          ** [.string]#string#  "advisory_status" - Status label such as final, testing, retracted
-          ** [.string]#string#  "advisory_name" - Name such as RHSA, etc
-       
-       
+** [.int]#int#  "id" - Errata ID.
+** [.string]#string#  "issue_date" - Date erratum was updated. (Deprecated)
+** [.string]#string#  "date" - Date erratum was created. (Deprecated)
+** [.string]#string#  "update_date" - Date erratum was updated. (Deprecated)
+** [.string]#string#  "advisory_synopsis" - Summary of the erratum.
+** [.string]#string#  "advisory_type" - Type label such as Security, Bug Fix
+** [.string]#string#  "advisory_status" - Status label such as final, testing, retracted
+** [.string]#string#  "advisory_name" - Name such as RHSA, etc
+ 
+ 
 
 
 
-[#apidoc-system-getRelevantErrataByType-1589288513]
+[#apidoc-system-getRelevantErrataByType-1274584381]
 == Method: getRelevantErrataByType 
 
 Description:
@@ -1952,20 +1952,20 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - errata
-          ** [.int]#int#  "id" - Errata ID.
-          ** [.string]#string#  "issue_date" - Date erratum was updated. (Deprecated)
-          ** [.string]#string#  "date" - Date erratum was created. (Deprecated)
-          ** [.string]#string#  "update_date" - Date erratum was updated. (Deprecated)
-          ** [.string]#string#  "advisory_synopsis" - Summary of the erratum.
-          ** [.string]#string#  "advisory_type" - Type label such as Security, Bug Fix
-          ** [.string]#string#  "advisory_status" - Status label such as final, testing, retracted
-          ** [.string]#string#  "advisory_name" - Name such as RHSA, etc
-       
-       
+** [.int]#int#  "id" - Errata ID.
+** [.string]#string#  "issue_date" - Date erratum was updated. (Deprecated)
+** [.string]#string#  "date" - Date erratum was created. (Deprecated)
+** [.string]#string#  "update_date" - Date erratum was updated. (Deprecated)
+** [.string]#string#  "advisory_synopsis" - Summary of the erratum.
+** [.string]#string#  "advisory_type" - Type label such as Security, Bug Fix
+** [.string]#string#  "advisory_status" - Status label such as final, testing, retracted
+** [.string]#string#  "advisory_name" - Name such as RHSA, etc
+ 
+ 
 
 
 
-[#apidoc-system-getRunningKernel-1395566699]
+[#apidoc-system-getRunningKernel-1463856502]
 == Method: getRunningKernel 
 
 Description:
@@ -1989,7 +1989,7 @@ Returns:
 
 
 
-[#apidoc-system-getScriptActionDetails-70231499]
+[#apidoc-system-getScriptActionDetails-1877590088]
 == Method: getScriptActionDetails 
 
 Description:
@@ -2009,26 +2009,26 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - Script details
-          ** [.int]#int#  "id" - action id
-          ** [.string]#string#  "content" - script content
-          ** [.string]#string#  "run_as_user" - Run as user
-          ** [.string]#string#  "run_as_group" - Run as group
-          ** [.int]#int#  "timeout" - Timeout in seconds
-          ** [.array]#array# :
+** [.int]#int#  "id" - action id
+** [.string]#string#  "content" - script content
+** [.string]#string#  "run_as_user" - Run as user
+** [.string]#string#  "run_as_group" - Run as group
+** [.int]#int#  "timeout" - Timeout in seconds
+** [.array]#array# :
               * [.struct]#struct#  - script result
-      ** [.int]#int#  "serverId" - ID of the server the script runs on.
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "startDate" - Time script began execution.
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "stopDate" - Time script stopped execution.
-      ** [.int]#int#  "returnCode" - Script execution return code.
-      ** [.string]#string#  "output" - Output of the script (base64 encoded according
+** [.int]#int#  "serverId" - ID of the server the script runs on.
+** [.dateTime.iso8601]#dateTime.iso8601#  "startDate" - Time script began execution.
+** [.dateTime.iso8601]#dateTime.iso8601#  "stopDate" - Time script stopped execution.
+** [.int]#int#  "returnCode" - Script execution return code.
+** [.string]#string#  "output" - Output of the script (base64 encoded according
                 to the output_enc64 attribute)
-      ** [.boolean]#boolean#  "output_enc64" - Identifies base64 encoded output
-   
-                 
+** [.boolean]#boolean#  "output_enc64" - Identifies base64 encoded output
+ 
+ 
 
 
 
-[#apidoc-system-getScriptResults-2023591894]
+[#apidoc-system-getScriptResults-70820563]
 == Method: getScriptResults 
 
 Description:
@@ -2050,19 +2050,19 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - script result
-      ** [.int]#int#  "serverId" - ID of the server the script runs on.
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "startDate" - Time script began execution.
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "stopDate" - Time script stopped execution.
-      ** [.int]#int#  "returnCode" - Script execution return code.
-      ** [.string]#string#  "output" - Output of the script (base64 encoded according
+** [.int]#int#  "serverId" - ID of the server the script runs on.
+** [.dateTime.iso8601]#dateTime.iso8601#  "startDate" - Time script began execution.
+** [.dateTime.iso8601]#dateTime.iso8601#  "stopDate" - Time script stopped execution.
+** [.int]#int#  "returnCode" - Script execution return code.
+** [.string]#string#  "output" - Output of the script (base64 encoded according
                 to the output_enc64 attribute)
-      ** [.boolean]#boolean#  "output_enc64" - Identifies base64 encoded output
-   
-          
+** [.boolean]#boolean#  "output_enc64" - Identifies base64 encoded output
+ 
+ 
 
 
 
-[#apidoc-system-getSubscribedBaseChannel-423797614]
+[#apidoc-system-getSubscribedBaseChannel-988315192]
 == Method: getSubscribedBaseChannel 
 
 Description:
@@ -2082,38 +2082,38 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - channel
-      ** [.int]#int#  "id"
-      ** [.string]#string#  "name"
-      ** [.string]#string#  "label"
-      ** [.string]#string#  "arch_name"
-      ** [.string]#string#  "arch_label"
-      ** [.string]#string#  "summary"
-      ** [.string]#string#  "description"
-      ** [.string]#string#  "checksum_label"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
-      ** [.string]#string#  "maintainer_name"
-      ** [.string]#string#  "maintainer_email"
-      ** [.string]#string#  "maintainer_phone"
-      ** [.string]#string#  "support_policy"
-      ** [.string]#string#  "gpg_key_url"
-      ** [.string]#string#  "gpg_key_id"
-      ** [.string]#string#  "gpg_key_fp"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "yumrepo_last_sync" - (optional)
-      ** [.string]#string#  "end_of_life"
-      ** [.string]#string#  "parent_channel_label"
-      ** [.string]#string#  "clone_original"
-      ** [.array]#array# :
-          *** [.struct]#struct#  - contentSources
-              **** [.int]#int#  "id"
-              **** [.string]#string#  "label"
-              **** [.string]#string#  "sourceUrl"
-              **** [.string]#string#  "type"
-                    
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.string]#string#  "label"
+** [.string]#string#  "arch_name"
+** [.string]#string#  "arch_label"
+** [.string]#string#  "summary"
+** [.string]#string#  "description"
+** [.string]#string#  "checksum_label"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
+** [.string]#string#  "maintainer_name"
+** [.string]#string#  "maintainer_email"
+** [.string]#string#  "maintainer_phone"
+** [.string]#string#  "support_policy"
+** [.string]#string#  "gpg_key_url"
+** [.string]#string#  "gpg_key_id"
+** [.string]#string#  "gpg_key_fp"
+** [.dateTime.iso8601]#dateTime.iso8601#  "yumrepo_last_sync" - (optional)
+** [.string]#string#  "end_of_life"
+** [.string]#string#  "parent_channel_label"
+** [.string]#string#  "clone_original"
+** [.array]#array# :
+*** [.struct]#struct#  - contentSources
+**** [.int]#int#  "id"
+**** [.string]#string#  "label"
+**** [.string]#string#  "sourceUrl"
+**** [.string]#string#  "type"
+  
  
 
 
 
-[#apidoc-system-getSystemCurrencyMultipliers-492002168]
+[#apidoc-system-getSystemCurrencyMultipliers-1934714849]
 == Method: getSystemCurrencyMultipliers 
 
 Description:
@@ -2135,7 +2135,7 @@ Returns:
 
 
 
-[#apidoc-system-getSystemCurrencyScores-902795743]
+[#apidoc-system-getSystemCurrencyScores-1734909057]
 == Method: getSystemCurrencyScores 
 
 Description:
@@ -2153,20 +2153,20 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - system currency
-              *** [.int]#int#  "sid"
-              *** [.int]#int#  "critical security errata count"
-              *** [.int]#int#  "important security errata count"
-              *** [.int]#int#  "moderate security errata count"
-              *** [.int]#int#  "low security errata count"
-              *** [.int]#int#  "bug fix errata count"
-              *** [.int]#int#  "enhancement errata count"
-              *** [.int]#int#  "system currency score"
-                 
+** [.struct]#struct#  - system currency
+*** [.int]#int#  "sid"
+*** [.int]#int#  "critical security errata count"
+*** [.int]#int#  "important security errata count"
+*** [.int]#int#  "moderate security errata count"
+*** [.int]#int#  "low security errata count"
+*** [.int]#int#  "bug fix errata count"
+*** [.int]#int#  "enhancement errata count"
+*** [.int]#int#  "system currency score"
+ 
 
 
 
-[#apidoc-system-getUnscheduledErrata-327193443]
+[#apidoc-system-getUnscheduledErrata-1165725635]
 == Method: getUnscheduledErrata 
 
 Description:
@@ -2187,18 +2187,18 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - errata
-          ** [.int]#int#  "id" - Errata Id
-          ** [.string]#string#  "date" - Date erratum was created.
-          ** [.string]#string#  "advisory_type" - Type of the advisory.
-          ** [.string]#string#  "advisory_status" - Status of the advisory.
-          ** [.string]#string#  "advisory_name" - Name of the advisory.
-          ** [.string]#string#  "advisory_synopsis" - Summary of the erratum.
-      
-       
+** [.int]#int#  "id" - Errata Id
+** [.string]#string#  "date" - Date erratum was created.
+** [.string]#string#  "advisory_type" - Type of the advisory.
+** [.string]#string#  "advisory_status" - Status of the advisory.
+** [.string]#string#  "advisory_name" - Name of the advisory.
+** [.string]#string#  "advisory_synopsis" - Summary of the erratum.
+ 
+ 
 
 
 
-[#apidoc-system-getUuid-1436969919]
+[#apidoc-system-getUuid-564164959]
 == Method: getUuid 
 
 Description:
@@ -2222,7 +2222,7 @@ Returns:
 
 
 
-[#apidoc-system-getVariables-1900380536]
+[#apidoc-system-getVariables-610700123]
 == Method: getVariables 
 
 Description:
@@ -2250,16 +2250,16 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - System kickstart variables
-          ** [.boolean]#boolean#  "netboot" - netboot enabled
-          ** [.array]#array#  "kickstart variables"
-              *** [.struct]#struct#  - kickstart variable
-                  **** [.string]#string#  "key"
-                  **** [.string or int]#string or int#  "value"
-                               
+** [.boolean]#boolean#  "netboot" - netboot enabled
+** [.array]#array#  "kickstart variables"
+*** [.struct]#struct#  - kickstart variable
+**** [.string]#string#  "key"
+**** [.string or int]#string or int#  "value"
+ 
 
 
 
-[#apidoc-system-isNvreInstalled-1432768646]
+[#apidoc-system-isNvreInstalled-583765599]
 == Method: isNvreInstalled 
 
 Description:
@@ -2290,7 +2290,7 @@ Returns:
 
 
 
-[#apidoc-system-isNvreInstalled-591318674]
+[#apidoc-system-isNvreInstalled-1165311010]
 == Method: isNvreInstalled 
 
 Description:
@@ -2323,7 +2323,7 @@ Returns:
 
 
 
-[#apidoc-system-listActivationKeys-1944213376]
+[#apidoc-system-listActivationKeys-1403088342]
 == Method: listActivationKeys 
 
 Description:
@@ -2349,7 +2349,7 @@ Returns:
 
 
 
-[#apidoc-system-listActiveSystems-205343703]
+[#apidoc-system-listActiveSystems-1020198427]
 == Method: listActiveSystems 
 
 Description:
@@ -2368,18 +2368,18 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-  
-       
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+ 
+ 
 
 
 
-[#apidoc-system-listActiveSystemsDetails-1554565380]
+[#apidoc-system-listActiveSystemsDetails-1373696747]
 == Method: listActiveSystemsDetails 
 
 Description:
@@ -2401,72 +2401,72 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-     ** [.struct]#struct#  - server details
-       *** [.int]#int#  "id" - The server's id
-       *** [.string]#string#  "name" - The server's name
-       *** [.string]#string#  "minion_id" - The server's minion id, in case it is a salt minion client
-       *** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server successfully checked in (in UTC)
-       *** [.int]#int#  "ram" - The amount of physical memory in MB.
-       *** [.int]#int#  "swap" - The amount of swap space in MB.
-       *** [.struct]#struct#  "network_devices" - The server's network devices
+** [.struct]#struct#  - server details
+*** [.int]#int#  "id" - The server's id
+*** [.string]#string#  "name" - The server's name
+*** [.string]#string#  "minion_id" - The server's minion id, in case it is a salt minion client
+*** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server successfully checked in (in UTC)
+*** [.int]#int#  "ram" - The amount of physical memory in MB.
+*** [.int]#int#  "swap" - The amount of swap space in MB.
+*** [.struct]#struct#  "network_devices" - The server's network devices
        * [.struct]#struct#  - network device
-          ** [.string]#string#  "ip" - IP address assigned to this network device
-          ** [.string]#string#  "interface" - Network interface assigned to device e.g.
+** [.string]#string#  "ip" - IP address assigned to this network device
+** [.string]#string#  "interface" - Network interface assigned to device e.g.
                               eth0
-          ** [.string]#string#  "netmask" - Network mask assigned to device
-          ** [.string]#string#  "hardware_address" - Hardware Address of device.
-          ** [.string]#string#  "module" - Network driver used for this device.
-          ** [.string]#string#  "broadcast" -  Broadcast address for device.
-          ** [.array]#array#  "ipv6" - List of IPv6 addresses
-            ** [.array]#array# :
-               *** [.struct]#struct#  - ipv6 address
-                 **** [.string]#string#  "address" - IPv6 address of this network device
-                 **** [.string]#string#  "netmask" - IPv6 netmask of this network device
-                 **** [.string]#string#  "scope" - IPv6 address scope
-                                     ** [.array]#array#  "ipv4" - List of IPv4 addresses
-            ** [.array]#array# :
-               *** [.struct]#struct#  - ipv4 address
-                 **** [.string]#string#  "address" - IPv4 address of this network device
-                 **** [.string]#string#  "netmask" - IPv4 netmask of this network device
-                 **** [.string]#string#  "broadcast" - IPv4 broadcast address of this network device
-                                  
-       *** [.struct]#struct#  "dmi_info" - The server's dmi info
+** [.string]#string#  "netmask" - Network mask assigned to device
+** [.string]#string#  "hardware_address" - Hardware Address of device.
+** [.string]#string#  "module" - Network driver used for this device.
+** [.string]#string#  "broadcast" -  Broadcast address for device.
+** [.array]#array#  "ipv6" - List of IPv6 addresses
+** [.array]#array# :
+*** [.struct]#struct#  - ipv6 address
+**** [.string]#string#  "address" - IPv6 address of this network device
+**** [.string]#string#  "netmask" - IPv6 netmask of this network device
+**** [.string]#string#  "scope" - IPv6 address scope
+** [.array]#array#  "ipv4" - List of IPv4 addresses
+** [.array]#array# :
+*** [.struct]#struct#  - ipv4 address
+**** [.string]#string#  "address" - IPv4 address of this network device
+**** [.string]#string#  "netmask" - IPv4 netmask of this network device
+**** [.string]#string#  "broadcast" - IPv4 broadcast address of this network device
+ 
+*** [.struct]#struct#  "dmi_info" - The server's dmi info
        * [.struct]#struct#  - DMI
-          ** [.string]#string#  "vendor"
-          ** [.string]#string#  "system"
-          ** [.string]#string#  "product"
-          ** [.string]#string#  "asset"
-          ** [.string]#string#  "board"
-          ** [.string]#string#  "bios_release" - (optional)
-          ** [.string]#string#  "bios_vendor" - (optional)
-          ** [.string]#string#  "bios_version" - (optional)
-       
-       *** [.struct]#struct#  "cpu_info" - The server's cpu info
+** [.string]#string#  "vendor"
+** [.string]#string#  "system"
+** [.string]#string#  "product"
+** [.string]#string#  "asset"
+** [.string]#string#  "board"
+** [.string]#string#  "bios_release" - (optional)
+** [.string]#string#  "bios_vendor" - (optional)
+** [.string]#string#  "bios_version" - (optional)
+ 
+*** [.struct]#struct#  "cpu_info" - The server's cpu info
        * [.struct]#struct#  - CPU
-      ** [.string]#string#  "cache"
-      ** [.string]#string#  "family"
-      ** [.string]#string#  "mhz"
-      ** [.string]#string#  "flags"
-      ** [.string]#string#  "model"
-      ** [.string]#string#  "vendor"
-      ** [.string]#string#  "arch"
-      ** [.string]#string#  "stepping"
-      ** [.string]#string#  "count"
-      ** [.int]#int#  "socket_count (if available)"
-   
-       *** [.array]#array#  "subscribed_channels" - List of subscribed channels
-         *** [.array]#array# :
-           **** [.struct]#struct#  - channel
-             ***** [.int]#int#  "channel_id" - The channel id.
-             ***** [.string]#string#  "channel_label" - The channel label.
-                           *** [.array]#array#  "active_guest_system_ids" - List of virtual guest system ids for active guests
-         *** [.array]#array# :
-           **** [.int]#int#  "guest_id" - The guest's system id.
-                  
+** [.string]#string#  "cache"
+** [.string]#string#  "family"
+** [.string]#string#  "mhz"
+** [.string]#string#  "flags"
+** [.string]#string#  "model"
+** [.string]#string#  "vendor"
+** [.string]#string#  "arch"
+** [.string]#string#  "stepping"
+** [.string]#string#  "count"
+** [.int]#int#  "socket_count (if available)"
+ 
+*** [.array]#array#  "subscribed_channels" - List of subscribed channels
+*** [.array]#array# :
+**** [.struct]#struct#  - channel
+***** [.int]#int#  "channel_id" - The channel id.
+***** [.string]#string#  "channel_label" - The channel label.
+*** [.array]#array#  "active_guest_system_ids" - List of virtual guest system ids for active guests
+*** [.array]#array# :
+**** [.int]#int#  "guest_id" - The guest's system id.
+ 
 
 
 
-[#apidoc-system-listAdministrators-1559760379]
+[#apidoc-system-listAdministrators-1413679210]
 == Method: listAdministrators 
 
 Description:
@@ -2487,17 +2487,17 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - user
-              ** [.int]#int#  "id"
-              ** [.string]#string#  "login"
-              ** [.string]#string#  "login_uc" - upper case version of the login
-              ** [.boolean]#boolean#  "enabled" - true if user is enabled,
+** [.int]#int#  "id"
+** [.string]#string#  "login"
+** [.string]#string#  "login_uc" - upper case version of the login
+** [.boolean]#boolean#  "enabled" - true if user is enabled,
                          false if the user is disabled
-       
-       
+ 
+ 
 
 
 
-[#apidoc-system-listAllInstallablePackages-1717136460]
+[#apidoc-system-listAllInstallablePackages-480291392]
 == Method: listAllInstallablePackages 
 
 Description:
@@ -2517,18 +2517,18 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - package
-          *** [.string]#string#  "name"
-          *** [.string]#string#  "version"
-          *** [.string]#string#  "release"
-          *** [.string]#string#  "epoch"
-          *** [.int]#int#  "id"
-          *** [.string]#string#  "arch_label"
-        
+** [.struct]#struct#  - package
+*** [.string]#string#  "name"
+*** [.string]#string#  "version"
+*** [.string]#string#  "release"
+*** [.string]#string#  "epoch"
+*** [.int]#int#  "id"
+*** [.string]#string#  "arch_label"
+ 
 
 
 
-[#apidoc-system-listDuplicatesByHostname-476499202]
+[#apidoc-system-listDuplicatesByHostname-746876245]
 == Method: listDuplicatesByHostname 
 
 Description:
@@ -2546,20 +2546,20 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-           ** [.struct]#struct#  - Duplicate Group
-                   *** [.string]#string#  "hostname"
-                   *** [.array]#array#  "systems"
+** [.struct]#struct#  - Duplicate Group
+*** [.string]#string#  "hostname"
+*** [.array]#array#  "systems"
                       * [.struct]#struct#  - system
-      ** [.int]#int#  "systemId"
-      ** [.string]#string#  "systemName"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "systemId"
+** [.string]#string#  "systemName"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
               successfully checked in
-  
-                                     
+ 
+ 
 
 
 
-[#apidoc-system-listDuplicatesByIp-1943764464]
+[#apidoc-system-listDuplicatesByIp-1852790850]
 == Method: listDuplicatesByIp 
 
 Description:
@@ -2577,20 +2577,20 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-           ** [.struct]#struct#  - Duplicate Group
-                   *** [.string]#string#  "ip"
-                   *** [.array]#array#  "systems"
+** [.struct]#struct#  - Duplicate Group
+*** [.string]#string#  "ip"
+*** [.array]#array#  "systems"
                       * [.struct]#struct#  - system
-      ** [.int]#int#  "systemId"
-      ** [.string]#string#  "systemName"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "systemId"
+** [.string]#string#  "systemName"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
               successfully checked in
-  
-                                     
+ 
+ 
 
 
 
-[#apidoc-system-listDuplicatesByMac-1151632828]
+[#apidoc-system-listDuplicatesByMac-1622460244]
 == Method: listDuplicatesByMac 
 
 Description:
@@ -2608,20 +2608,20 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-           ** [.struct]#struct#  - Duplicate Group
-                   *** [.string]#string#  "mac"
-                   *** [.array]#array#  "systems"
+** [.struct]#struct#  - Duplicate Group
+*** [.string]#string#  "mac"
+*** [.array]#array#  "systems"
                       * [.struct]#struct#  - system
-      ** [.int]#int#  "systemId"
-      ** [.string]#string#  "systemName"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "systemId"
+** [.string]#string#  "systemName"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
               successfully checked in
-  
-                                     
+ 
+ 
 
 
 
-[#apidoc-system-listEmptySystemProfiles-1815056075]
+[#apidoc-system-listEmptySystemProfiles-1319941841]
 == Method: listEmptySystemProfiles 
 
 Description:
@@ -2633,25 +2633,25 @@ Returns a list of empty system profiles visible to user (created by the createSy
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server creation time
-     ** [.array]#array#  "hw_addresses" - HW addresses
-         ** [.array]#array# :
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server creation time
+** [.array]#array#  "hw_addresses" - HW addresses
+** [.array]#array# :
 *** [.string]#string#  - HW address
-  
-           
+ 
+ 
 
 
 
-[#apidoc-system-listExtraPackages-1461249916]
+[#apidoc-system-listExtraPackages-1462809875]
 == Method: listExtraPackages 
 
 Description:
@@ -2671,18 +2671,18 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - package
-                 *** [.string]#string#  "name"
-                 *** [.string]#string#  "version"
-                 *** [.string]#string#  "release"
-                 *** [.string]#string#  "epoch" - returned only if non-zero
-                 *** [.string]#string#  "arch"
-                 *** [.date]#date#  "installtime" - returned only if known
-                 
+** [.struct]#struct#  - package
+*** [.string]#string#  "name"
+*** [.string]#string#  "version"
+*** [.string]#string#  "release"
+*** [.string]#string#  "epoch" - returned only if non-zero
+*** [.string]#string#  "arch"
+*** [.date]#date#  "installtime" - returned only if known
+ 
 
 
 
-[#apidoc-system-listFqdns-1689840534]
+[#apidoc-system-listFqdns-76757235]
 == Method: listFqdns 
 
 Description:
@@ -2707,7 +2707,7 @@ Returns:
 
 
 
-[#apidoc-system-listGroups-1413679210]
+[#apidoc-system-listGroups-1281445260]
 == Method: listGroups 
 
 Description:
@@ -2727,17 +2727,17 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - system group
-          *** [.int]#int#  "id" - server group id
-          *** [.int]#int#  "subscribed" - 1 if the given server is subscribed
+** [.struct]#struct#  - system group
+*** [.int]#int#  "id" - server group id
+*** [.int]#int#  "subscribed" - 1 if the given server is subscribed
                to this server group, 0 otherwise
-          *** [.string]#string#  "system_group_name" - Name of the server group
-          *** [.string]#string#  "sgid" - server group id (Deprecated)
-         
+*** [.string]#string#  "system_group_name" - Name of the server group
+*** [.string]#string#  "sgid" - server group id (Deprecated)
+ 
 
 
 
-[#apidoc-system-listInactiveSystems-610700123]
+[#apidoc-system-listInactiveSystems-1155846026]
 == Method: listInactiveSystems 
 
 Description:
@@ -2757,18 +2757,18 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-  
-       
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+ 
+ 
 
 
 
-[#apidoc-system-listInactiveSystems-529351377]
+[#apidoc-system-listInactiveSystems-1351814143]
 == Method: listInactiveSystems 
 
 Description:
@@ -2790,18 +2790,18 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-  
-       
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+ 
+ 
 
 
 
-[#apidoc-system-listInstalledPackages-965190120]
+[#apidoc-system-listInstalledPackages-1089324622]
 == Method: listInstalledPackages 
 
 Description:
@@ -2821,21 +2821,21 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - package
-                 *** [.int]#int#  "package_id" - PackageID, -1 if package is installed but not available in
+** [.struct]#struct#  - package
+*** [.int]#int#  "package_id" - PackageID, -1 if package is installed but not available in
                  subscribed channels
-                 *** [.string]#string#  "name"
-                 *** [.string]#string#  "epoch"
-                 *** [.string]#string#  "version"
-                 *** [.string]#string#  "release"
-                 *** [.string]#string#  "arch" - architecture label
-                 *** [.date]#date#  "installtime" - returned only if known
-                 *** [.boolean]#boolean#  "retracted"
-                 
+*** [.string]#string#  "name"
+*** [.string]#string#  "epoch"
+*** [.string]#string#  "version"
+*** [.string]#string#  "release"
+*** [.string]#string#  "arch" - architecture label
+*** [.date]#date#  "installtime" - returned only if known
+*** [.boolean]#boolean#  "retracted"
+ 
 
 
 
-[#apidoc-system-listLatestAvailablePackage-1422124678]
+[#apidoc-system-listLatestAvailablePackage-236966591]
 == Method: listLatestAvailablePackage 
 
 Description:
@@ -2858,22 +2858,22 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-         ** [.struct]#struct#  - system
-             *** [.int]#int#  "id" - server ID
-             *** [.string]#string#  "name" - server name
-             *** [.struct]#struct#  "package" - package structure
-                 *** [.struct]#struct#  - package
-                     **** [.int]#int#  "id"
-                     **** [.string]#string#  "name"
-                     **** [.string]#string#  "version"
-                     **** [.string]#string#  "release"
-                     **** [.string]#string#  "epoch"
-                     **** [.string]#string#  "arch"
-                             
+** [.struct]#struct#  - system
+*** [.int]#int#  "id" - server ID
+*** [.string]#string#  "name" - server name
+*** [.struct]#struct#  "package" - package structure
+*** [.struct]#struct#  - package
+**** [.int]#int#  "id"
+**** [.string]#string#  "name"
+**** [.string]#string#  "version"
+**** [.string]#string#  "release"
+**** [.string]#string#  "epoch"
+**** [.string]#string#  "arch"
+ 
 
 
 
-[#apidoc-system-listLatestInstallablePackages-22864481]
+[#apidoc-system-listLatestInstallablePackages-1650943741]
 == Method: listLatestInstallablePackages 
 
 Description:
@@ -2893,18 +2893,18 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - package
-          *** [.string]#string#  "name"
-          *** [.string]#string#  "version"
-          *** [.string]#string#  "release"
-          *** [.string]#string#  "epoch"
-          *** [.int]#int#  "id"
-          *** [.string]#string#  "arch_label"
-        
+** [.struct]#struct#  - package
+*** [.string]#string#  "name"
+*** [.string]#string#  "version"
+*** [.string]#string#  "release"
+*** [.string]#string#  "epoch"
+*** [.int]#int#  "id"
+*** [.string]#string#  "arch_label"
+ 
 
 
 
-[#apidoc-system-listLatestUpgradablePackages-1242888151]
+[#apidoc-system-listLatestUpgradablePackages-1933687459]
 == Method: listLatestUpgradablePackages 
 
 Description:
@@ -2924,21 +2924,21 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - package
-          *** [.string]#string#  "name"
-          *** [.string]#string#  "arch"
-          *** [.string]#string#  "from_version"
-          *** [.string]#string#  "from_release"
-          *** [.string]#string#  "from_epoch"
-          *** [.string]#string#  "to_version"
-          *** [.string]#string#  "to_release"
-          *** [.string]#string#  "to_epoch"
-          *** [.string]#string#  "to_package_id"
-        
+** [.struct]#struct#  - package
+*** [.string]#string#  "name"
+*** [.string]#string#  "arch"
+*** [.string]#string#  "from_version"
+*** [.string]#string#  "from_release"
+*** [.string]#string#  "from_epoch"
+*** [.string]#string#  "to_version"
+*** [.string]#string#  "to_release"
+*** [.string]#string#  "to_epoch"
+*** [.string]#string#  "to_package_id"
+ 
 
 
 
-[#apidoc-system-listMigrationTargets-681419196]
+[#apidoc-system-listMigrationTargets-1302977132]
 == Method: listMigrationTargets 
 
 Description:
@@ -2958,14 +2958,14 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - migrationtarget
-                 *** [.string]#string#  "ident"
-                 *** [.string]#string#  "friendly"
-                 
+** [.struct]#struct#  - migrationtarget
+*** [.string]#string#  "ident"
+*** [.string]#string#  "friendly"
+ 
 
 
 
-[#apidoc-system-listNewerInstalledPackages-595245714]
+[#apidoc-system-listNewerInstalledPackages-2120431435]
 == Method: listNewerInstalledPackages 
 
 Description:
@@ -2994,16 +2994,16 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - package
-              *** [.string]#string#  "name"
-              *** [.string]#string#  "version"
-              *** [.string]#string#  "release"
-              *** [.string]#string#  "epoch"
-                 
+** [.struct]#struct#  - package
+*** [.string]#string#  "name"
+*** [.string]#string#  "version"
+*** [.string]#string#  "release"
+*** [.string]#string#  "epoch"
+ 
 
 
 
-[#apidoc-system-listNotes-1019746237]
+[#apidoc-system-listNotes-476043283]
 == Method: listNotes 
 
 Description:
@@ -3024,18 +3024,18 @@ Returns:
 
 * [.array]#array# :
       * [.struct]#struct#  - note details
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "subject" - Subject of the note
-   ** [.string]#string#  "note" - Contents of the note
-   ** [.int]#int#  "system_id" - The id of the system associated with the note
-   ** [.string]#string#  "creator" - Creator of the note if exists (optional)
-   ** [.date]#date#  "updated" - Date of the last note update
-  
-   
+** [.int]#int#  "id"
+** [.string]#string#  "subject" - Subject of the note
+** [.string]#string#  "note" - Contents of the note
+** [.int]#int#  "system_id" - The id of the system associated with the note
+** [.string]#string#  "creator" - Creator of the note if exists (optional)
+** [.date]#date#  "updated" - Date of the last note update
+ 
+ 
 
 
 
-[#apidoc-system-listOlderInstalledPackages-964736079]
+[#apidoc-system-listOlderInstalledPackages-675475202]
 == Method: listOlderInstalledPackages 
 
 Description:
@@ -3065,16 +3065,16 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - package
-              *** [.string]#string#  "name"
-              *** [.string]#string#  "version"
-              *** [.string]#string#  "release"
-              *** [.string]#string#  "epoch"
-                 
+** [.struct]#struct#  - package
+*** [.string]#string#  "name"
+*** [.string]#string#  "version"
+*** [.string]#string#  "release"
+*** [.string]#string#  "epoch"
+ 
 
 
 
-[#apidoc-system-listOutOfDateSystems-99208085]
+[#apidoc-system-listOutOfDateSystems-1718293060]
 == Method: listOutOfDateSystems 
 
 Description:
@@ -3093,21 +3093,21 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-     ** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
              to any assigned channel
-     ** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
-  
-           
+** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
+ 
+ 
 
 
 
-[#apidoc-system-listPackageProfiles-1403088342]
+[#apidoc-system-listPackageProfiles-757310910]
 == Method: listPackageProfiles 
 
 Description:
@@ -3126,15 +3126,15 @@ Returns:
 
 * [.array]#array# :
       * [.struct]#struct#  - package profile
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "name"
-   ** [.string]#string#  "channel"
-  
-   
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.string]#string#  "channel"
+ 
+ 
 
 
 
-[#apidoc-system-listPackageState-1772339008]
+[#apidoc-system-listPackageState-1039806308]
 == Method: listPackageState 
 
 Description:
@@ -3155,17 +3155,17 @@ Returns:
 
 * [.array]#array# :
            * [.struct]#struct#  - packagestate
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.int]#int#  "state_revision_id" - State revision Id
-     ** [.string]#string#  "package_state_type_id" - INSTALLED or REMOVED
-     ** [.string]#string#  "version_constraint_id" - LATEST or ANY
-  
-       
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.int]#int#  "state_revision_id" - State revision Id
+** [.string]#string#  "package_state_type_id" - INSTALLED or REMOVED
+** [.string]#string#  "version_constraint_id" - LATEST or ANY
+ 
+ 
 
 
 
-[#apidoc-system-listPackages-1916505855]
+[#apidoc-system-listPackages-806842585]
 == Method: listPackages (Deprecated)
 
 Description:
@@ -3189,18 +3189,18 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - package
-                 *** [.string]#string#  "name"
-                 *** [.string]#string#  "version"
-                 *** [.string]#string#  "release"
-                 *** [.string]#string#  "epoch"
-                 *** [.string]#string#  "arch" - Architecture name
-                 *** [.date]#date#  "installtime" - returned only if known
-                 
+** [.struct]#struct#  - package
+*** [.string]#string#  "name"
+*** [.string]#string#  "version"
+*** [.string]#string#  "release"
+*** [.string]#string#  "epoch"
+*** [.string]#string#  "arch" - Architecture name
+*** [.date]#date#  "installtime" - returned only if known
+ 
 
 
 
-[#apidoc-system-listPackagesFromChannel-2003467974]
+[#apidoc-system-listPackagesFromChannel-1016689071]
 == Method: listPackagesFromChannel 
 
 Description:
@@ -3226,24 +3226,24 @@ Returns:
 
 * [.array]#array# :
       * [.struct]#struct#  - package
-      ** [.string]#string#  "name"
-      ** [.string]#string#  "version"
-      ** [.string]#string#  "release"
-      ** [.string]#string#  "epoch"
-      ** [.int]#int#  "id"
-      ** [.string]#string#  "arch_label"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
-      ** [.string]#string#  "path" - The path on that file system that the package
+** [.string]#string#  "name"
+** [.string]#string#  "version"
+** [.string]#string#  "release"
+** [.string]#string#  "epoch"
+** [.int]#int#  "id"
+** [.string]#string#  "arch_label"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
+** [.string]#string#  "path" - The path on that file system that the package
              resides
-      ** [.boolean]#boolean#  "part_of_retracted_patch" - True if the package is a part of a retracted patch
-      ** [.string]#string#  "provider" - The provider of the package, determined by
+** [.boolean]#boolean#  "part_of_retracted_patch" - True if the package is a part of a retracted patch
+** [.string]#string#  "provider" - The provider of the package, determined by
               the gpg key it was signed with.
-   
-   
+ 
+ 
 
 
 
-[#apidoc-system-listPackagesLockStatus-550917991]
+[#apidoc-system-listPackagesLockStatus-535600435]
 == Method: listPackagesLockStatus 
 
 Description:
@@ -3255,7 +3255,7 @@ List current package locks status.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  system_id
  
@@ -3263,20 +3263,20 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - package
-                 *** [.int]#int#  "package_id" - PackageID, -1 if package is locked but not available in
+** [.struct]#struct#  - package
+*** [.int]#int#  "package_id" - PackageID, -1 if package is locked but not available in
                  subscribed channels
-                 *** [.string]#string#  "name"
-                 *** [.string]#string#  "epoch"
-                 *** [.string]#string#  "version"
-                 *** [.string]#string#  "release"
-                 *** [.string]#string#  "arch" - architecture label
-                 *** [.string]#string#  "pending status" - return only if there is a pending locking
-                 
+*** [.string]#string#  "name"
+*** [.string]#string#  "epoch"
+*** [.string]#string#  "version"
+*** [.string]#string#  "release"
+*** [.string]#string#  "arch" - architecture label
+*** [.string]#string#  "pending status" - return only if there is a pending locking
+ 
 
 
 
-[#apidoc-system-listPhysicalSystems-493495005]
+[#apidoc-system-listPhysicalSystems-210158726]
 == Method: listPhysicalSystems 
 
 Description:
@@ -3295,21 +3295,21 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-     ** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
              to any assigned channel
-     ** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
-  
-       
+** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
+ 
+ 
 
 
 
-[#apidoc-system-listSubscribableBaseChannels-1237086644]
+[#apidoc-system-listSubscribableBaseChannels-1461464792]
 == Method: listSubscribableBaseChannels 
 
 Description:
@@ -3329,17 +3329,17 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - channel
-          *** [.int]#int#  "id" - Base Channel ID.
-          *** [.string]#string#  "name" - Name of channel.
-          *** [.string]#string#  "label" - Label of Channel
-          *** [.int]#int#  "current_base" - 1 indicates it is the current base
+** [.struct]#struct#  - channel
+*** [.int]#int#  "id" - Base Channel ID.
+*** [.string]#string#  "name" - Name of channel.
+*** [.string]#string#  "label" - Label of Channel
+*** [.int]#int#  "current_base" - 1 indicates it is the current base
                                       channel
-         
+ 
 
 
 
-[#apidoc-system-listSubscribableChildChannels-719635492]
+[#apidoc-system-listSubscribableChildChannels-832887631]
 == Method: listSubscribableChildChannels 
 
 Description:
@@ -3360,18 +3360,18 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - child channel
-              *** [.int]#int#  "id"
-              *** [.string]#string#  "name"
-              *** [.string]#string#  "label"
-              *** [.string]#string#  "summary"
-              *** [.string]#string#  "has_license"
-              *** [.string]#string#  "gpg_key_url"
-                 
+** [.struct]#struct#  - child channel
+*** [.int]#int#  "id"
+*** [.string]#string#  "name"
+*** [.string]#string#  "label"
+*** [.string]#string#  "summary"
+*** [.string]#string#  "has_license"
+*** [.string]#string#  "gpg_key_url"
+ 
 
 
 
-[#apidoc-system-listSubscribedChildChannels-950345842]
+[#apidoc-system-listSubscribedChildChannels-1137350304]
 == Method: listSubscribedChildChannels 
 
 Description:
@@ -3392,38 +3392,38 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - channel
-      ** [.int]#int#  "id"
-      ** [.string]#string#  "name"
-      ** [.string]#string#  "label"
-      ** [.string]#string#  "arch_name"
-      ** [.string]#string#  "arch_label"
-      ** [.string]#string#  "summary"
-      ** [.string]#string#  "description"
-      ** [.string]#string#  "checksum_label"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
-      ** [.string]#string#  "maintainer_name"
-      ** [.string]#string#  "maintainer_email"
-      ** [.string]#string#  "maintainer_phone"
-      ** [.string]#string#  "support_policy"
-      ** [.string]#string#  "gpg_key_url"
-      ** [.string]#string#  "gpg_key_id"
-      ** [.string]#string#  "gpg_key_fp"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "yumrepo_last_sync" - (optional)
-      ** [.string]#string#  "end_of_life"
-      ** [.string]#string#  "parent_channel_label"
-      ** [.string]#string#  "clone_original"
-      ** [.array]#array# :
-          *** [.struct]#struct#  - contentSources
-              **** [.int]#int#  "id"
-              **** [.string]#string#  "label"
-              **** [.string]#string#  "sourceUrl"
-              **** [.string]#string#  "type"
-                   
-       
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.string]#string#  "label"
+** [.string]#string#  "arch_name"
+** [.string]#string#  "arch_label"
+** [.string]#string#  "summary"
+** [.string]#string#  "description"
+** [.string]#string#  "checksum_label"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
+** [.string]#string#  "maintainer_name"
+** [.string]#string#  "maintainer_email"
+** [.string]#string#  "maintainer_phone"
+** [.string]#string#  "support_policy"
+** [.string]#string#  "gpg_key_url"
+** [.string]#string#  "gpg_key_id"
+** [.string]#string#  "gpg_key_fp"
+** [.dateTime.iso8601]#dateTime.iso8601#  "yumrepo_last_sync" - (optional)
+** [.string]#string#  "end_of_life"
+** [.string]#string#  "parent_channel_label"
+** [.string]#string#  "clone_original"
+** [.array]#array# :
+*** [.struct]#struct#  - contentSources
+**** [.int]#int#  "id"
+**** [.string]#string#  "label"
+**** [.string]#string#  "sourceUrl"
+**** [.string]#string#  "type"
+ 
+ 
 
 
 
-[#apidoc-system-listSuggestedReboot-506903242]
+[#apidoc-system-listSuggestedReboot-1943764464]
 == Method: listSuggestedReboot 
 
 Description:
@@ -3441,14 +3441,14 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - system
-              *** [.int]#int#  "id"
-              *** [.string]#string#  "name"
-                 
+** [.struct]#struct#  - system
+*** [.int]#int#  "id"
+*** [.string]#string#  "name"
+ 
 
 
 
-[#apidoc-system-listSystemEvents-298487665]
+[#apidoc-system-listSystemEvents-1422124678]
 == Method: listSystemEvents 
 
 Description:
@@ -3476,59 +3476,59 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - action
-          *** [.int]#int#  "failed_count" - Number of times action failed.
-          *** [.string]#string#  "modified" - Date modified. (Deprecated by
+** [.struct]#struct#  - action
+*** [.int]#int#  "failed_count" - Number of times action failed.
+*** [.string]#string#  "modified" - Date modified. (Deprecated by
                      modified_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "modified_date" - Date modified.
-          *** [.string]#string#  "created" - Date created. (Deprecated by
+*** [.dateTime.iso8601]#dateTime.iso8601#  "modified_date" - Date modified.
+*** [.string]#string#  "created" - Date created. (Deprecated by
                      created_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "created_date" - Date created.
-          *** [.string]#string#  "action_type"
-          *** [.int]#int#  "successful_count" - Number of times action was successful.
-          *** [.string]#string#  "earliest_action" - Earliest date this action
+*** [.dateTime.iso8601]#dateTime.iso8601#  "created_date" - Date created.
+*** [.string]#string#  "action_type"
+*** [.int]#int#  "successful_count" - Number of times action was successful.
+*** [.string]#string#  "earliest_action" - Earliest date this action
                      will occur.
-          *** [.int]#int#  "archived" - If this action is archived. (1 or 0)
-          *** [.string]#string#  "scheduler_user" - available only if concrete user
+*** [.int]#int#  "archived" - If this action is archived. (1 or 0)
+*** [.string]#string#  "scheduler_user" - available only if concrete user
                      has scheduled the action
-          *** [.string]#string#  "prerequisite" - Pre-requisite action. (optional)
-          *** [.string]#string#  "name" - Name of this action.
-          *** [.int]#int#  "id" - Id of this action.
-          *** [.string]#string#  "version" - Version of action.
-          *** [.string]#string#  "completion_time" - The date/time the event was
+*** [.string]#string#  "prerequisite" - Pre-requisite action. (optional)
+*** [.string]#string#  "name" - Name of this action.
+*** [.int]#int#  "id" - Id of this action.
+*** [.string]#string#  "version" - Version of action.
+*** [.string]#string#  "completion_time" - The date/time the event was
                      completed. Format -&gt;YYYY-MM-dd hh:mm:ss.ms
                      Eg -&gt;2007-06-04 13:58:13.0. (optional)
                      (Deprecated by completed_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "completed_date" - The date/time the event was completed.
+*** [.dateTime.iso8601]#dateTime.iso8601#  "completed_date" - The date/time the event was completed.
                      (optional)
-          *** [.string]#string#  "pickup_time" - The date/time the action was picked
+*** [.string]#string#  "pickup_time" - The date/time the action was picked
                      up. Format -&gt;YYYY-MM-dd hh:mm:ss.ms
                      Eg -&gt;2007-06-04 13:58:13.0. (optional)
                      (Deprecated by pickup_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "pickup_date" - The date/time the action was picked up.
+*** [.dateTime.iso8601]#dateTime.iso8601#  "pickup_date" - The date/time the action was picked up.
                      (optional)
-          *** [.string]#string#  "result_msg" - The result string after the action
+*** [.string]#string#  "result_msg" - The result string after the action
                      executes at the client machine. (optional)
-          *** [.array]#array#  "additional_info" - This array contains additional
+*** [.array]#array#  "additional_info" - This array contains additional
               information for the event, if available.
-              *** [.struct]#struct#  - info
-                  **** [.string]#string#  "detail" - The detail provided depends on the
+*** [.struct]#struct#  - info
+**** [.string]#string#  "detail" - The detail provided depends on the
                   specific event.  For example, for a package event, this will be the
                   package name, for an errata event, this will be the advisory name
                   and synopsis, for a config file event, this will be path and
                   optional revision information...etc.
-                  **** [.string]#string#  "result" - The result (if included) depends
+**** [.string]#string#  "result" - The result (if included) depends
                   on the specific event.  For example, for a package or errata event,
                   no result is included, for a config file event, the result might
                   include an error (if one occurred, such as the file was missing)
                   or in the case of a config file comparison it might include the
                   differences found.
-                                 
+ 
 
 Available since API version: 10.8
 
 
-[#apidoc-system-listSystemEvents-130574494]
+[#apidoc-system-listSystemEvents-336734710]
 == Method: listSystemEvents 
 
 Description:
@@ -3551,59 +3551,59 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - action
-          *** [.int]#int#  "failed_count" - Number of times action failed.
-          *** [.string]#string#  "modified" - Date modified. (Deprecated by
+** [.struct]#struct#  - action
+*** [.int]#int#  "failed_count" - Number of times action failed.
+*** [.string]#string#  "modified" - Date modified. (Deprecated by
                      modified_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "modified_date" - Date modified.
-          *** [.string]#string#  "created" - Date created. (Deprecated by
+*** [.dateTime.iso8601]#dateTime.iso8601#  "modified_date" - Date modified.
+*** [.string]#string#  "created" - Date created. (Deprecated by
                      created_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "created_date" - Date created.
-          *** [.string]#string#  "action_type"
-          *** [.int]#int#  "successful_count" - Number of times action was successful.
-          *** [.string]#string#  "earliest_action" - Earliest date this action
+*** [.dateTime.iso8601]#dateTime.iso8601#  "created_date" - Date created.
+*** [.string]#string#  "action_type"
+*** [.int]#int#  "successful_count" - Number of times action was successful.
+*** [.string]#string#  "earliest_action" - Earliest date this action
                      will occur.
-          *** [.int]#int#  "archived" - If this action is archived. (1 or 0)
-          *** [.string]#string#  "scheduler_user" - available only if concrete user
+*** [.int]#int#  "archived" - If this action is archived. (1 or 0)
+*** [.string]#string#  "scheduler_user" - available only if concrete user
                      has scheduled the action
-          *** [.string]#string#  "prerequisite" - Pre-requisite action. (optional)
-          *** [.string]#string#  "name" - Name of this action.
-          *** [.int]#int#  "id" - Id of this action.
-          *** [.string]#string#  "version" - Version of action.
-          *** [.string]#string#  "completion_time" - The date/time the event was
+*** [.string]#string#  "prerequisite" - Pre-requisite action. (optional)
+*** [.string]#string#  "name" - Name of this action.
+*** [.int]#int#  "id" - Id of this action.
+*** [.string]#string#  "version" - Version of action.
+*** [.string]#string#  "completion_time" - The date/time the event was
                      completed. Format -&gt;YYYY-MM-dd hh:mm:ss.ms
                      Eg -&gt;2007-06-04 13:58:13.0. (optional)
                      (Deprecated by completed_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "completed_date" - The date/time the event was completed.
+*** [.dateTime.iso8601]#dateTime.iso8601#  "completed_date" - The date/time the event was completed.
                      (optional)
-          *** [.string]#string#  "pickup_time" - The date/time the action was picked
+*** [.string]#string#  "pickup_time" - The date/time the action was picked
                      up. Format -&gt;YYYY-MM-dd hh:mm:ss.ms
                      Eg -&gt;2007-06-04 13:58:13.0. (optional)
                      (Deprecated by pickup_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "pickup_date" - The date/time the action was picked up.
+*** [.dateTime.iso8601]#dateTime.iso8601#  "pickup_date" - The date/time the action was picked up.
                      (optional)
-          *** [.string]#string#  "result_msg" - The result string after the action
+*** [.string]#string#  "result_msg" - The result string after the action
                      executes at the client machine. (optional)
-          *** [.array]#array#  "additional_info" - This array contains additional
+*** [.array]#array#  "additional_info" - This array contains additional
               information for the event, if available.
-              *** [.struct]#struct#  - info
-                  **** [.string]#string#  "detail" - The detail provided depends on the
+*** [.struct]#struct#  - info
+**** [.string]#string#  "detail" - The detail provided depends on the
                   specific event.  For example, for a package event, this will be the
                   package name, for an errata event, this will be the advisory name
                   and synopsis, for a config file event, this will be path and
                   optional revision information...etc.
-                  **** [.string]#string#  "result" - The result (if included) depends
+**** [.string]#string#  "result" - The result (if included) depends
                   on the specific event.  For example, for a package or errata event,
                   no result is included, for a config file event, the result might
                   include an error (if one occurred, such as the file was missing)
                   or in the case of a config file comparison it might include the
                   differences found.
-                                 
+ 
 
 Available since API version: 10.8
 
 
-[#apidoc-system-listSystemEvents-1034296050]
+[#apidoc-system-listSystemEvents-1916505855]
 == Method: listSystemEvents 
 
 Description:
@@ -3629,59 +3629,59 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - action
-          *** [.int]#int#  "failed_count" - Number of times action failed.
-          *** [.string]#string#  "modified" - Date modified. (Deprecated by
+** [.struct]#struct#  - action
+*** [.int]#int#  "failed_count" - Number of times action failed.
+*** [.string]#string#  "modified" - Date modified. (Deprecated by
                      modified_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "modified_date" - Date modified.
-          *** [.string]#string#  "created" - Date created. (Deprecated by
+*** [.dateTime.iso8601]#dateTime.iso8601#  "modified_date" - Date modified.
+*** [.string]#string#  "created" - Date created. (Deprecated by
                      created_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "created_date" - Date created.
-          *** [.string]#string#  "action_type"
-          *** [.int]#int#  "successful_count" - Number of times action was successful.
-          *** [.string]#string#  "earliest_action" - Earliest date this action
+*** [.dateTime.iso8601]#dateTime.iso8601#  "created_date" - Date created.
+*** [.string]#string#  "action_type"
+*** [.int]#int#  "successful_count" - Number of times action was successful.
+*** [.string]#string#  "earliest_action" - Earliest date this action
                      will occur.
-          *** [.int]#int#  "archived" - If this action is archived. (1 or 0)
-          *** [.string]#string#  "scheduler_user" - available only if concrete user
+*** [.int]#int#  "archived" - If this action is archived. (1 or 0)
+*** [.string]#string#  "scheduler_user" - available only if concrete user
                      has scheduled the action
-          *** [.string]#string#  "prerequisite" - Pre-requisite action. (optional)
-          *** [.string]#string#  "name" - Name of this action.
-          *** [.int]#int#  "id" - Id of this action.
-          *** [.string]#string#  "version" - Version of action.
-          *** [.string]#string#  "completion_time" - The date/time the event was
+*** [.string]#string#  "prerequisite" - Pre-requisite action. (optional)
+*** [.string]#string#  "name" - Name of this action.
+*** [.int]#int#  "id" - Id of this action.
+*** [.string]#string#  "version" - Version of action.
+*** [.string]#string#  "completion_time" - The date/time the event was
                      completed. Format -&gt;YYYY-MM-dd hh:mm:ss.ms
                      Eg -&gt;2007-06-04 13:58:13.0. (optional)
                      (Deprecated by completed_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "completed_date" - The date/time the event was completed.
+*** [.dateTime.iso8601]#dateTime.iso8601#  "completed_date" - The date/time the event was completed.
                      (optional)
-          *** [.string]#string#  "pickup_time" - The date/time the action was picked
+*** [.string]#string#  "pickup_time" - The date/time the action was picked
                      up. Format -&gt;YYYY-MM-dd hh:mm:ss.ms
                      Eg -&gt;2007-06-04 13:58:13.0. (optional)
                      (Deprecated by pickup_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "pickup_date" - The date/time the action was picked up.
+*** [.dateTime.iso8601]#dateTime.iso8601#  "pickup_date" - The date/time the action was picked up.
                      (optional)
-          *** [.string]#string#  "result_msg" - The result string after the action
+*** [.string]#string#  "result_msg" - The result string after the action
                      executes at the client machine. (optional)
-          *** [.array]#array#  "additional_info" - This array contains additional
+*** [.array]#array#  "additional_info" - This array contains additional
               information for the event, if available.
-              *** [.struct]#struct#  - info
-                  **** [.string]#string#  "detail" - The detail provided depends on the
+*** [.struct]#struct#  - info
+**** [.string]#string#  "detail" - The detail provided depends on the
                   specific event.  For example, for a package event, this will be the
                   package name, for an errata event, this will be the advisory name
                   and synopsis, for a config file event, this will be path and
                   optional revision information...etc.
-                  **** [.string]#string#  "result" - The result (if included) depends
+**** [.string]#string#  "result" - The result (if included) depends
                   on the specific event.  For example, for a package or errata event,
                   no result is included, for a config file event, the result might
                   include an error (if one occurred, such as the file was missing)
                   or in the case of a config file comparison it might include the
                   differences found.
-                                 
+ 
 
 Available since API version: 10.8
 
 
-[#apidoc-system-listSystemEvents-2018683696]
+[#apidoc-system-listSystemEvents-965190120]
 == Method: listSystemEvents 
 
 Description:
@@ -3708,59 +3708,59 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - action
-          *** [.int]#int#  "failed_count" - Number of times action failed.
-          *** [.string]#string#  "modified" - Date modified. (Deprecated by
+** [.struct]#struct#  - action
+*** [.int]#int#  "failed_count" - Number of times action failed.
+*** [.string]#string#  "modified" - Date modified. (Deprecated by
                      modified_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "modified_date" - Date modified.
-          *** [.string]#string#  "created" - Date created. (Deprecated by
+*** [.dateTime.iso8601]#dateTime.iso8601#  "modified_date" - Date modified.
+*** [.string]#string#  "created" - Date created. (Deprecated by
                      created_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "created_date" - Date created.
-          *** [.string]#string#  "action_type"
-          *** [.int]#int#  "successful_count" - Number of times action was successful.
-          *** [.string]#string#  "earliest_action" - Earliest date this action
+*** [.dateTime.iso8601]#dateTime.iso8601#  "created_date" - Date created.
+*** [.string]#string#  "action_type"
+*** [.int]#int#  "successful_count" - Number of times action was successful.
+*** [.string]#string#  "earliest_action" - Earliest date this action
                      will occur.
-          *** [.int]#int#  "archived" - If this action is archived. (1 or 0)
-          *** [.string]#string#  "scheduler_user" - available only if concrete user
+*** [.int]#int#  "archived" - If this action is archived. (1 or 0)
+*** [.string]#string#  "scheduler_user" - available only if concrete user
                      has scheduled the action
-          *** [.string]#string#  "prerequisite" - Pre-requisite action. (optional)
-          *** [.string]#string#  "name" - Name of this action.
-          *** [.int]#int#  "id" - Id of this action.
-          *** [.string]#string#  "version" - Version of action.
-          *** [.string]#string#  "completion_time" - The date/time the event was
+*** [.string]#string#  "prerequisite" - Pre-requisite action. (optional)
+*** [.string]#string#  "name" - Name of this action.
+*** [.int]#int#  "id" - Id of this action.
+*** [.string]#string#  "version" - Version of action.
+*** [.string]#string#  "completion_time" - The date/time the event was
                      completed. Format -&gt;YYYY-MM-dd hh:mm:ss.ms
                      Eg -&gt;2007-06-04 13:58:13.0. (optional)
                      (Deprecated by completed_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "completed_date" - The date/time the event was completed.
+*** [.dateTime.iso8601]#dateTime.iso8601#  "completed_date" - The date/time the event was completed.
                      (optional)
-          *** [.string]#string#  "pickup_time" - The date/time the action was picked
+*** [.string]#string#  "pickup_time" - The date/time the action was picked
                      up. Format -&gt;YYYY-MM-dd hh:mm:ss.ms
                      Eg -&gt;2007-06-04 13:58:13.0. (optional)
                      (Deprecated by pickup_date)
-          *** [.dateTime.iso8601]#dateTime.iso8601#  "pickup_date" - The date/time the action was picked up.
+*** [.dateTime.iso8601]#dateTime.iso8601#  "pickup_date" - The date/time the action was picked up.
                      (optional)
-          *** [.string]#string#  "result_msg" - The result string after the action
+*** [.string]#string#  "result_msg" - The result string after the action
                      executes at the client machine. (optional)
-          *** [.array]#array#  "additional_info" - This array contains additional
+*** [.array]#array#  "additional_info" - This array contains additional
               information for the event, if available.
-              *** [.struct]#struct#  - info
-                  **** [.string]#string#  "detail" - The detail provided depends on the
+*** [.struct]#struct#  - info
+**** [.string]#string#  "detail" - The detail provided depends on the
                   specific event.  For example, for a package event, this will be the
                   package name, for an errata event, this will be the advisory name
                   and synopsis, for a config file event, this will be path and
                   optional revision information...etc.
-                  **** [.string]#string#  "result" - The result (if included) depends
+**** [.string]#string#  "result" - The result (if included) depends
                   on the specific event.  For example, for a package or errata event,
                   no result is included, for a config file event, the result might
                   include an error (if one occurred, such as the file was missing)
                   or in the case of a config file comparison it might include the
                   differences found.
-                                 
+ 
 
 Available since API version: 10.8
 
 
-[#apidoc-system-listSystemGroupsForSystemsWithEntitlement-745740822]
+[#apidoc-system-listSystemGroupsForSystemsWithEntitlement-1615348777]
 == Method: listSystemGroupsForSystemsWithEntitlement 
 
 Description:
@@ -3782,17 +3782,17 @@ Returns:
 
 * [.array]#array# :
      * [.struct]#struct#  - system
-   ** [.int]#int#  "id" - system ID
-   ** [.array]#array#  "system_groups"
-     *** [.struct]#struct#  - system_group
-       **** [.int]#int#  "id" - system group ID
-       **** [.string]#string#  "name" - system group name
-          
-    
+** [.int]#int#  "id" - system ID
+** [.array]#array#  "system_groups"
+*** [.struct]#struct#  - system_group
+**** [.int]#int#  "id" - system group ID
+**** [.string]#string#  "name" - system group name
+ 
+ 
 
 
 
-[#apidoc-system-listSystems-133145446]
+[#apidoc-system-listSystems-1477474090]
 == Method: listSystems 
 
 Description:
@@ -3811,18 +3811,18 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-  
-       
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+ 
+ 
 
 
 
-[#apidoc-system-listSystemsWithEntitlement-1198077836]
+[#apidoc-system-listSystemsWithEntitlement-2062904102]
 == Method: listSystemsWithEntitlement 
 
 Description:
@@ -3843,21 +3843,21 @@ Returns:
 
 * [.array]#array# :
                   * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-     ** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
              to any assigned channel
-     ** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
-  
-               
+** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
+ 
+ 
 
 
 
-[#apidoc-system-listSystemsWithExtraPackages-830839136]
+[#apidoc-system-listSystemsWithExtraPackages-1970815074]
 == Method: listSystemsWithExtraPackages 
 
 Description:
@@ -3875,15 +3875,15 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-         ** [.struct]#struct#  - system
-             *** [.int]#int#  "id" - System ID
-             *** [.string]#string#  "name" - System profile name
-             *** [.int]#int#  "extra_pkg_count" - Extra packages count
-               
+** [.struct]#struct#  - system
+*** [.int]#int#  "id" - System ID
+*** [.string]#string#  "name" - System profile name
+*** [.int]#int#  "extra_pkg_count" - Extra packages count
+ 
 
 
 
-[#apidoc-system-listSystemsWithPackage-581639050]
+[#apidoc-system-listSystemsWithPackage-1351307120]
 == Method: listSystemsWithPackage 
 
 Description:
@@ -3904,21 +3904,21 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-     ** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
              to any assigned channel
-     ** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
-  
-            
+** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
+ 
+ 
 
 
 
-[#apidoc-system-listSystemsWithPackage-839348439]
+[#apidoc-system-listSystemsWithPackage-854671988]
 == Method: listSystemsWithPackage 
 
 Description:
@@ -3943,21 +3943,21 @@ Returns:
 
 * [.array]#array# :
                   * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-     ** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
              to any assigned channel
-     ** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
-  
-               
+** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
+ 
+ 
 
 
 
-[#apidoc-system-listUngroupedSystems-1388081103]
+[#apidoc-system-listUngroupedSystems-70231499]
 == Method: listUngroupedSystems 
 
 Description:
@@ -3976,21 +3976,21 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-     ** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
              to any assigned channel
-     ** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
-  
-       
+** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
+ 
+ 
 
 
 
-[#apidoc-system-listUserSystems-1463856502]
+[#apidoc-system-listUserSystems-719635492]
 == Method: listUserSystems 
 
 Description:
@@ -4011,18 +4011,18 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-  
-           
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+ 
+ 
 
 
 
-[#apidoc-system-listUserSystems-1084772008]
+[#apidoc-system-listUserSystems-964736079]
 == Method: listUserSystems 
 
 Description:
@@ -4041,18 +4041,18 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-  
-           
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+ 
+ 
 
 
 
-[#apidoc-system-listVirtualGuests-564164959]
+[#apidoc-system-listVirtualGuests-181211485]
 == Method: listVirtualGuests 
 
 Description:
@@ -4073,19 +4073,19 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - virtual system
-      ** [.int]#int#  "id"
-      ** [.string]#string#  "name"
-      ** [.string]#string#  "guest_name" - The virtual guest name as provided
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.string]#string#  "guest_name" - The virtual guest name as provided
                   by the virtual host
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server successfully
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server successfully
                    checked in.
-      ** [.string]#string#  "uuid"
-    
-      
+** [.string]#string#  "uuid"
+ 
+ 
 
 
 
-[#apidoc-system-listVirtualHosts-1734811057]
+[#apidoc-system-listVirtualHosts-108849833]
 == Method: listVirtualHosts 
 
 Description:
@@ -4104,21 +4104,21 @@ Returns:
 
 * [.array]#array# :
        * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-     ** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+** [.int]#int#  "extra_pkg_count" - Number of packages not belonging
              to any assigned channel
-     ** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
-  
-       
+** [.int]#int#  "outdated_pkg_count" - Number of out-of-date packages
+ 
+ 
 
 
 
-[#apidoc-system-obtainReactivationKey-1895167357]
+[#apidoc-system-obtainReactivationKey-968448640]
 == Method: obtainReactivationKey 
 
 Description:
@@ -4142,7 +4142,7 @@ Returns:
 
 
 
-[#apidoc-system-obtainReactivationKey-806842585]
+[#apidoc-system-obtainReactivationKey-1076664928]
 == Method: obtainReactivationKey 
 
 Description:
@@ -4165,7 +4165,7 @@ Returns:
 Available since API version: 10.10
 
 
-[#apidoc-system-provisionSystem-96423419]
+[#apidoc-system-provisionSystem-621709074]
 == Method: provisionSystem 
 
 Description:
@@ -4192,7 +4192,7 @@ Returns:
 
 
 
-[#apidoc-system-provisionSystem-147043892]
+[#apidoc-system-provisionSystem-200063290]
 == Method: provisionSystem 
 
 Description:
@@ -4221,7 +4221,7 @@ Returns:
 
 
 
-[#apidoc-system-provisionVirtualGuest-1098338771]
+[#apidoc-system-provisionVirtualGuest-550917991]
 == Method: provisionVirtualGuest 
 
 Description:
@@ -4250,7 +4250,7 @@ Returns:
 
 
 
-[#apidoc-system-provisionVirtualGuest-1696962359]
+[#apidoc-system-provisionVirtualGuest-257999182]
 == Method: provisionVirtualGuest 
 
 Description:
@@ -4287,7 +4287,7 @@ Returns:
 
 
 
-[#apidoc-system-provisionVirtualGuest-505920393]
+[#apidoc-system-provisionVirtualGuest-488624810]
 == Method: provisionVirtualGuest 
 
 Description:
@@ -4327,7 +4327,7 @@ Returns:
 
 
 
-[#apidoc-system-refreshPillar-708058685]
+[#apidoc-system-refreshPillar-1120229752]
 == Method: refreshPillar 
 
 Description:
@@ -4353,7 +4353,7 @@ Returns:
 
 
 
-[#apidoc-system-refreshPillar-172871390]
+[#apidoc-system-refreshPillar-1762544384]
 == Method: refreshPillar 
 
 Description:
@@ -4382,7 +4382,7 @@ Returns:
 
 
 
-[#apidoc-system-removeEntitlements-791528455]
+[#apidoc-system-removeEntitlements-1019746237]
 == Method: removeEntitlements 
 
 Description:
@@ -4410,7 +4410,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleApplyErrata-1447901504]
+[#apidoc-system-scheduleApplyErrata-933346995]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4440,7 +4440,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-system-scheduleApplyErrata-1487734150]
+[#apidoc-system-scheduleApplyErrata-298487665]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4472,7 +4472,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-scheduleApplyErrata-1383055428]
+[#apidoc-system-scheduleApplyErrata-508881152]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4505,7 +4505,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-system-scheduleApplyErrata-1164139233]
+[#apidoc-system-scheduleApplyErrata-130574494]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4540,7 +4540,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-scheduleApplyErrata-2061233204]
+[#apidoc-system-scheduleApplyErrata-1034296050]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4577,7 +4577,7 @@ Returns:
 Available since API version: 24
 
 
-[#apidoc-system-scheduleApplyErrata-1256871900]
+[#apidoc-system-scheduleApplyErrata-2018683696]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4606,7 +4606,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-system-scheduleApplyErrata-1722532645]
+[#apidoc-system-scheduleApplyErrata-1098338771]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4637,7 +4637,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-scheduleApplyErrata-960510275]
+[#apidoc-system-scheduleApplyErrata-96423419]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4669,7 +4669,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-system-scheduleApplyErrata-476043283]
+[#apidoc-system-scheduleApplyErrata-147043892]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4703,7 +4703,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-scheduleApplyErrata-76757235]
+[#apidoc-system-scheduleApplyErrata-1696962359]
 == Method: scheduleApplyErrata 
 
 Description:
@@ -4739,7 +4739,7 @@ Returns:
 Available since API version: 24
 
 
-[#apidoc-system-scheduleApplyHighstate-1180241360]
+[#apidoc-system-scheduleApplyHighstate-1931283804]
 == Method: scheduleApplyHighstate 
 
 Description:
@@ -4751,7 +4751,7 @@ Schedule highstate application for a given system.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  serverId
  
@@ -4767,7 +4767,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleApplyHighstate-1819508699]
+[#apidoc-system-scheduleApplyHighstate-1577337565]
 == Method: scheduleApplyHighstate 
 
 Description:
@@ -4779,7 +4779,7 @@ Schedule highstate application for a given system.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.array]#array# :
 ** [.int]#int#  - systemIds
@@ -4796,7 +4796,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleApplyStates-1722366757]
+[#apidoc-system-scheduleApplyStates-417816833]
 == Method: scheduleApplyStates 
 
 Description:
@@ -4808,7 +4808,7 @@ Schedule highstate application for a given system.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  serverId
  
@@ -4827,7 +4827,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleApplyStates-1061115215]
+[#apidoc-system-scheduleApplyStates-2033490785]
 == Method: scheduleApplyStates 
 
 Description:
@@ -4839,7 +4839,7 @@ Schedule highstate application for a given system.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.array]#array# :
 ** [.int]#int#  - systemIds
@@ -4859,7 +4859,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleCertificateUpdate-895177676]
+[#apidoc-system-scheduleCertificateUpdate-671127968]
 == Method: scheduleCertificateUpdate 
 
 Description:
@@ -4883,7 +4883,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleCertificateUpdate-627597596]
+[#apidoc-system-scheduleCertificateUpdate-2060069278]
 == Method: scheduleCertificateUpdate 
 
 Description:
@@ -4909,7 +4909,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleChangeChannels-647607894]
+[#apidoc-system-scheduleChangeChannels-1198139417]
 == Method: scheduleChangeChannels 
 
 Description:
@@ -4946,7 +4946,7 @@ Returns:
 Available since API version: 19.0
 
 
-[#apidoc-system-scheduleChangeChannels-1567077043]
+[#apidoc-system-scheduleChangeChannels-664449374]
 == Method: scheduleChangeChannels 
 
 Description:
@@ -4983,7 +4983,7 @@ Returns:
 Available since API version: 19.0
 
 
-[#apidoc-system-scheduleDistUpgrade-2033490785]
+[#apidoc-system-scheduleDistUpgrade-919456480]
 == Method: scheduleDistUpgrade 
 
 Description:
@@ -5018,7 +5018,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleDistUpgrade-1649942262]
+[#apidoc-system-scheduleDistUpgrade-1375340999]
 == Method: scheduleDistUpgrade 
 
 Description:
@@ -5055,7 +5055,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleGuestAction-1970815074]
+[#apidoc-system-scheduleGuestAction-211207319]
 == Method: scheduleGuestAction 
 
 Description:
@@ -5068,7 +5068,7 @@ Schedules a guest action for the specified virtual guest for a given
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  sid - the system Id of the guest
  
@@ -5085,7 +5085,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleGuestAction-1462809875]
+[#apidoc-system-scheduleGuestAction-1848867745]
 == Method: scheduleGuestAction 
 
 Description:
@@ -5098,7 +5098,7 @@ Schedules a guest action for the specified virtual guest for the
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  sid - the system Id of the guest
  
@@ -5113,7 +5113,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleHardwareRefresh-757310910]
+[#apidoc-system-scheduleHardwareRefresh-78372190]
 == Method: scheduleHardwareRefresh 
 
 Description:
@@ -5140,7 +5140,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-system-schedulePackageInstall-1877590088]
+[#apidoc-system-schedulePackageInstall-1395566699]
 == Method: schedulePackageInstall 
 
 Description:
@@ -5171,7 +5171,7 @@ Returns:
 
 
 
-[#apidoc-system-schedulePackageInstall-88950472]
+[#apidoc-system-schedulePackageInstall-1108976844]
 == Method: schedulePackageInstall 
 
 Description:
@@ -5205,7 +5205,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-schedulePackageInstall-500934560]
+[#apidoc-system-schedulePackageInstall-767266208]
 == Method: schedulePackageInstall 
 
 Description:
@@ -5235,7 +5235,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-system-schedulePackageInstall-1546957042]
+[#apidoc-system-schedulePackageInstall-825281081]
 == Method: schedulePackageInstall 
 
 Description:
@@ -5267,7 +5267,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-schedulePackageInstallByNevra-2113847484]
+[#apidoc-system-schedulePackageInstallByNevra-402346372]
 == Method: schedulePackageInstallByNevra 
 
 Description:
@@ -5285,14 +5285,14 @@ Parameters:
 ** [.int]#int#  - serverId
  
 * [.array]#array# :
-                   ** [.struct]#struct#  - Package nevra
-                          *** [.string]#string#  "package_name"
-                          *** [.string]#string#  "package_epoch"
-                          *** [.string]#string#  "package_version"
-                          *** [.string]#string#  "package_release"
-                          *** [.string]#string#  "package_arch"
+** [.struct]#struct#  - Package nevra
+*** [.string]#string#  "package_name"
+*** [.string]#string#  "package_epoch"
+*** [.string]#string#  "package_version"
+*** [.string]#string#  "package_release"
+*** [.string]#string#  "package_arch"
 
-                                   
+ 
 * dateTime.iso8601 earliestOccurrence 
  
 
@@ -5304,7 +5304,7 @@ Returns:
 
 
 
-[#apidoc-system-schedulePackageInstallByNevra-317366989]
+[#apidoc-system-schedulePackageInstallByNevra-407615603]
 == Method: schedulePackageInstallByNevra 
 
 Description:
@@ -5322,14 +5322,14 @@ Parameters:
 ** [.int]#int#  - serverId
  
 * [.array]#array# :
-                   ** [.struct]#struct#  - Package nevra
-                          *** [.string]#string#  "package_name"
-                          *** [.string]#string#  "package_epoch"
-                          *** [.string]#string#  "package_version"
-                          *** [.string]#string#  "package_release"
-                          *** [.string]#string#  "package_arch"
+** [.struct]#struct#  - Package nevra
+*** [.string]#string#  "package_name"
+*** [.string]#string#  "package_epoch"
+*** [.string]#string#  "package_version"
+*** [.string]#string#  "package_release"
+*** [.string]#string#  "package_arch"
 
-                                   
+ 
 * dateTime.iso8601 earliestOccurrence 
  
 * [.boolean]#boolean#  allowModules - Allow this API call, despite modular content being present
@@ -5344,7 +5344,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-schedulePackageInstallByNevra-1389162903]
+[#apidoc-system-schedulePackageInstallByNevra-1768742999]
 == Method: schedulePackageInstallByNevra 
 
 Description:
@@ -5361,14 +5361,14 @@ Parameters:
 * [.int]#int#  serverId
  
 * [.array]#array# :
-                   ** [.struct]#struct#  - Package nevra
-                          *** [.string]#string#  "package_name"
-                          *** [.string]#string#  "package_epoch"
-                          *** [.string]#string#  "package_version"
-                          *** [.string]#string#  "package_release"
-                          *** [.string]#string#  "package_arch"
+** [.struct]#struct#  - Package nevra
+*** [.string]#string#  "package_name"
+*** [.string]#string#  "package_epoch"
+*** [.string]#string#  "package_version"
+*** [.string]#string#  "package_release"
+*** [.string]#string#  "package_arch"
 
-                                   
+ 
 * dateTime.iso8601 earliestOccurrence 
  
 
@@ -5379,7 +5379,7 @@ Returns:
 
 
 
-[#apidoc-system-schedulePackageInstallByNevra-721840156]
+[#apidoc-system-schedulePackageInstallByNevra-1589288513]
 == Method: schedulePackageInstallByNevra 
 
 Description:
@@ -5396,14 +5396,14 @@ Parameters:
 * [.int]#int#  serverId
  
 * [.array]#array# :
-                   ** [.struct]#struct#  - Package nevra
-                          *** [.string]#string#  "package_name"
-                          *** [.string]#string#  "package_epoch"
-                          *** [.string]#string#  "package_version"
-                          *** [.string]#string#  "package_release"
-                          *** [.string]#string#  "package_arch"
+** [.struct]#struct#  - Package nevra
+*** [.string]#string#  "package_name"
+*** [.string]#string#  "package_epoch"
+*** [.string]#string#  "package_version"
+*** [.string]#string#  "package_release"
+*** [.string]#string#  "package_arch"
 
-                                   
+ 
 * dateTime.iso8601 earliestOccurrence 
  
 * [.boolean]#boolean#  allowModules - Allow this API call, despite modular content being present
@@ -5417,7 +5417,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-schedulePackageLockChange-1894076099]
+[#apidoc-system-schedulePackageLockChange-960510275]
 == Method: schedulePackageLockChange 
 
 Description:
@@ -5449,7 +5449,7 @@ Returns:
 
 
 
-[#apidoc-system-schedulePackageRefresh-1370106456]
+[#apidoc-system-schedulePackageRefresh-1725305496]
 == Method: schedulePackageRefresh 
 
 Description:
@@ -5476,7 +5476,7 @@ Returns:
 
 
 
-[#apidoc-system-schedulePackageRemove-553039584]
+[#apidoc-system-schedulePackageRemove-327193443]
 == Method: schedulePackageRemove 
 
 Description:
@@ -5507,7 +5507,7 @@ Returns:
 
 
 
-[#apidoc-system-schedulePackageRemove-1741522169]
+[#apidoc-system-schedulePackageRemove-1447901504]
 == Method: schedulePackageRemove 
 
 Description:
@@ -5541,7 +5541,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-schedulePackageRemove-1387827678]
+[#apidoc-system-schedulePackageRemove-1487734150]
 == Method: schedulePackageRemove 
 
 Description:
@@ -5570,7 +5570,7 @@ Returns:
 
 
 
-[#apidoc-system-schedulePackageRemove-1256604957]
+[#apidoc-system-schedulePackageRemove-1383055428]
 == Method: schedulePackageRemove 
 
 Description:
@@ -5602,7 +5602,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-schedulePackageRemoveByNevra-1597156119]
+[#apidoc-system-schedulePackageRemoveByNevra-1164139233]
 == Method: schedulePackageRemoveByNevra 
 
 Description:
@@ -5620,14 +5620,14 @@ Parameters:
 ** [.int]#int#  - serverId
  
 * [.array]#array# :
-                   ** [.struct]#struct#  - Package nevra
-                          *** [.string]#string#  "package_name"
-                          *** [.string]#string#  "package_epoch"
-                          *** [.string]#string#  "package_version"
-                          *** [.string]#string#  "package_release"
-                          *** [.string]#string#  "package_arch"
+** [.struct]#struct#  - Package nevra
+*** [.string]#string#  "package_name"
+*** [.string]#string#  "package_epoch"
+*** [.string]#string#  "package_version"
+*** [.string]#string#  "package_release"
+*** [.string]#string#  "package_arch"
 
-                                   
+ 
 * dateTime.iso8601 earliestOccurrence 
  
 
@@ -5639,7 +5639,7 @@ Returns:
 
 
 
-[#apidoc-system-schedulePackageRemoveByNevra-1414727236]
+[#apidoc-system-schedulePackageRemoveByNevra-2061233204]
 == Method: schedulePackageRemoveByNevra 
 
 Description:
@@ -5657,14 +5657,14 @@ Parameters:
 ** [.int]#int#  - serverId
  
 * [.array]#array# :
-                   ** [.struct]#struct#  - Package nevra
-                          *** [.string]#string#  "package_name"
-                          *** [.string]#string#  "package_epoch"
-                          *** [.string]#string#  "package_version"
-                          *** [.string]#string#  "package_release"
-                          *** [.string]#string#  "package_arch"
+** [.struct]#struct#  - Package nevra
+*** [.string]#string#  "package_name"
+*** [.string]#string#  "package_epoch"
+*** [.string]#string#  "package_version"
+*** [.string]#string#  "package_release"
+*** [.string]#string#  "package_arch"
 
-                                   
+ 
 * dateTime.iso8601 earliestOccurrence 
  
 * [.boolean]#boolean#  allowModules - Allow this API call, despite modular content being present
@@ -5679,7 +5679,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-schedulePackageRemoveByNevra-1114852209]
+[#apidoc-system-schedulePackageRemoveByNevra-1256871900]
 == Method: schedulePackageRemoveByNevra 
 
 Description:
@@ -5696,14 +5696,14 @@ Parameters:
 * [.int]#int#  serverId
  
 * [.array]#array# :
-                   ** [.struct]#struct#  - Package nevra
-                          *** [.string]#string#  "package_name"
-                          *** [.string]#string#  "package_epoch"
-                          *** [.string]#string#  "package_version"
-                          *** [.string]#string#  "package_release"
-                          *** [.string]#string#  "package_arch"
+** [.struct]#struct#  - Package nevra
+*** [.string]#string#  "package_name"
+*** [.string]#string#  "package_epoch"
+*** [.string]#string#  "package_version"
+*** [.string]#string#  "package_release"
+*** [.string]#string#  "package_arch"
 
-                                   
+ 
 * dateTime.iso8601 earliestOccurrence 
  
 
@@ -5715,7 +5715,7 @@ Returns:
 
 
 
-[#apidoc-system-schedulePackageRemoveByNevra-977612943]
+[#apidoc-system-schedulePackageRemoveByNevra-1722532645]
 == Method: schedulePackageRemoveByNevra 
 
 Description:
@@ -5732,14 +5732,14 @@ Parameters:
 * [.int]#int#  serverId
  
 * [.array]#array# :
-                   ** [.struct]#struct#  - Package nevra
-                          *** [.string]#string#  "package_name"
-                          *** [.string]#string#  "package_epoch"
-                          *** [.string]#string#  "package_version"
-                          *** [.string]#string#  "package_release"
-                          *** [.string]#string#  "package_arch"
+** [.struct]#struct#  - Package nevra
+*** [.string]#string#  "package_name"
+*** [.string]#string#  "package_epoch"
+*** [.string]#string#  "package_version"
+*** [.string]#string#  "package_release"
+*** [.string]#string#  "package_arch"
 
-                                   
+ 
 * dateTime.iso8601 earliestOccurrence 
  
 * [.boolean]#boolean#  allowModules - Allow this API call, despite modular content being present
@@ -5754,7 +5754,7 @@ Returns:
 Available since API version: 21
 
 
-[#apidoc-system-scheduleProductMigration-447706039]
+[#apidoc-system-scheduleProductMigration-807296291]
 == Method: scheduleProductMigration 
 
 Description:
@@ -5791,7 +5791,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleProductMigration-1931283804]
+[#apidoc-system-scheduleProductMigration-960220523]
 == Method: scheduleProductMigration 
 
 Description:
@@ -5830,7 +5830,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleProductMigration-1577337565]
+[#apidoc-system-scheduleProductMigration-1688786293]
 == Method: scheduleProductMigration 
 
 Description:
@@ -5869,7 +5869,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleProductMigration-417816833]
+[#apidoc-system-scheduleProductMigration-1954051593]
 == Method: scheduleProductMigration 
 
 Description:
@@ -5910,7 +5910,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleReboot-1438859728]
+[#apidoc-system-scheduleReboot-1597156119]
 == Method: scheduleReboot 
 
 Description:
@@ -5937,7 +5937,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-system-scheduleSPMigration-1310414130]
+[#apidoc-system-scheduleSPMigration-1711574174]
 == Method: scheduleSPMigration (Deprecated)
 
 Description:
@@ -5979,7 +5979,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleSPMigration-913045000]
+[#apidoc-system-scheduleSPMigration-1413194465]
 == Method: scheduleSPMigration (Deprecated)
 
 Description:
@@ -6024,7 +6024,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleSPMigration-1264377095]
+[#apidoc-system-scheduleSPMigration-1900380536]
 == Method: scheduleSPMigration (Deprecated)
 
 Description:
@@ -6069,7 +6069,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleSPMigration-243860881]
+[#apidoc-system-scheduleSPMigration-1916559238]
 == Method: scheduleSPMigration (Deprecated)
 
 Description:
@@ -6116,7 +6116,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleScriptRun-1919782816]
+[#apidoc-system-scheduleScriptRun-2074077713]
 == Method: scheduleScriptRun 
 
 Description:
@@ -6156,7 +6156,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleScriptRun-1448428389]
+[#apidoc-system-scheduleScriptRun-209516740]
 == Method: scheduleScriptRun 
 
 Description:
@@ -6194,7 +6194,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleScriptRun-1718293060]
+[#apidoc-system-scheduleScriptRun-1458013496]
 == Method: scheduleScriptRun 
 
 Description:
@@ -6231,7 +6231,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleScriptRun-1712524347]
+[#apidoc-system-scheduleScriptRun-7544750]
 == Method: scheduleScriptRun 
 
 Description:
@@ -6270,7 +6270,7 @@ Returns:
 
 
 
-[#apidoc-system-scheduleSyncPackagesWithSystem-2076760639]
+[#apidoc-system-scheduleSyncPackagesWithSystem-1712524347]
 == Method: scheduleSyncPackagesWithSystem 
 
 Description:
@@ -6304,7 +6304,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-system-searchByName-812381379]
+[#apidoc-system-searchByName-2087233084]
 == Method: searchByName 
 
 Description:
@@ -6328,18 +6328,18 @@ Returns:
 
 * [.array]#array# :
               * [.struct]#struct#  - system
-     ** [.int]#int#  "id"
-     ** [.string]#string#  "name"
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_checkin" - Last time server
              successfully checked in
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
-     ** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
-  
-           
+** [.dateTime.iso8601]#dateTime.iso8601#  "created" - Server registration time
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_boot" - Last server boot time
+ 
+ 
 
 
 
-[#apidoc-system-sendOsaPing-735738459]
+[#apidoc-system-sendOsaPing-469053200]
 == Method: sendOsaPing 
 
 Description:
@@ -6363,7 +6363,7 @@ Returns:
 
 
 
-[#apidoc-system-setBaseChannel-57866172]
+[#apidoc-system-setBaseChannel-18758920]
 == Method: setBaseChannel (Deprecated)
 
 Description:
@@ -6391,7 +6391,7 @@ Returns:
 
 
 
-[#apidoc-system-setBaseChannel-149474995]
+[#apidoc-system-setBaseChannel-633686225]
 == Method: setBaseChannel (Deprecated)
 
 Description:
@@ -6421,7 +6421,7 @@ Returns:
 
 
 
-[#apidoc-system-setChildChannels-535600435]
+[#apidoc-system-setChildChannels-249416123]
 == Method: setChildChannels (Deprecated)
 
 Description:
@@ -6457,7 +6457,7 @@ Returns:
 
 
 
-[#apidoc-system-setCustomValues-2043169223]
+[#apidoc-system-setCustomValues-595245714]
 == Method: setCustomValues 
 
 Description:
@@ -6474,9 +6474,9 @@ Parameters:
 * [.int]#int#  serverId
  
 * [.struct]#struct#  - Map of custom labels to custom values
-      ** [.string]#string#  "custom info label"
-      ** [.string]#string#  "value"
-     
+** [.string]#string#  "custom info label"
+** [.string]#string#  "value"
+ 
 
 Returns:
 
@@ -6485,7 +6485,7 @@ Returns:
 
 
 
-[#apidoc-system-setDetails-1030999416]
+[#apidoc-system-setDetails-1114852209]
 == Method: setDetails 
 
 Description:
@@ -6503,27 +6503,27 @@ Parameters:
 * [.int]#int#  serverId - ID of server to lookup details for.
  
 * [.struct]#struct#  - server details
-          ** [.string]#string#  "profile_name" - System's profile name
-          ** [.string]#string#  "base_entitlement" - System's base entitlement label.
+** [.string]#string#  "profile_name" - System's profile name
+** [.string]#string#  "base_entitlement" - System's base entitlement label.
                       (enterprise_entitled or unentitle)
-           ** [.boolean]#boolean#  "auto_errata_update" - True if system has
+** [.boolean]#boolean#  "auto_errata_update" - True if system has
                           auto errata updates enabled
-           ** [.string]#string#  "description" - System description
-           ** [.string]#string#  "address1" - System's address line 1.
-           ** [.string]#string#  "address2" - System's address line 2.
-           ** [.string]#string#  "city"
-           ** [.string]#string#  "state"
-           ** [.string]#string#  "country"
-           ** [.string]#string#  "building"
-           ** [.string]#string#  "room"
-           ** [.string]#string#  "rack"
-           ** [.string]#string#  "contact_method" - One of the following:
-             
-               ** default
-               ** ssh-push
-               ** ssh-push-tunnel
-             
-      
+** [.string]#string#  "description" - System description
+** [.string]#string#  "address1" - System's address line 1.
+** [.string]#string#  "address2" - System's address line 2.
+** [.string]#string#  "city"
+** [.string]#string#  "state"
+** [.string]#string#  "country"
+** [.string]#string#  "building"
+** [.string]#string#  "room"
+** [.string]#string#  "rack"
+** [.string]#string#  "contact_method" - One of the following:
+
+** default
+** ssh-push
+** ssh-push-tunnel
+
+ 
 
 Returns:
 
@@ -6532,7 +6532,7 @@ Returns:
 
 
 
-[#apidoc-system-setGroupMembership-2087233084]
+[#apidoc-system-setGroupMembership-1554565380]
 == Method: setGroupMembership 
 
 Description:
@@ -6562,7 +6562,7 @@ Returns:
 
 
 
-[#apidoc-system-setGuestCpus-1456947885]
+[#apidoc-system-setGuestCpus-791528455]
 == Method: setGuestCpus 
 
 Description:
@@ -6575,7 +6575,7 @@ Schedule an action of a guest's host, to set that guest's CPU
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  sid - The guest's system id
  
@@ -6591,7 +6591,7 @@ Returns:
 
 
 
-[#apidoc-system-setGuestMemory-784422651]
+[#apidoc-system-setGuestMemory-1171196949]
 == Method: setGuestMemory 
 
 Description:
@@ -6604,7 +6604,7 @@ Schedule an action of a guest's host, to set that guest's memory
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  sid - The guest's system id
  
@@ -6620,7 +6620,7 @@ Returns:
 
 
 
-[#apidoc-system-setLockStatus-181211485]
+[#apidoc-system-setLockStatus-977612943]
 == Method: setLockStatus 
 
 Description:
@@ -6647,7 +6647,7 @@ Returns:
 
 
 
-[#apidoc-system-setPrimaryFqdn-680034596]
+[#apidoc-system-setPrimaryFqdn-525119867]
 == Method: setPrimaryFqdn 
 
 Description:
@@ -6673,7 +6673,7 @@ Returns:
 
 
 
-[#apidoc-system-setPrimaryInterface-1030126425]
+[#apidoc-system-setPrimaryInterface-1944213376]
 == Method: setPrimaryInterface 
 
 Description:
@@ -6699,7 +6699,7 @@ Returns:
 
 
 
-[#apidoc-system-setProfileName-1705173326]
+[#apidoc-system-setProfileName-1432768646]
 == Method: setProfileName 
 
 Description:
@@ -6725,7 +6725,7 @@ Returns:
 
 
 
-[#apidoc-system-setVariables-1916559238]
+[#apidoc-system-setVariables-529351377]
 == Method: setVariables 
 
 Description:
@@ -6752,10 +6752,10 @@ Parameters:
 * [.boolean]#boolean#  netboot
  
 * [.array]#array# :
-          ** [.struct]#struct#  - kickstart variable
-              *** [.string]#string#  "key"
-              *** [.string or int]#string or int#  "value"
-                 
+** [.struct]#struct#  - kickstart variable
+*** [.string]#string#  "key"
+*** [.string or int]#string or int#  "value"
+ 
 
 Returns:
 
@@ -6764,7 +6764,7 @@ Returns:
 
 
 
-[#apidoc-system-tagLatestSnapshot-2130883284]
+[#apidoc-system-tagLatestSnapshot-784422651]
 == Method: tagLatestSnapshot 
 
 Description:
@@ -6790,7 +6790,7 @@ Returns:
 
 
 
-[#apidoc-system-unentitle-211207319]
+[#apidoc-system-unentitle-1689840534]
 == Method: unentitle 
 
 Description:
@@ -6812,7 +6812,7 @@ Returns:
 
 
 
-[#apidoc-system-updatePackageState-830929141]
+[#apidoc-system-updatePackageState-1649942262]
 == Method: updatePackageState 
 
 Description:
@@ -6825,7 +6825,7 @@ Update the package state of a given system
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  serverId
  
@@ -6843,7 +6843,7 @@ Returns:
 
 
 
-[#apidoc-system-upgradeEntitlement-1089324622]
+[#apidoc-system-upgradeEntitlement-2101604809]
 == Method: upgradeEntitlement 
 
 Description:
@@ -6870,7 +6870,7 @@ Returns:
 
 
 
-[#apidoc-system-whoRegistered-780043512]
+[#apidoc-system-whoRegistered-694943195]
 == Method: whoRegistered 
 
 Description:
@@ -6890,12 +6890,12 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - user
-              ** [.int]#int#  "id"
-              ** [.string]#string#  "login"
-              ** [.string]#string#  "login_uc" - upper case version of the login
-              ** [.boolean]#boolean#  "enabled" - true if user is enabled,
+** [.int]#int#  "id"
+** [.string]#string#  "login"
+** [.string]#string#  "login_uc" - upper case version of the login
+** [.boolean]#boolean#  "enabled" - true if user is enabled,
                          false if the user is disabled
-        
+  
  
 
 

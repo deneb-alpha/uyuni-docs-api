@@ -4,9 +4,9 @@
 
 == Available methods
 
-* <<apidoc-image_delta-createDeltaImage-921452657,createDeltaImage>>
-* <<apidoc-image_delta-getDetails-379671137,getDetails>>
-* <<apidoc-image_delta-listDeltas-595319755,listDeltas>>
+* <<apidoc-image_delta-createDeltaImage-381760603,createDeltaImage>>
+* <<apidoc-image_delta-getDetails-992521115,getDetails>>
+* <<apidoc-image_delta-listDeltas-918664959,listDeltas>>
 
 == Description
 
@@ -17,7 +17,7 @@ Provides methods to access and modify delta images.
 image.delta
 
 
-[#apidoc-image_delta-createDeltaImage-921452657]
+[#apidoc-image_delta-createDeltaImage-381760603]
 == Method: createDeltaImage 
 
 Description:
@@ -42,12 +42,12 @@ Parameters:
 
 Returns:
 
-* [.int]#int#  id - ID of the inspect action created
+* [.int]#int#  - 1 on success, exception thrown otherwise.
  
 
 
 
-[#apidoc-image_delta-getDetails-379671137]
+[#apidoc-image_delta-getDetails-992521115]
 == Method: getDetails 
 
 Description:
@@ -69,16 +69,16 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - Delta Image information
-   ** [.int]#int#  "source_id"
-   ** [.int]#int#  "target_id"
-   ** [.string]#string#  "file" - file path
-   ** [.struct]#struct#  "pillar" - pillar data
-   
+** [.int]#int#  "source_id"
+** [.int]#int#  "target_id"
+** [.string]#string#  "file" - file path
+** [.struct]#struct#  "pillar" - pillar data
+  
  
 
 
 
-[#apidoc-image_delta-listDeltas-595319755]
+[#apidoc-image_delta-listDeltas-918664959]
 == Method: listDeltas 
 
 Description:
@@ -97,10 +97,11 @@ Returns:
 
 * [.array]#array# :
  * [.struct]#struct#  - Delta Image information
-   ** [.int]#int#  "source_id"
-   ** [.int]#int#  "target_id"
-   ** [.string]#string#  "file" - file path
-   ** [.struct]#struct#  "pillar" - pillar data
-    
+** [.int]#int#  "source_id"
+** [.int]#int#  "target_id"
+** [.string]#string#  "file" - file path
+** [.struct]#struct#  "pillar" - pillar data
+   
+ 
 
 

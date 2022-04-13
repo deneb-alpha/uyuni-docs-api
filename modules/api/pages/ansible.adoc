@@ -4,18 +4,18 @@
 
 == Available methods
 
-* <<apidoc-ansible-createAnsiblePath-1843272693,createAnsiblePath>>
-* <<apidoc-ansible-discoverPlaybooks-514420722,discoverPlaybooks>>
-* <<apidoc-ansible-fetchPlaybookContents-53857746,fetchPlaybookContents>>
-* <<apidoc-ansible-introspectInventory-1621729085,introspectInventory>>
-* <<apidoc-ansible-listAnsiblePaths-1260527949,listAnsiblePaths>>
-* <<apidoc-ansible-lookupAnsiblePathById-1233871134,lookupAnsiblePathById>>
-* <<apidoc-ansible-removeAnsiblePath-287628665,removeAnsiblePath>>
-* <<apidoc-ansible-schedulePlaybook-1253600042,schedulePlaybook>>
-* <<apidoc-ansible-schedulePlaybook-2006168925,schedulePlaybook>>
-* <<apidoc-ansible-schedulePlaybook-717874492,schedulePlaybook>>
-* <<apidoc-ansible-schedulePlaybook-1254589807,schedulePlaybook>>
-* <<apidoc-ansible-updateAnsiblePath-1263973655,updateAnsiblePath>>
+* <<apidoc-ansible-createAnsiblePath-1015178392,createAnsiblePath>>
+* <<apidoc-ansible-discoverPlaybooks-2098556815,discoverPlaybooks>>
+* <<apidoc-ansible-fetchPlaybookContents-1377593328,fetchPlaybookContents>>
+* <<apidoc-ansible-introspectInventory-1159395201,introspectInventory>>
+* <<apidoc-ansible-listAnsiblePaths-1188469924,listAnsiblePaths>>
+* <<apidoc-ansible-lookupAnsiblePathById-1553686114,lookupAnsiblePathById>>
+* <<apidoc-ansible-removeAnsiblePath-1425169218,removeAnsiblePath>>
+* <<apidoc-ansible-schedulePlaybook-2093965588,schedulePlaybook>>
+* <<apidoc-ansible-schedulePlaybook-1039352074,schedulePlaybook>>
+* <<apidoc-ansible-schedulePlaybook-1728845596,schedulePlaybook>>
+* <<apidoc-ansible-schedulePlaybook-1641292405,schedulePlaybook>>
+* <<apidoc-ansible-updateAnsiblePath-640929948,updateAnsiblePath>>
 
 == Description
 
@@ -26,7 +26,7 @@ Provides methods to manage Ansible systems
 ansible
 
 
-[#apidoc-ansible-createAnsiblePath-1843272693]
+[#apidoc-ansible-createAnsiblePath-1015178392]
 == Method: createAnsiblePath 
 
 Description:
@@ -38,29 +38,29 @@ Create ansible path
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  pathId - path id
  
 * [.struct]#struct#  - props
-      ** [.string]#string#  "type" - The ansible path type: 'inventory' or 'playbook'
-      ** [.int]#int#  "server_id" - ID of control node server
-      ** [.string]#string#  "path" - The local path to inventory/playbook
-   
+** [.string]#string#  "type" - The ansible path type: 'inventory' or 'playbook'
+** [.int]#int#  "server_id" - ID of control node server
+** [.string]#string#  "path" - The local path to inventory/playbook
+ 
 
 Returns:
 
 * * [.struct]#struct#  - ansible path
-     ** [.int]#int#  "path id"
-     ** [.string]#string#  "type label"
-     ** [.int]#int#  "id of the ansible control node system"
-     ** [.string]#string#  "local path to inventory or playbook"
-     
+** [.int]#int#  "path id"
+** [.string]#string#  "type label"
+** [.int]#int#  "id of the ansible control node system"
+** [.string]#string#  "local path to inventory or playbook"
+  
  
 
 
 
-[#apidoc-ansible-discoverPlaybooks-514420722]
+[#apidoc-ansible-discoverPlaybooks-2098556815]
 == Method: discoverPlaybooks 
 
 Description:
@@ -72,7 +72,7 @@ Discover playbooks under given playbook path with given pathId
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  pathId - path id
  
@@ -80,18 +80,18 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - playbooks
-     ** [.struct]#struct#  - playbook
+** [.struct]#struct#  - playbook
          * [.struct]#struct#  - ansible path
-     ** [.int]#int#  "path id"
-     ** [.string]#string#  "type label"
-     ** [.int]#int#  "id of the ansible control node system"
-     ** [.string]#string#  "local path to inventory or playbook"
-    
-       
+** [.int]#int#  "path id"
+** [.string]#string#  "type label"
+** [.int]#int#  "id of the ansible control node system"
+** [.string]#string#  "local path to inventory or playbook"
+ 
+ 
 
 
 
-[#apidoc-ansible-fetchPlaybookContents-53857746]
+[#apidoc-ansible-fetchPlaybookContents-1377593328]
 == Method: fetchPlaybookContents 
 
 Description:
@@ -103,7 +103,7 @@ Fetch the playbook content from the control node using a synchronous salt call.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  pathId - playbook path id
  
@@ -118,7 +118,7 @@ Returns:
 
 
 
-[#apidoc-ansible-introspectInventory-1621729085]
+[#apidoc-ansible-introspectInventory-1159395201]
 == Method: introspectInventory 
 
 Description:
@@ -130,7 +130,7 @@ Introspect inventory under given inventory path with given pathId and return it 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  pathId - path id
  
@@ -138,12 +138,12 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - Inventory in a nested structure
-   ** [.object]#object#  Inventory item - Inventory item (can be nested)
-  
+** [.object]#object#  Inventory item - Inventory item (can be nested)
+ 
 
 
 
-[#apidoc-ansible-listAnsiblePaths-1260527949]
+[#apidoc-ansible-listAnsiblePaths-1188469924]
 == Method: listAnsiblePaths 
 
 Description:
@@ -155,7 +155,7 @@ List ansible paths for server (control node)
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  controlNodeId - id of ansible control node server
  
@@ -164,16 +164,16 @@ Returns:
 
 * [.array]#array# :
  * [.struct]#struct#  - ansible path
-     ** [.int]#int#  "path id"
-     ** [.string]#string#  "type label"
-     ** [.int]#int#  "id of the ansible control node system"
-     ** [.string]#string#  "local path to inventory or playbook"
-    
-  
+** [.int]#int#  "path id"
+** [.string]#string#  "type label"
+** [.int]#int#  "id of the ansible control node system"
+** [.string]#string#  "local path to inventory or playbook"
+ 
+ 
 
 
 
-[#apidoc-ansible-lookupAnsiblePathById-1233871134]
+[#apidoc-ansible-lookupAnsiblePathById-1553686114]
 == Method: lookupAnsiblePathById 
 
 Description:
@@ -185,7 +185,7 @@ Lookup ansible path by path id
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  pathId - path id
  
@@ -193,16 +193,16 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - ansible path
-     ** [.int]#int#  "path id"
-     ** [.string]#string#  "type label"
-     ** [.int]#int#  "id of the ansible control node system"
-     ** [.string]#string#  "local path to inventory or playbook"
-     
+** [.int]#int#  "path id"
+** [.string]#string#  "type label"
+** [.int]#int#  "id of the ansible control node system"
+** [.string]#string#  "local path to inventory or playbook"
+  
  
 
 
 
-[#apidoc-ansible-removeAnsiblePath-287628665]
+[#apidoc-ansible-removeAnsiblePath-1425169218]
 == Method: removeAnsiblePath 
 
 Description:
@@ -214,7 +214,7 @@ Create ansible path
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  pathId - path id
  
@@ -226,7 +226,7 @@ Returns:
 
 
 
-[#apidoc-ansible-schedulePlaybook-1253600042]
+[#apidoc-ansible-schedulePlaybook-2093965588]
 == Method: schedulePlaybook 
 
 Description:
@@ -258,76 +258,7 @@ Returns:
 
 
 
-[#apidoc-ansible-schedulePlaybook-2006168925]
-== Method: schedulePlaybook 
-
-Description:
-
-Schedule a playbook execution
-
-
-
-
-Parameters:
-
-* [.string]#string#  sessionKey
- 
-* [.string]#string#  playbookPath
- 
-* [.string]#string#  inventoryPath - path to Ansible inventory or empty
- 
-* [.int]#int#  controlNodeId - system ID of the control node
- 
-* [.dateTime.iso8601]#dateTime.iso8601#  earliestOccurrence - earliest the execution command can be sent to the control node. ignored when actionChainLabel is used
- 
-* [.string]#string#  actionChainLabel - label of an action chain to use, or None
- 
-* [.boolean]#boolean#  testMode - 'true' if the playbook shall be executed in test mode
- 
-
-Returns:
-
-* [.int]#int#  id - ID of the playbook execution action created
- 
-
-
-
-[#apidoc-ansible-schedulePlaybook-717874492]
-== Method: schedulePlaybook 
-
-Description:
-
-Schedule a playbook execution
-
-
-
-
-Parameters:
-
-* [.string]#string#  sessionKey
- 
-* [.string]#string#  playbookPath
- 
-* [.string]#string#  inventoryPath - path to Ansible inventory or empty
- 
-* [.int]#int#  controlNodeId - system ID of the control node
- 
-* [.dateTime.iso8601]#dateTime.iso8601#  earliestOccurrence - earliest the execution command can be sent to the control node. ignored when actionChainLabel is used
- 
-* [.string]#string#  actionChainLabel - label of an action chain to use, or None
- 
-* [.struct]#struct#  - ansibleArgs
-         ** [.boolean]#boolean#  "flushCache"
-      
-
-Returns:
-
-* [.int]#int#  id - ID of the playbook execution action created
- 
-
-
-
-[#apidoc-ansible-schedulePlaybook-1254589807]
+[#apidoc-ansible-schedulePlaybook-1039352074]
 == Method: schedulePlaybook 
 
 Description:
@@ -353,9 +284,6 @@ Parameters:
  
 * [.boolean]#boolean#  testMode - 'true' if the playbook shall be executed in test mode
  
-* [.struct]#struct#  - ansibleArgs
-         ** [.boolean]#boolean#  "flushCache"
-      
 
 Returns:
 
@@ -364,7 +292,79 @@ Returns:
 
 
 
-[#apidoc-ansible-updateAnsiblePath-1263973655]
+[#apidoc-ansible-schedulePlaybook-1728845596]
+== Method: schedulePlaybook 
+
+Description:
+
+Schedule a playbook execution
+
+
+
+
+Parameters:
+
+* [.string]#string#  sessionKey
+ 
+* [.string]#string#  playbookPath
+ 
+* [.string]#string#  inventoryPath - path to Ansible inventory or empty
+ 
+* [.int]#int#  controlNodeId - system ID of the control node
+ 
+* [.dateTime.iso8601]#dateTime.iso8601#  earliestOccurrence - earliest the execution command can be sent to the control node. ignored when actionChainLabel is used
+ 
+* [.string]#string#  actionChainLabel - label of an action chain to use, or None
+ 
+* [.struct]#struct#  - ansibleArgs
+** [.boolean]#boolean#  "flushCache"
+ 
+
+Returns:
+
+* [.int]#int#  id - ID of the playbook execution action created
+ 
+
+
+
+[#apidoc-ansible-schedulePlaybook-1641292405]
+== Method: schedulePlaybook 
+
+Description:
+
+Schedule a playbook execution
+
+
+
+
+Parameters:
+
+* [.string]#string#  sessionKey
+ 
+* [.string]#string#  playbookPath
+ 
+* [.string]#string#  inventoryPath - path to Ansible inventory or empty
+ 
+* [.int]#int#  controlNodeId - system ID of the control node
+ 
+* [.dateTime.iso8601]#dateTime.iso8601#  earliestOccurrence - earliest the execution command can be sent to the control node. ignored when actionChainLabel is used
+ 
+* [.string]#string#  actionChainLabel - label of an action chain to use, or None
+ 
+* [.boolean]#boolean#  testMode - 'true' if the playbook shall be executed in test mode
+ 
+* [.struct]#struct#  - ansibleArgs
+** [.boolean]#boolean#  "flushCache"
+ 
+
+Returns:
+
+* [.int]#int#  id - ID of the playbook execution action created
+ 
+
+
+
+[#apidoc-ansible-updateAnsiblePath-640929948]
 == Method: updateAnsiblePath 
 
 Description:
@@ -376,22 +376,22 @@ Create ansible path
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  pathId - path id
  
 * [.struct]#struct#  - props
-      ** [.string]#string#  "path" - The local path to inventory/playbook
-   
+** [.string]#string#  "path" - The local path to inventory/playbook
+ 
 
 Returns:
 
 * * [.struct]#struct#  - ansible path
-     ** [.int]#int#  "path id"
-     ** [.string]#string#  "type label"
-     ** [.int]#int#  "id of the ansible control node system"
-     ** [.string]#string#  "local path to inventory or playbook"
-     
+** [.int]#int#  "path id"
+** [.string]#string#  "type label"
+** [.int]#int#  "id of the ansible control node system"
+** [.string]#string#  "local path to inventory or playbook"
+  
  
 
 

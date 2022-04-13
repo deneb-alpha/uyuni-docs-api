@@ -4,9 +4,9 @@
 
 == Available methods
 
-* <<apidoc-admin_monitoring-disable-1733902203,disable>>
-* <<apidoc-admin_monitoring-enable-1106840336,enable>>
-* <<apidoc-admin_monitoring-getStatus-661868623,getStatus>>
+* <<apidoc-admin_monitoring-disable-1760992419,disable>>
+* <<apidoc-admin_monitoring-enable-603456365,enable>>
+* <<apidoc-admin_monitoring-getStatus-31676014,getStatus>>
 
 == Description
 
@@ -17,7 +17,7 @@ Provides methods to manage the monitoring of the #product() server.
 admin.monitoring
 
 
-[#apidoc-admin_monitoring-disable-1733902203]
+[#apidoc-admin_monitoring-disable-1760992419]
 == Method: disable 
 
 Description:
@@ -35,17 +35,17 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - Exporters
-          *** [.string]#string#  "node"
-          *** [.string]#string#  "tomcat"
-          *** [.string]#string#  "taskomatic"
-          *** [.string]#string#  "postgres"
-          *** [.string]#string#  "self_monitoring"
-         
+** [.struct]#struct#  - Exporters
+*** [.string]#string#  "node"
+*** [.string]#string#  "tomcat"
+*** [.string]#string#  "taskomatic"
+*** [.string]#string#  "postgres"
+*** [.string]#string#  "self_monitoring"
+ 
 
 
 
-[#apidoc-admin_monitoring-enable-1106840336]
+[#apidoc-admin_monitoring-enable-603456365]
 == Method: enable 
 
 Description:
@@ -63,17 +63,17 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - Exporters
-          *** [.string]#string#  "node"
-          *** [.string]#string#  "tomcat"
-          *** [.string]#string#  "taskomatic"
-          *** [.string]#string#  "postgres"
-          *** [.string]#string#  "self_monitoring"
-         
+** [.struct]#struct#  - Exporters
+*** [.string]#string#  "node"
+*** [.string]#string#  "tomcat"
+*** [.string]#string#  "taskomatic"
+*** [.string]#string#  "postgres"
+*** [.string]#string#  "self_monitoring"
+ 
 
 
 
-[#apidoc-admin_monitoring-getStatus-661868623]
+[#apidoc-admin_monitoring-getStatus-31676014]
 == Method: getStatus 
 
 Description:
@@ -91,12 +91,12 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - Exporters
-          *** [.string]#string#  "node"
-          *** [.string]#string#  "tomcat"
-          *** [.string]#string#  "taskomatic"
-          *** [.string]#string#  "postgres"
-          *** [.string]#string#  "self_monitoring"
-         
+** [.struct]#struct#  - Exporters
+*** [.string]#string#  "node"
+*** [.string]#string#  "tomcat"
+*** [.string]#string#  "taskomatic"
+*** [.string]#string#  "postgres"
+*** [.string]#string#  "self_monitoring"
+ 
 
 

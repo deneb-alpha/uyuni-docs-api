@@ -4,10 +4,10 @@
 
 == Available methods
 
-* <<apidoc-system_custominfo-createKey-399662621,createKey>>
-* <<apidoc-system_custominfo-deleteKey-816870841,deleteKey>>
-* <<apidoc-system_custominfo-listAllKeys-1359875538,listAllKeys>>
-* <<apidoc-system_custominfo-updateKey-899666082,updateKey>>
+* <<apidoc-system_custominfo-createKey-1700614789,createKey>>
+* <<apidoc-system_custominfo-deleteKey-472019958,deleteKey>>
+* <<apidoc-system_custominfo-listAllKeys-1092507262,listAllKeys>>
+* <<apidoc-system_custominfo-updateKey-921812350,updateKey>>
 
 == Description
 
@@ -18,7 +18,7 @@ Provides methods to access and modify custom system information.
 system.custominfo
 
 
-[#apidoc-system_custominfo-createKey-399662621]
+[#apidoc-system_custominfo-createKey-1700614789]
 == Method: createKey 
 
 Description:
@@ -30,7 +30,7 @@ Create a new custom key
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  keyLabel - new key's label
  
@@ -44,7 +44,7 @@ Returns:
 
 
 
-[#apidoc-system_custominfo-deleteKey-816870841]
+[#apidoc-system_custominfo-deleteKey-472019958]
 == Method: deleteKey 
 
 Description:
@@ -56,7 +56,7 @@ Delete an existing custom key and all systems' values for the key.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  keyLabel - new key's label
  
@@ -68,7 +68,7 @@ Returns:
 
 
 
-[#apidoc-system_custominfo-listAllKeys-1359875538]
+[#apidoc-system_custominfo-listAllKeys-1092507262]
 == Method: listAllKeys 
 
 Description:
@@ -87,17 +87,17 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - custom info
-          ** [.int]#int#  "id"
-          ** [.string]#string#  "label"
-          ** [.string]#string#  "description"
-          ** [.int]#int#  "system_count"
-          ** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
-       
-       
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "description"
+** [.int]#int#  "system_count"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
+ 
+ 
 
 
 
-[#apidoc-system_custominfo-updateKey-899666082]
+[#apidoc-system_custominfo-updateKey-921812350]
 == Method: updateKey 
 
 Description:
@@ -109,7 +109,7 @@ Update description of a custom key
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  keyLabel - key to change
  

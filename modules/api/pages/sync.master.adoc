@@ -4,21 +4,21 @@
 
 == Available methods
 
-* <<apidoc-sync_master-addToMaster-352580660,addToMaster>>
-* <<apidoc-sync_master-create-1575169536,create>>
-* <<apidoc-sync_master-delete-13484189,delete>>
-* <<apidoc-sync_master-getDefaultMaster-1964320423,getDefaultMaster>>
-* <<apidoc-sync_master-getMaster-900207233,getMaster>>
-* <<apidoc-sync_master-getMasterByLabel-1484954668,getMasterByLabel>>
-* <<apidoc-sync_master-getMasterOrgs-744838086,getMasterOrgs>>
-* <<apidoc-sync_master-getMasters-1693561595,getMasters>>
-* <<apidoc-sync_master-hasMaster-578414535,hasMaster>>
-* <<apidoc-sync_master-makeDefault-834837937,makeDefault>>
-* <<apidoc-sync_master-mapToLocal-2089609733,mapToLocal>>
-* <<apidoc-sync_master-setCaCert-1767121170,setCaCert>>
-* <<apidoc-sync_master-setMasterOrgs-1504469201,setMasterOrgs>>
-* <<apidoc-sync_master-unsetDefaultMaster-1281233469,unsetDefaultMaster>>
-* <<apidoc-sync_master-update-564053174,update>>
+* <<apidoc-sync_master-addToMaster-483939310,addToMaster>>
+* <<apidoc-sync_master-create-2131124126,create>>
+* <<apidoc-sync_master-delete-779586235,delete>>
+* <<apidoc-sync_master-getDefaultMaster-1492905182,getDefaultMaster>>
+* <<apidoc-sync_master-getMaster-1281024621,getMaster>>
+* <<apidoc-sync_master-getMasterByLabel-1433988478,getMasterByLabel>>
+* <<apidoc-sync_master-getMasterOrgs-361467152,getMasterOrgs>>
+* <<apidoc-sync_master-getMasters-1574257199,getMasters>>
+* <<apidoc-sync_master-hasMaster-697701797,hasMaster>>
+* <<apidoc-sync_master-makeDefault-357350214,makeDefault>>
+* <<apidoc-sync_master-mapToLocal-1802219104,mapToLocal>>
+* <<apidoc-sync_master-setCaCert-1262516935,setCaCert>>
+* <<apidoc-sync_master-setMasterOrgs-240733254,setMasterOrgs>>
+* <<apidoc-sync_master-unsetDefaultMaster-1000763518,unsetDefaultMaster>>
+* <<apidoc-sync_master-update-275529226,update>>
 
 == Description
 
@@ -30,7 +30,7 @@ Contains methods to set up information about known-"masters", for use
 sync.master
 
 
-[#apidoc-sync_master-addToMaster-352580660]
+[#apidoc-sync_master-addToMaster-483939310]
 == Method: addToMaster 
 
 Description:
@@ -48,10 +48,10 @@ Parameters:
 * [.int]#int#  id - Id of the desired Master
  
 * [.struct]#struct#  - master-org details
-          ** [.int]#int#  "masterOrgId"
-          ** [.string]#string#  "masterOrgName"
-          ** [.int]#int#  "localOrgId"
-      
+** [.int]#int#  "masterOrgId"
+** [.string]#string#  "masterOrgName"
+** [.int]#int#  "localOrgId"
+ 
 
 Returns:
 
@@ -60,7 +60,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-create-1575169536]
+[#apidoc-sync_master-create-2131124126]
 == Method: create 
 
 Description:
@@ -80,16 +80,16 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - IssMaster info
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "caCert"
-   ** [.boolean]#boolean#  "isCurrentMaster"
-   
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "caCert"
+** [.boolean]#boolean#  "isCurrentMaster"
+  
  
 
 
 
-[#apidoc-sync_master-delete-13484189]
+[#apidoc-sync_master-delete-779586235]
 == Method: delete 
 
 Description:
@@ -113,7 +113,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-getDefaultMaster-1964320423]
+[#apidoc-sync_master-getDefaultMaster-1492905182]
 == Method: getDefaultMaster 
 
 Description:
@@ -131,16 +131,16 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - IssMaster info
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "caCert"
-   ** [.boolean]#boolean#  "isCurrentMaster"
-   
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "caCert"
+** [.boolean]#boolean#  "isCurrentMaster"
+  
  
 
 
 
-[#apidoc-sync_master-getMaster-900207233]
+[#apidoc-sync_master-getMaster-1281024621]
 == Method: getMaster 
 
 Description:
@@ -160,16 +160,16 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - IssMaster info
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "caCert"
-   ** [.boolean]#boolean#  "isCurrentMaster"
-   
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "caCert"
+** [.boolean]#boolean#  "isCurrentMaster"
+  
  
 
 
 
-[#apidoc-sync_master-getMasterByLabel-1484954668]
+[#apidoc-sync_master-getMasterByLabel-1433988478]
 == Method: getMasterByLabel 
 
 Description:
@@ -189,16 +189,16 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - IssMaster info
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "caCert"
-   ** [.boolean]#boolean#  "isCurrentMaster"
-   
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "caCert"
+** [.boolean]#boolean#  "isCurrentMaster"
+  
  
 
 
 
-[#apidoc-sync_master-getMasterOrgs-744838086]
+[#apidoc-sync_master-getMasterOrgs-361467152]
 == Method: getMasterOrgs 
 
 Description:
@@ -219,15 +219,15 @@ Returns:
 
 * [.array]#array# :
      * [.struct]#struct#  - IssMasterOrg info
-   ** [.int]#int#  "masterOrgId"
-   ** [.string]#string#  "masterOrgName"
-   ** [.int]#int#  "localOrgId"
-  
-    
+** [.int]#int#  "masterOrgId"
+** [.string]#string#  "masterOrgName"
+** [.int]#int#  "localOrgId"
+ 
+ 
 
 
 
-[#apidoc-sync_master-getMasters-1693561595]
+[#apidoc-sync_master-getMasters-1574257199]
 == Method: getMasters 
 
 Description:
@@ -246,16 +246,16 @@ Returns:
 
 * [.array]#array# :
           * [.struct]#struct#  - IssMaster info
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "caCert"
-   ** [.boolean]#boolean#  "isCurrentMaster"
-  
-       
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "caCert"
+** [.boolean]#boolean#  "isCurrentMaster"
+ 
+ 
 
 
 
-[#apidoc-sync_master-hasMaster-578414535]
+[#apidoc-sync_master-hasMaster-697701797]
 == Method: hasMaster 
 
 Description:
@@ -275,7 +275,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-makeDefault-834837937]
+[#apidoc-sync_master-makeDefault-357350214]
 == Method: makeDefault 
 
 Description:
@@ -299,7 +299,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-mapToLocal-2089609733]
+[#apidoc-sync_master-mapToLocal-1802219104]
 == Method: mapToLocal 
 
 Description:
@@ -328,7 +328,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-setCaCert-1767121170]
+[#apidoc-sync_master-setCaCert-1262516935]
 == Method: setCaCert 
 
 Description:
@@ -354,7 +354,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-setMasterOrgs-1504469201]
+[#apidoc-sync_master-setMasterOrgs-240733254]
 == Method: setMasterOrgs 
 
 Description:
@@ -371,11 +371,11 @@ Parameters:
 * [.int]#int#  id - Id of the desired Master
  
 * [.array]#array# :
-      ** [.struct]#struct#  - master-org details
-          *** [.int]#int#  "masterOrgId"
-          *** [.string]#string#  "masterOrgName"
-          *** [.int]#int#  "localOrgId"
-         
+** [.struct]#struct#  - master-org details
+*** [.int]#int#  "masterOrgId"
+*** [.string]#string#  "masterOrgName"
+*** [.int]#int#  "localOrgId"
+ 
 
 Returns:
 
@@ -384,7 +384,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-unsetDefaultMaster-1281233469]
+[#apidoc-sync_master-unsetDefaultMaster-1000763518]
 == Method: unsetDefaultMaster 
 
 Description:
@@ -406,7 +406,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-update-564053174]
+[#apidoc-sync_master-update-275529226]
 == Method: update 
 
 Description:
@@ -428,11 +428,11 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - IssMaster info
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "caCert"
-   ** [.boolean]#boolean#  "isCurrentMaster"
-   
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "caCert"
+** [.boolean]#boolean#  "isCurrentMaster"
+  
  
 
 

@@ -4,22 +4,22 @@
 
 == Available methods
 
-* <<apidoc-actionchain-addConfigurationDeployment-718150867,addConfigurationDeployment>>
-* <<apidoc-actionchain-addErrataUpdate-1933032750,addErrataUpdate>>
-* <<apidoc-actionchain-addPackageInstall-1161149894,addPackageInstall>>
-* <<apidoc-actionchain-addPackageRemoval-1174724689,addPackageRemoval>>
-* <<apidoc-actionchain-addPackageUpgrade-1845002237,addPackageUpgrade>>
-* <<apidoc-actionchain-addPackageVerify-602433635,addPackageVerify>>
-* <<apidoc-actionchain-addScriptRun-203361403,addScriptRun>>
-* <<apidoc-actionchain-addScriptRun-1680628659,addScriptRun>>
-* <<apidoc-actionchain-addSystemReboot-617107045,addSystemReboot>>
-* <<apidoc-actionchain-createChain-2081421216,createChain>>
-* <<apidoc-actionchain-deleteChain-1881716172,deleteChain>>
-* <<apidoc-actionchain-listChainActions-1519407613,listChainActions>>
-* <<apidoc-actionchain-listChains-269715230,listChains>>
-* <<apidoc-actionchain-removeAction-1981036429,removeAction>>
-* <<apidoc-actionchain-renameChain-1581687077,renameChain>>
-* <<apidoc-actionchain-scheduleChain-82287653,scheduleChain>>
+* <<apidoc-actionchain-addConfigurationDeployment-267368044,addConfigurationDeployment>>
+* <<apidoc-actionchain-addErrataUpdate-635097653,addErrataUpdate>>
+* <<apidoc-actionchain-addPackageInstall-43951584,addPackageInstall>>
+* <<apidoc-actionchain-addPackageRemoval-848490487,addPackageRemoval>>
+* <<apidoc-actionchain-addPackageUpgrade-1878900463,addPackageUpgrade>>
+* <<apidoc-actionchain-addPackageVerify-474324008,addPackageVerify>>
+* <<apidoc-actionchain-addScriptRun-1244989872,addScriptRun>>
+* <<apidoc-actionchain-addScriptRun-1030952115,addScriptRun>>
+* <<apidoc-actionchain-addSystemReboot-207766759,addSystemReboot>>
+* <<apidoc-actionchain-createChain-2130299045,createChain>>
+* <<apidoc-actionchain-deleteChain-1328225951,deleteChain>>
+* <<apidoc-actionchain-listChainActions-553276023,listChainActions>>
+* <<apidoc-actionchain-listChains-817902707,listChains>>
+* <<apidoc-actionchain-removeAction-396875464,removeAction>>
+* <<apidoc-actionchain-renameChain-1836406440,renameChain>>
+* <<apidoc-actionchain-scheduleChain-224885737,scheduleChain>>
 
 == Description
 
@@ -30,7 +30,7 @@ Provides the namespace for the Action Chain methods.
 actionchain
 
 
-[#apidoc-actionchain-addConfigurationDeployment-718150867]
+[#apidoc-actionchain-addConfigurationDeployment-267368044]
 == Method: addConfigurationDeployment 
 
 Description:
@@ -49,11 +49,11 @@ Parameters:
 * [.int]#int#  System ID - System ID
  
 * [.array]#array# :
-                   ** [.struct]#struct#  - config revision specifier
-                       *** [.string]#string#  "channelLabel" - Channel label
-                       *** [.string]#string#  "filePath" - Path of the configuration file
-                       *** [.int]#int#  "revision" - Revision number
-                                   
+** [.struct]#struct#  - config revision specifier
+*** [.string]#string#  "channelLabel" - Channel label
+*** [.string]#string#  "filePath" - Path of the configuration file
+*** [.int]#int#  "revision" - Revision number
+ 
 
 Returns:
 
@@ -62,7 +62,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-addErrataUpdate-1933032750]
+[#apidoc-actionchain-addErrataUpdate-635097653]
 == Method: addErrataUpdate 
 
 Description:
@@ -91,7 +91,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-addPackageInstall-1161149894]
+[#apidoc-actionchain-addPackageInstall-43951584]
 == Method: addPackageInstall 
 
 Description:
@@ -120,7 +120,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-addPackageRemoval-1174724689]
+[#apidoc-actionchain-addPackageRemoval-848490487]
 == Method: addPackageRemoval 
 
 Description:
@@ -150,7 +150,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-addPackageUpgrade-1845002237]
+[#apidoc-actionchain-addPackageUpgrade-1878900463]
 == Method: addPackageUpgrade 
 
 Description:
@@ -180,7 +180,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-addPackageVerify-602433635]
+[#apidoc-actionchain-addPackageVerify-474324008]
 == Method: addPackageVerify 
 
 Description:
@@ -210,7 +210,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-addScriptRun-203361403]
+[#apidoc-actionchain-addScriptRun-1244989872]
 == Method: addScriptRun 
 
 Description:
@@ -247,7 +247,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-addScriptRun-1680628659]
+[#apidoc-actionchain-addScriptRun-1030952115]
 == Method: addScriptRun 
 
 Description:
@@ -282,7 +282,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-addSystemReboot-617107045]
+[#apidoc-actionchain-addSystemReboot-207766759]
 == Method: addSystemReboot 
 
 Description:
@@ -308,7 +308,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-createChain-2081421216]
+[#apidoc-actionchain-createChain-2130299045]
 == Method: createChain 
 
 Description:
@@ -332,7 +332,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-deleteChain-1881716172]
+[#apidoc-actionchain-deleteChain-1328225951]
 == Method: deleteChain 
 
 Description:
@@ -356,7 +356,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-listChainActions-1519407613]
+[#apidoc-actionchain-listChainActions-553276023]
 == Method: listChainActions 
 
 Description:
@@ -376,19 +376,19 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-                      ** [.struct]#struct#  - entry
-                        *** [.int]#int#  "id" - Action ID
-                        *** [.string]#string#  "label" - Label of an Action
-                        *** [.string]#string#  "created" - Created date/time
-                        *** [.string]#string#  "earliest" - Earliest scheduled date/time
-                        *** [.string]#string#  "type" - Type of the action
-                        *** [.string]#string#  "modified" - Modified date/time
-                        *** [.string]#string#  "cuid" - Creator UID
-                                           
+** [.struct]#struct#  - entry
+*** [.int]#int#  "id" - Action ID
+*** [.string]#string#  "label" - Label of an Action
+*** [.string]#string#  "created" - Created date/time
+*** [.string]#string#  "earliest" - Earliest scheduled date/time
+*** [.string]#string#  "type" - Type of the action
+*** [.string]#string#  "modified" - Modified date/time
+*** [.string]#string#  "cuid" - Creator UID
+ 
 
 
 
-[#apidoc-actionchain-listChains-269715230]
+[#apidoc-actionchain-listChains-817902707]
 == Method: listChains 
 
 Description:
@@ -406,14 +406,14 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-                      ** [.struct]#struct#  - chain
-                        *** [.string]#string#  "label" - Label of an Action Chain
-                        *** [.string]#string#  "entrycount" - Number of entries in the Action Chain
-                                           
+** [.struct]#struct#  - chain
+*** [.string]#string#  "label" - Label of an Action Chain
+*** [.string]#string#  "entrycount" - Number of entries in the Action Chain
+ 
 
 
 
-[#apidoc-actionchain-removeAction-1981036429]
+[#apidoc-actionchain-removeAction-396875464]
 == Method: removeAction 
 
 Description:
@@ -439,7 +439,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-renameChain-1581687077]
+[#apidoc-actionchain-renameChain-1836406440]
 == Method: renameChain 
 
 Description:
@@ -465,7 +465,7 @@ Returns:
 
 
 
-[#apidoc-actionchain-scheduleChain-82287653]
+[#apidoc-actionchain-scheduleChain-224885737]
 == Method: scheduleChain 
 
 Description:

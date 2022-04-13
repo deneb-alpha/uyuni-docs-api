@@ -4,9 +4,9 @@
 
 == Available methods
 
-* <<apidoc-channel_org-disableAccess-701279123,disableAccess>>
-* <<apidoc-channel_org-enableAccess-888540137,enableAccess>>
-* <<apidoc-channel_org-list-543118058,list>>
+* <<apidoc-channel_org-disableAccess-1033669692,disableAccess>>
+* <<apidoc-channel_org-enableAccess-415928951,enableAccess>>
+* <<apidoc-channel_org-list-542766981,list>>
 
 == Description
 
@@ -18,7 +18,7 @@ Provides methods to retrieve and alter organization trust
 channel.org
 
 
-[#apidoc-channel_org-disableAccess-701279123]
+[#apidoc-channel_org-disableAccess-1033669692]
 == Method: disableAccess 
 
 Description:
@@ -30,7 +30,7 @@ Disable access to the channel for the given organization.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  channelLabel - label of the channel
  
@@ -44,7 +44,7 @@ Returns:
 
 
 
-[#apidoc-channel_org-enableAccess-888540137]
+[#apidoc-channel_org-enableAccess-415928951]
 == Method: enableAccess 
 
 Description:
@@ -56,7 +56,7 @@ Enable access to the channel for the given organization.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  channelLabel - label of the channel
  
@@ -70,7 +70,7 @@ Returns:
 
 
 
-[#apidoc-channel_org-list-543118058]
+[#apidoc-channel_org-list-542766981]
 == Method: list 
 
 Description:
@@ -83,7 +83,7 @@ List the organizations associated with the given channel
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  channelLabel - label of the channel
  
@@ -91,10 +91,10 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - org
-          *** [.int]#int#  "org_id"
-          *** [.string]#string#  "org_name"
-          *** [.boolean]#boolean#  "access_enabled"
-        
+** [.struct]#struct#  - org
+*** [.int]#int#  "org_id"
+*** [.string]#string#  "org_name"
+*** [.boolean]#boolean#  "access_enabled"
+ 
 
 

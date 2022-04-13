@@ -4,17 +4,17 @@
 
 == Available methods
 
-* <<apidoc-formula-getCombinedFormulaDataByServerIds-2089917982,getCombinedFormulaDataByServerIds>>
-* <<apidoc-formula-getCombinedFormulasByServerId-1132068394,getCombinedFormulasByServerId>>
-* <<apidoc-formula-getFormulasByGroupId-555754759,getFormulasByGroupId>>
-* <<apidoc-formula-getFormulasByServerId-1653050748,getFormulasByServerId>>
-* <<apidoc-formula-getGroupFormulaData-199076892,getGroupFormulaData>>
-* <<apidoc-formula-getSystemFormulaData-1888859784,getSystemFormulaData>>
-* <<apidoc-formula-listFormulas-1482861352,listFormulas>>
-* <<apidoc-formula-setFormulasOfGroup-235873926,setFormulasOfGroup>>
-* <<apidoc-formula-setFormulasOfServer-774320733,setFormulasOfServer>>
-* <<apidoc-formula-setGroupFormulaData-1099109905,setGroupFormulaData>>
-* <<apidoc-formula-setSystemFormulaData-478139104,setSystemFormulaData>>
+* <<apidoc-formula-getCombinedFormulaDataByServerIds-274521953,getCombinedFormulaDataByServerIds>>
+* <<apidoc-formula-getCombinedFormulasByServerId-1976617670,getCombinedFormulasByServerId>>
+* <<apidoc-formula-getFormulasByGroupId-241403219,getFormulasByGroupId>>
+* <<apidoc-formula-getFormulasByServerId-472201306,getFormulasByServerId>>
+* <<apidoc-formula-getGroupFormulaData-1393284987,getGroupFormulaData>>
+* <<apidoc-formula-getSystemFormulaData-1672064808,getSystemFormulaData>>
+* <<apidoc-formula-listFormulas-1524462464,listFormulas>>
+* <<apidoc-formula-setFormulasOfGroup-1151395471,setFormulasOfGroup>>
+* <<apidoc-formula-setFormulasOfServer-1450945109,setFormulasOfServer>>
+* <<apidoc-formula-setGroupFormulaData-1985467039,setGroupFormulaData>>
+* <<apidoc-formula-setSystemFormulaData-1487529549,setSystemFormulaData>>
 
 == Description
 
@@ -25,7 +25,7 @@ Provides methods to access and modify formulas.
 formula
 
 
-[#apidoc-formula-getCombinedFormulaDataByServerIds-2089917982]
+[#apidoc-formula-getCombinedFormulaDataByServerIds-274521953]
 == Method: getCombinedFormulaDataByServerIds 
 
 Description:
@@ -37,7 +37,7 @@ Return the list of formulas a server and all his groups have.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  formulaName
  
@@ -49,15 +49,15 @@ Returns:
 
 * [.array]#array# :
      * [.struct]#struct#  - formula_data
-     ** [.int]#int#  "system_id"
-     ** [.string]#string#  "minion_id"
-     ** [.struct with saved formula values]#struct with saved formula values#  "formula_values"
-  
-    
+** [.int]#int#  "system_id"
+** [.string]#string#  "minion_id"
+** [.struct with saved formula values]#struct with saved formula values#  "formula_values"
+ 
+ 
 
 
 
-[#apidoc-formula-getCombinedFormulasByServerId-1132068394]
+[#apidoc-formula-getCombinedFormulasByServerId-1976617670]
 == Method: getCombinedFormulasByServerId 
 
 Description:
@@ -69,7 +69,7 @@ Return the list of formulas a server and all his groups have.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  systemId
  
@@ -82,7 +82,7 @@ Returns:
 
 
 
-[#apidoc-formula-getFormulasByGroupId-555754759]
+[#apidoc-formula-getFormulasByGroupId-241403219]
 == Method: getFormulasByGroupId 
 
 Description:
@@ -94,7 +94,7 @@ Return the list of formulas a server group has.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  systemGroupId
  
@@ -107,7 +107,7 @@ Returns:
 
 
 
-[#apidoc-formula-getFormulasByServerId-1653050748]
+[#apidoc-formula-getFormulasByServerId-472201306]
 == Method: getFormulasByServerId 
 
 Description:
@@ -119,7 +119,7 @@ Return the list of formulas directly applied to a server.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  systemId
  
@@ -132,7 +132,7 @@ Returns:
 
 
 
-[#apidoc-formula-getGroupFormulaData-199076892]
+[#apidoc-formula-getGroupFormulaData-1393284987]
 == Method: getGroupFormulaData 
 
 Description:
@@ -144,7 +144,7 @@ Get the saved data for the specific formula against specific group
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  groupId
  
@@ -158,7 +158,7 @@ Returns:
 
 
 
-[#apidoc-formula-getSystemFormulaData-1888859784]
+[#apidoc-formula-getSystemFormulaData-1672064808]
 == Method: getSystemFormulaData 
 
 Description:
@@ -170,7 +170,7 @@ Get the saved data for the specific formula against specific server
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  systemId
  
@@ -184,7 +184,7 @@ Returns:
 
 
 
-[#apidoc-formula-listFormulas-1482861352]
+[#apidoc-formula-listFormulas-1524462464]
 == Method: listFormulas 
 
 Description:
@@ -196,7 +196,7 @@ Return the list of formulas currently installed.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
@@ -207,7 +207,7 @@ Returns:
 
 
 
-[#apidoc-formula-setFormulasOfGroup-235873926]
+[#apidoc-formula-setFormulasOfGroup-1151395471]
 == Method: setFormulasOfGroup 
 
 Description:
@@ -219,7 +219,7 @@ Set the formulas of a server group.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  systemGroupId
  
@@ -234,7 +234,7 @@ Returns:
 
 
 
-[#apidoc-formula-setFormulasOfServer-774320733]
+[#apidoc-formula-setFormulasOfServer-1450945109]
 == Method: setFormulasOfServer 
 
 Description:
@@ -246,7 +246,7 @@ Set the formulas of a server.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  systemId
  
@@ -261,7 +261,7 @@ Returns:
 
 
 
-[#apidoc-formula-setGroupFormulaData-1099109905]
+[#apidoc-formula-setGroupFormulaData-1985467039]
 == Method: setGroupFormulaData 
 
 Description:
@@ -273,7 +273,7 @@ Set the formula form for the specified group.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  groupId
  
@@ -289,7 +289,7 @@ Returns:
 
 
 
-[#apidoc-formula-setSystemFormulaData-478139104]
+[#apidoc-formula-setSystemFormulaData-1487529549]
 == Method: setSystemFormulaData 
 
 Description:
@@ -301,7 +301,7 @@ Set the formula form for the specified server.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  systemId
  

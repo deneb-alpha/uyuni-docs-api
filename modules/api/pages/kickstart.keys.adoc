@@ -4,11 +4,11 @@
 
 == Available methods
 
-* <<apidoc-kickstart_keys-create-199329503,create>>
-* <<apidoc-kickstart_keys-delete-740654090,delete>>
-* <<apidoc-kickstart_keys-getDetails-1749810089,getDetails>>
-* <<apidoc-kickstart_keys-listAllKeys-1052247420,listAllKeys>>
-* <<apidoc-kickstart_keys-update-371630068,update>>
+* <<apidoc-kickstart_keys-create-942771559,create>>
+* <<apidoc-kickstart_keys-delete-989251186,delete>>
+* <<apidoc-kickstart_keys-getDetails-1232870776,getDetails>>
+* <<apidoc-kickstart_keys-listAllKeys-2116330210,listAllKeys>>
+* <<apidoc-kickstart_keys-update-311725690,update>>
 
 == Description
 
@@ -19,7 +19,7 @@ Provides methods to manipulate kickstart keys.
 kickstart.keys
 
 
-[#apidoc-kickstart_keys-create-199329503]
+[#apidoc-kickstart_keys-create-942771559]
 == Method: create 
 
 Description:
@@ -47,7 +47,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_keys-delete-740654090]
+[#apidoc-kickstart_keys-delete-989251186]
 == Method: delete 
 
 Description:
@@ -71,7 +71,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_keys-getDetails-1749810089]
+[#apidoc-kickstart_keys-getDetails-1232870776]
 == Method: getDetails 
 
 Description:
@@ -91,14 +91,14 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - key
-          ** [.string]#string#  "description"
-          ** [.string]#string#  "type"
-          ** [.string]#string#  "content"
-       
+** [.string]#string#  "description"
+** [.string]#string#  "type"
+** [.string]#string#  "content"
+ 
 
 
 
-[#apidoc-kickstart_keys-listAllKeys-1052247420]
+[#apidoc-kickstart_keys-listAllKeys-2116330210]
 == Method: listAllKeys 
 
 Description:
@@ -111,20 +111,20 @@ list all keys for the org associated with the user logged into the
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - key
-              *** [.string]#string#  "description"
-              *** [.string]#string#  "type"
-                 
+** [.struct]#struct#  - key
+*** [.string]#string#  "description"
+*** [.string]#string#  "type"
+ 
 
 
 
-[#apidoc-kickstart_keys-update-371630068]
+[#apidoc-kickstart_keys-update-311725690]
 == Method: update 
 
 Description:

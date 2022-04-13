@@ -4,22 +4,22 @@
 
 == Available methods
 
-* <<apidoc-schedule-archiveActions-1840423520,archiveActions>>
-* <<apidoc-schedule-cancelActions-28376203,cancelActions>>
-* <<apidoc-schedule-deleteActions-341062557,deleteActions>>
-* <<apidoc-schedule-failSystemAction-1640383742,failSystemAction>>
-* <<apidoc-schedule-failSystemAction-213560315,failSystemAction>>
-* <<apidoc-schedule-listAllActions-1214336947,listAllActions>>
-* <<apidoc-schedule-listAllArchivedActions-1438092717,listAllArchivedActions>>
-* <<apidoc-schedule-listAllCompletedActions-1755303688,listAllCompletedActions>>
-* <<apidoc-schedule-listArchivedActions-115584215,listArchivedActions>>
-* <<apidoc-schedule-listCompletedActions-1320400528,listCompletedActions>>
-* <<apidoc-schedule-listCompletedSystems-1207229581,listCompletedSystems>>
-* <<apidoc-schedule-listFailedActions-1153269540,listFailedActions>>
-* <<apidoc-schedule-listFailedSystems-439513824,listFailedSystems>>
-* <<apidoc-schedule-listInProgressActions-486668812,listInProgressActions>>
-* <<apidoc-schedule-listInProgressSystems-1937855448,listInProgressSystems>>
-* <<apidoc-schedule-rescheduleActions-2076427679,rescheduleActions>>
+* <<apidoc-schedule-archiveActions-1975716431,archiveActions>>
+* <<apidoc-schedule-cancelActions-132416701,cancelActions>>
+* <<apidoc-schedule-deleteActions-906904117,deleteActions>>
+* <<apidoc-schedule-failSystemAction-2115692179,failSystemAction>>
+* <<apidoc-schedule-failSystemAction-1040580772,failSystemAction>>
+* <<apidoc-schedule-listAllActions-873546155,listAllActions>>
+* <<apidoc-schedule-listAllArchivedActions-116850709,listAllArchivedActions>>
+* <<apidoc-schedule-listAllCompletedActions-1631537374,listAllCompletedActions>>
+* <<apidoc-schedule-listArchivedActions-249270028,listArchivedActions>>
+* <<apidoc-schedule-listCompletedActions-393476856,listCompletedActions>>
+* <<apidoc-schedule-listCompletedSystems-492815168,listCompletedSystems>>
+* <<apidoc-schedule-listFailedActions-821664929,listFailedActions>>
+* <<apidoc-schedule-listFailedSystems-226972126,listFailedSystems>>
+* <<apidoc-schedule-listInProgressActions-1056221435,listInProgressActions>>
+* <<apidoc-schedule-listInProgressSystems-869140506,listInProgressSystems>>
+* <<apidoc-schedule-rescheduleActions-1847707373,rescheduleActions>>
 
 == Description
 
@@ -30,7 +30,7 @@ Methods to retrieve information about scheduled actions.
 schedule
 
 
-[#apidoc-schedule-archiveActions-1840423520]
+[#apidoc-schedule-archiveActions-1975716431]
 == Method: archiveActions 
 
 Description:
@@ -42,7 +42,7 @@ Archive all actions in the given list.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.array]#array# :
 ** [.int]#int#  - action id
@@ -55,7 +55,7 @@ Returns:
 
 
 
-[#apidoc-schedule-cancelActions-28376203]
+[#apidoc-schedule-cancelActions-132416701]
 == Method: cancelActions 
 
 Description:
@@ -68,7 +68,7 @@ Cancel all actions in given list. If an invalid action is provided,
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.array]#array# :
 ** [.int]#int#  - action id
@@ -81,7 +81,7 @@ Returns:
 
 
 
-[#apidoc-schedule-deleteActions-341062557]
+[#apidoc-schedule-deleteActions-906904117]
 == Method: deleteActions 
 
 Description:
@@ -93,7 +93,7 @@ Delete all archived actions in the given list.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.array]#array# :
 ** [.int]#int#  - action id
@@ -106,7 +106,7 @@ Returns:
 
 
 
-[#apidoc-schedule-failSystemAction-1640383742]
+[#apidoc-schedule-failSystemAction-2115692179]
 == Method: failSystemAction 
 
 Description:
@@ -118,7 +118,7 @@ Fail specific event on specified system
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  serverId
  
@@ -132,7 +132,7 @@ Returns:
 
 
 
-[#apidoc-schedule-failSystemAction-213560315]
+[#apidoc-schedule-failSystemAction-1040580772]
 == Method: failSystemAction 
 
 Description:
@@ -144,7 +144,7 @@ Fail specific event on specified system
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  serverId
  
@@ -160,7 +160,7 @@ Returns:
 
 
 
-[#apidoc-schedule-listAllActions-1214336947]
+[#apidoc-schedule-listAllActions-873546155]
 == Method: listAllActions 
 
 Description:
@@ -173,29 +173,29 @@ Returns a list of all actions.  This includes completed, in progress,
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - action
-   ** [.int]#int#  "id" - Action Id.
-   ** [.string]#string#  "name" - Action name.
-   ** [.string]#string#  "type" - Action type.
-   ** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
+** [.int]#int#  "id" - Action Id.
+** [.string]#string#  "name" - Action name.
+** [.string]#string#  "type" - Action type.
+** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
+** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
    will be performed
-   ** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
-   ** [.int]#int#  "completedSystems" - Number of systems that completed the action.
-   ** [.int]#int#  "failedSystems" - Number of systems that failed the action.
-   ** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
-  
-  
+** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
+** [.int]#int#  "completedSystems" - Number of systems that completed the action.
+** [.int]#int#  "failedSystems" - Number of systems that failed the action.
+** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
+ 
+ 
 
 
 
-[#apidoc-schedule-listAllArchivedActions-1438092717]
+[#apidoc-schedule-listAllArchivedActions-116850709]
 == Method: listAllArchivedActions 
 
 Description:
@@ -207,29 +207,29 @@ Returns a list of actions that have been archived.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - action
-   ** [.int]#int#  "id" - Action Id.
-   ** [.string]#string#  "name" - Action name.
-   ** [.string]#string#  "type" - Action type.
-   ** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
+** [.int]#int#  "id" - Action Id.
+** [.string]#string#  "name" - Action name.
+** [.string]#string#  "type" - Action type.
+** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
+** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
    will be performed
-   ** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
-   ** [.int]#int#  "completedSystems" - Number of systems that completed the action.
-   ** [.int]#int#  "failedSystems" - Number of systems that failed the action.
-   ** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
-  
-  
+** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
+** [.int]#int#  "completedSystems" - Number of systems that completed the action.
+** [.int]#int#  "failedSystems" - Number of systems that failed the action.
+** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
+ 
+ 
 
 
 
-[#apidoc-schedule-listAllCompletedActions-1755303688]
+[#apidoc-schedule-listAllCompletedActions-1631537374]
 == Method: listAllCompletedActions 
 
 Description:
@@ -241,29 +241,29 @@ Returns a list of actions that have been completed.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - action
-   ** [.int]#int#  "id" - Action Id.
-   ** [.string]#string#  "name" - Action name.
-   ** [.string]#string#  "type" - Action type.
-   ** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
+** [.int]#int#  "id" - Action Id.
+** [.string]#string#  "name" - Action name.
+** [.string]#string#  "type" - Action type.
+** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
+** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
    will be performed
-   ** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
-   ** [.int]#int#  "completedSystems" - Number of systems that completed the action.
-   ** [.int]#int#  "failedSystems" - Number of systems that failed the action.
-   ** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
-  
-  
+** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
+** [.int]#int#  "completedSystems" - Number of systems that completed the action.
+** [.int]#int#  "failedSystems" - Number of systems that failed the action.
+** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
+ 
+ 
 
 
 
-[#apidoc-schedule-listArchivedActions-115584215]
+[#apidoc-schedule-listArchivedActions-249270028]
 == Method: listArchivedActions 
 
 Description:
@@ -275,29 +275,29 @@ Returns a list of actions that have been archived.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - action
-   ** [.int]#int#  "id" - Action Id.
-   ** [.string]#string#  "name" - Action name.
-   ** [.string]#string#  "type" - Action type.
-   ** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
+** [.int]#int#  "id" - Action Id.
+** [.string]#string#  "name" - Action name.
+** [.string]#string#  "type" - Action type.
+** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
+** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
    will be performed
-   ** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
-   ** [.int]#int#  "completedSystems" - Number of systems that completed the action.
-   ** [.int]#int#  "failedSystems" - Number of systems that failed the action.
-   ** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
-  
-  
+** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
+** [.int]#int#  "completedSystems" - Number of systems that completed the action.
+** [.int]#int#  "failedSystems" - Number of systems that failed the action.
+** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
+ 
+ 
 
 
 
-[#apidoc-schedule-listCompletedActions-1320400528]
+[#apidoc-schedule-listCompletedActions-393476856]
 == Method: listCompletedActions 
 
 Description:
@@ -309,29 +309,29 @@ Returns a list of actions that have completed successfully.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - action
-   ** [.int]#int#  "id" - Action Id.
-   ** [.string]#string#  "name" - Action name.
-   ** [.string]#string#  "type" - Action type.
-   ** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
+** [.int]#int#  "id" - Action Id.
+** [.string]#string#  "name" - Action name.
+** [.string]#string#  "type" - Action type.
+** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
+** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
    will be performed
-   ** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
-   ** [.int]#int#  "completedSystems" - Number of systems that completed the action.
-   ** [.int]#int#  "failedSystems" - Number of systems that failed the action.
-   ** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
-  
-  
+** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
+** [.int]#int#  "completedSystems" - Number of systems that completed the action.
+** [.int]#int#  "failedSystems" - Number of systems that failed the action.
+** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
+ 
+ 
 
 
 
-[#apidoc-schedule-listCompletedSystems-1207229581]
+[#apidoc-schedule-listCompletedSystems-492815168]
 == Method: listCompletedSystems 
 
 Description:
@@ -343,7 +343,7 @@ Returns a list of systems that have completed a specific action.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  actionId
  
@@ -352,19 +352,19 @@ Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - system
-   ** [.int]#int#  "server_id"
-   ** [.string]#string#  "server_name" - Server name.
-   ** [.string]#string#  "base_channel" - Base channel used by the server.
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "timestamp" - The time the action was completed
-   ** [.string]#string#  "message" - Optional message containing details
+** [.int]#int#  "server_id"
+** [.string]#string#  "server_name" - Server name.
+** [.string]#string#  "base_channel" - Base channel used by the server.
+** [.dateTime.iso8601]#dateTime.iso8601#  "timestamp" - The time the action was completed
+** [.string]#string#  "message" - Optional message containing details
    on the execution of the action.  For example, if the action failed,
    this will contain the failure text.
-  
-  
+ 
+ 
 
 
 
-[#apidoc-schedule-listFailedActions-1153269540]
+[#apidoc-schedule-listFailedActions-821664929]
 == Method: listFailedActions 
 
 Description:
@@ -376,29 +376,29 @@ Returns a list of actions that have failed.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - action
-   ** [.int]#int#  "id" - Action Id.
-   ** [.string]#string#  "name" - Action name.
-   ** [.string]#string#  "type" - Action type.
-   ** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
+** [.int]#int#  "id" - Action Id.
+** [.string]#string#  "name" - Action name.
+** [.string]#string#  "type" - Action type.
+** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
+** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
    will be performed
-   ** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
-   ** [.int]#int#  "completedSystems" - Number of systems that completed the action.
-   ** [.int]#int#  "failedSystems" - Number of systems that failed the action.
-   ** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
-  
-  
+** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
+** [.int]#int#  "completedSystems" - Number of systems that completed the action.
+** [.int]#int#  "failedSystems" - Number of systems that failed the action.
+** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
+ 
+ 
 
 
 
-[#apidoc-schedule-listFailedSystems-439513824]
+[#apidoc-schedule-listFailedSystems-226972126]
 == Method: listFailedSystems 
 
 Description:
@@ -410,7 +410,7 @@ Returns a list of systems that have failed a specific action.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  actionId
  
@@ -419,19 +419,19 @@ Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - system
-   ** [.int]#int#  "server_id"
-   ** [.string]#string#  "server_name" - Server name.
-   ** [.string]#string#  "base_channel" - Base channel used by the server.
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "timestamp" - The time the action was completed
-   ** [.string]#string#  "message" - Optional message containing details
+** [.int]#int#  "server_id"
+** [.string]#string#  "server_name" - Server name.
+** [.string]#string#  "base_channel" - Base channel used by the server.
+** [.dateTime.iso8601]#dateTime.iso8601#  "timestamp" - The time the action was completed
+** [.string]#string#  "message" - Optional message containing details
    on the execution of the action.  For example, if the action failed,
    this will contain the failure text.
-  
-  
+ 
+ 
 
 
 
-[#apidoc-schedule-listInProgressActions-486668812]
+[#apidoc-schedule-listInProgressActions-1056221435]
 == Method: listInProgressActions 
 
 Description:
@@ -443,29 +443,29 @@ Returns a list of actions that are in progress.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - action
-   ** [.int]#int#  "id" - Action Id.
-   ** [.string]#string#  "name" - Action name.
-   ** [.string]#string#  "type" - Action type.
-   ** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
+** [.int]#int#  "id" - Action Id.
+** [.string]#string#  "name" - Action name.
+** [.string]#string#  "type" - Action type.
+** [.string]#string#  "scheduler" - The user that scheduled the action. (optional)
+** [.dateTime.iso8601]#dateTime.iso8601#  "earliest" - The earliest date and time the action
    will be performed
-   ** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
-   ** [.int]#int#  "completedSystems" - Number of systems that completed the action.
-   ** [.int]#int#  "failedSystems" - Number of systems that failed the action.
-   ** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
-  
-  
+** [.int]#int#  "prerequisite" - ID of the prerequisite Action (optional)
+** [.int]#int#  "completedSystems" - Number of systems that completed the action.
+** [.int]#int#  "failedSystems" - Number of systems that failed the action.
+** [.int]#int#  "inProgressSystems" - Number of systems that are in progress.
+ 
+ 
 
 
 
-[#apidoc-schedule-listInProgressSystems-1937855448]
+[#apidoc-schedule-listInProgressSystems-869140506]
 == Method: listInProgressSystems 
 
 Description:
@@ -477,7 +477,7 @@ Returns a list of systems that have a specific action in progress.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.int]#int#  actionId
  
@@ -486,19 +486,19 @@ Returns:
 
 * [.array]#array# :
    * [.struct]#struct#  - system
-   ** [.int]#int#  "server_id"
-   ** [.string]#string#  "server_name" - Server name.
-   ** [.string]#string#  "base_channel" - Base channel used by the server.
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "timestamp" - The time the action was completed
-   ** [.string]#string#  "message" - Optional message containing details
+** [.int]#int#  "server_id"
+** [.string]#string#  "server_name" - Server name.
+** [.string]#string#  "base_channel" - Base channel used by the server.
+** [.dateTime.iso8601]#dateTime.iso8601#  "timestamp" - The time the action was completed
+** [.string]#string#  "message" - Optional message containing details
    on the execution of the action.  For example, if the action failed,
    this will contain the failure text.
-  
-  
+ 
+ 
 
 
 
-[#apidoc-schedule-rescheduleActions-2076427679]
+[#apidoc-schedule-rescheduleActions-1847707373]
 == Method: rescheduleActions 
 
 Description:
@@ -510,7 +510,7 @@ Reschedule all actions in the given list.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.array]#array# :
 ** [.int]#int#  - action id

@@ -4,19 +4,19 @@
 
 == Available methods
 
-* <<apidoc-system_provisioning_powermanagement-getDetails-2050668346,getDetails>>
-* <<apidoc-system_provisioning_powermanagement-getDetails-313053243,getDetails>>
-* <<apidoc-system_provisioning_powermanagement-getStatus-106424296,getStatus>>
-* <<apidoc-system_provisioning_powermanagement-getStatus-457891448,getStatus>>
-* <<apidoc-system_provisioning_powermanagement-listTypes-779529705,listTypes>>
-* <<apidoc-system_provisioning_powermanagement-powerOff-194507157,powerOff>>
-* <<apidoc-system_provisioning_powermanagement-powerOff-1082896755,powerOff>>
-* <<apidoc-system_provisioning_powermanagement-powerOn-119418333,powerOn>>
-* <<apidoc-system_provisioning_powermanagement-powerOn-137463816,powerOn>>
-* <<apidoc-system_provisioning_powermanagement-reboot-906824826,reboot>>
-* <<apidoc-system_provisioning_powermanagement-reboot-855155579,reboot>>
-* <<apidoc-system_provisioning_powermanagement-setDetails-2094001478,setDetails>>
-* <<apidoc-system_provisioning_powermanagement-setDetails-1398998658,setDetails>>
+* <<apidoc-system_provisioning_powermanagement-getDetails-2031423770,getDetails>>
+* <<apidoc-system_provisioning_powermanagement-getDetails-58387611,getDetails>>
+* <<apidoc-system_provisioning_powermanagement-getStatus-2066971,getStatus>>
+* <<apidoc-system_provisioning_powermanagement-getStatus-1452064653,getStatus>>
+* <<apidoc-system_provisioning_powermanagement-listTypes-633170154,listTypes>>
+* <<apidoc-system_provisioning_powermanagement-powerOff-396308663,powerOff>>
+* <<apidoc-system_provisioning_powermanagement-powerOff-1686521973,powerOff>>
+* <<apidoc-system_provisioning_powermanagement-powerOn-2137077755,powerOn>>
+* <<apidoc-system_provisioning_powermanagement-powerOn-1466268566,powerOn>>
+* <<apidoc-system_provisioning_powermanagement-reboot-313423345,reboot>>
+* <<apidoc-system_provisioning_powermanagement-reboot-1860900345,reboot>>
+* <<apidoc-system_provisioning_powermanagement-setDetails-2061982630,setDetails>>
+* <<apidoc-system_provisioning_powermanagement-setDetails-732633121,setDetails>>
 
 == Description
 
@@ -34,7 +34,7 @@ Provides methods to access and modify power management for systems.
 system.provisioning.powermanagement
 
 
-[#apidoc-system_provisioning_powermanagement-getDetails-2050668346]
+[#apidoc-system_provisioning_powermanagement-getDetails-2031423770]
 == Method: getDetails 
 
 Description:
@@ -54,16 +54,16 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - powerManagementParameters
-    ** [.string]#string#  "powerType" - Power management type
-    ** [.string]#string#  "powerAddress" - IP address for power management
-    ** [.string]#string#  "powerUsername" - The Username
-    ** [.string]#string#  "powerPassword" - The Password
-    ** [.string]#string#  "powerId" - Identifier
-   
+** [.string]#string#  "powerType" - Power management type
+** [.string]#string#  "powerAddress" - IP address for power management
+** [.string]#string#  "powerUsername" - The Username
+** [.string]#string#  "powerPassword" - The Password
+** [.string]#string#  "powerId" - Identifier
+ 
 
 
 
-[#apidoc-system_provisioning_powermanagement-getDetails-313053243]
+[#apidoc-system_provisioning_powermanagement-getDetails-58387611]
 == Method: getDetails 
 
 Description:
@@ -83,16 +83,16 @@ Parameters:
 Returns:
 
 * [.struct]#struct#  - powerManagementParameters
-    ** [.string]#string#  "powerType" - Power management type
-    ** [.string]#string#  "powerAddress" - IP address for power management
-    ** [.string]#string#  "powerUsername" - The Username
-    ** [.string]#string#  "powerPassword" - The Password
-    ** [.string]#string#  "powerId" - Identifier
-   
+** [.string]#string#  "powerType" - Power management type
+** [.string]#string#  "powerAddress" - IP address for power management
+** [.string]#string#  "powerUsername" - The Username
+** [.string]#string#  "powerPassword" - The Password
+** [.string]#string#  "powerId" - Identifier
+ 
 
 
 
-[#apidoc-system_provisioning_powermanagement-getStatus-106424296]
+[#apidoc-system_provisioning_powermanagement-getStatus-2066971]
 == Method: getStatus 
 
 Description:
@@ -118,7 +118,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-getStatus-457891448]
+[#apidoc-system_provisioning_powermanagement-getStatus-1452064653]
 == Method: getStatus 
 
 Description:
@@ -144,7 +144,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-listTypes-779529705]
+[#apidoc-system_provisioning_powermanagement-listTypes-633170154]
 == Method: listTypes 
 
 Description:
@@ -167,7 +167,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-powerOff-194507157]
+[#apidoc-system_provisioning_powermanagement-powerOff-396308663]
 == Method: powerOff 
 
 Description:
@@ -191,7 +191,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-powerOff-1082896755]
+[#apidoc-system_provisioning_powermanagement-powerOff-1686521973]
 == Method: powerOff 
 
 Description:
@@ -215,7 +215,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-powerOn-119418333]
+[#apidoc-system_provisioning_powermanagement-powerOn-2137077755]
 == Method: powerOn 
 
 Description:
@@ -239,7 +239,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-powerOn-137463816]
+[#apidoc-system_provisioning_powermanagement-powerOn-1466268566]
 == Method: powerOn 
 
 Description:
@@ -263,7 +263,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-reboot-906824826]
+[#apidoc-system_provisioning_powermanagement-reboot-313423345]
 == Method: reboot 
 
 Description:
@@ -287,7 +287,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-reboot-855155579]
+[#apidoc-system_provisioning_powermanagement-reboot-1860900345]
 == Method: reboot 
 
 Description:
@@ -311,7 +311,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-setDetails-2094001478]
+[#apidoc-system_provisioning_powermanagement-setDetails-2061982630]
 == Method: setDetails 
 
 Description:
@@ -328,12 +328,12 @@ Parameters:
 * [.int]#int#  serverId
  
 * [.struct]#struct#  - data
-    ** [.string]#string#  "powerType" - Power management type
-    ** [.string]#string#  "powerAddress" - IP address for power management
-    ** [.string]#string#  "powerUsername" - The Username
-    ** [.string]#string#  "powerPassword" - The Password
-    ** [.string]#string#  "powerId" - Identifier
-   
+** [.string]#string#  "powerType" - Power management type
+** [.string]#string#  "powerAddress" - IP address for power management
+** [.string]#string#  "powerUsername" - The Username
+** [.string]#string#  "powerPassword" - The Password
+** [.string]#string#  "powerId" - Identifier
+ 
 
 Returns:
 
@@ -342,7 +342,7 @@ Returns:
 
 
 
-[#apidoc-system_provisioning_powermanagement-setDetails-1398998658]
+[#apidoc-system_provisioning_powermanagement-setDetails-732633121]
 == Method: setDetails 
 
 Description:
@@ -359,12 +359,12 @@ Parameters:
 * [.string]#string#  name
  
 * [.struct]#struct#  - data
-    ** [.string]#string#  "powerType" - Power management type
-    ** [.string]#string#  "powerAddress" - IP address for power management
-    ** [.string]#string#  "powerUsername" - The Username
-    ** [.string]#string#  "powerPassword" - The Password
-    ** [.string]#string#  "powerId" - Identifier
-   
+** [.string]#string#  "powerType" - Power management type
+** [.string]#string#  "powerAddress" - IP address for power management
+** [.string]#string#  "powerUsername" - The Username
+** [.string]#string#  "powerPassword" - The Password
+** [.string]#string#  "powerId" - Identifier
+ 
 
 Returns:
 

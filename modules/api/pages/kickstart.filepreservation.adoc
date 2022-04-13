@@ -4,10 +4,10 @@
 
 == Available methods
 
-* <<apidoc-kickstart_filepreservation-create-1933826115,create>>
-* <<apidoc-kickstart_filepreservation-delete-698473139,delete>>
-* <<apidoc-kickstart_filepreservation-getDetails-1637577782,getDetails>>
-* <<apidoc-kickstart_filepreservation-listAllFilePreservations-90292273,listAllFilePreservations>>
+* <<apidoc-kickstart_filepreservation-create-941702906,create>>
+* <<apidoc-kickstart_filepreservation-delete-1942085027,delete>>
+* <<apidoc-kickstart_filepreservation-getDetails-205284289,getDetails>>
+* <<apidoc-kickstart_filepreservation-listAllFilePreservations-758113930,listAllFilePreservations>>
 
 == Description
 
@@ -19,7 +19,7 @@ Provides methods to retrieve and manipulate kickstart file
 kickstart.filepreservation
 
 
-[#apidoc-kickstart_filepreservation-create-1933826115]
+[#apidoc-kickstart_filepreservation-create-941702906]
 == Method: create 
 
 Description:
@@ -46,7 +46,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_filepreservation-delete-698473139]
+[#apidoc-kickstart_filepreservation-delete-1942085027]
 == Method: delete 
 
 Description:
@@ -70,7 +70,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_filepreservation-getDetails-1637577782]
+[#apidoc-kickstart_filepreservation-getDetails-205284289]
 == Method: getDetails 
 
 Description:
@@ -92,15 +92,15 @@ Parameters:
 Returns:
 
 * * [.struct]#struct#  - file list
-     ** [.string]#string#  "name"
-     ** [.array]#array#  "file_names"
+** [.string]#string#  "name"
+** [.array]#array#  "file_names"
 *** string - name
-     
+  
  
 
 
 
-[#apidoc-kickstart_filepreservation-listAllFilePreservations-90292273]
+[#apidoc-kickstart_filepreservation-listAllFilePreservations-758113930]
 == Method: listAllFilePreservations 
 
 Description:
@@ -113,18 +113,18 @@ List all file preservation lists for the organization
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
         * [.struct]#struct#  - file preservation
-      ** [.int]#int#  "id"
-      ** [.string]#string#  "name"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "created"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
-    
-       
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.dateTime.iso8601]#dateTime.iso8601#  "created"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
+ 
+ 
 
 
